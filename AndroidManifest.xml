@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.noshufou.android.su"
-    android:versionCode="8"
-    android:versionName="2.0.3"
-    android:sharedUserId="android.uid.system">
+    android:versionCode="10"
+    android:versionName="2.2">
     
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4" />
-
     <application android:icon="@drawable/icon" android:label="@string/app_name_perms">
-        <activity android:name=".Su"
+        <activity android:name="Su"
             android:label="@string/app_name_perms"
             android:screenOrientation="nosensor">
             <intent-filter>
@@ -16,7 +13,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SuRequest"
+        <activity android:name="SuRequest"
             android:label="@string/app_name_request"
             android:excludeFromRecents="true"
             android:theme="@android:style/Theme.NoDisplay" >
@@ -25,5 +22,32 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="SuPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="SuRequestReceiver">
+        	<intent-filter>
+				<action android:name="com.noshufou.android.su.REQUEST" />
+			</intent-filter>
+        </receiver>
+        <receiver android:name="UninstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
     </application>
+
+    <uses-sdk android:targetSdkVersion="3" android:minSdkVersion="4"/>
+    <uses-permission android:name="com.noshufou.android.su.RESPOND" />
+    
+    <permission android:name="com.noshufou.android.su.RESPOND"
+        android:label="@string/permlab_respond"
+        android:description="@string/permdesc_respond"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="signature" />
+
 </manifest>
