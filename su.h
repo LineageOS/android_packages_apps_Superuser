@@ -9,6 +9,8 @@
 
 #define DEFAULT_COMMAND "/system/bin/sh"
 
+#define VERSION "2.2-cd"
+
 struct su_initiator {
     pid_t pid;
     unsigned uid;
