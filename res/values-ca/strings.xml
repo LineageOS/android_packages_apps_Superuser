@@ -32,7 +32,7 @@
   <string name="deny">Denega</string>
   <string name="remember">Recorda</string>
   <string name="uid">(uid: %d)</string>
-  <string name="request">%s com %s (uid: %d)</string>
+  <string name="request">%1$s com %2$s (uid: %3$d)</string>
   <string name="unknown">Nom desconegut</string>
   <string name="allowed">Permès</string>
   <string name="denied">Denegat</string>
