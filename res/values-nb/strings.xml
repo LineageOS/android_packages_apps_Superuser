@@ -19,7 +19,7 @@
     <string name="allow">Tillat</string>
     <string name="forget">Glem</string>
     <string name="cancel">Avbryt</string>
-    <string name="deny">Avlså</string>
+    <string name="deny">Avslå</string>
     <string name="remember">Husk</string>
     <string name="uid">(uid: %d)</string>
     <string name="request">%1$s som %2$s (uid: %3$d)</string>
