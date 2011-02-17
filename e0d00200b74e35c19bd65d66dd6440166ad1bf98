@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAACX//+xI\u003d",
+        "filename": "res/values-nb/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2011-02-17T07:43:24Z",
+      "side": 1,
+      "message": "Typo, skal være Innstillinger",
+      "revId": "e0d00200b74e35c19bd65d66dd6440166ad1bf98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
