@@ -6,6 +6,31 @@
     <string name="permlab_respond">responder às requisições de superuser</string>
     <string name="permdesc_respond">Permite o aplicativo responder às requisições para acesso de superuser. Aplicativos maliciosos dão permissões aos aplicativos que o usuário não autorizou.</string>
 
+    <string name="new_su">Nova versão do su</string>
+    <string name="new_su_msg">Existe uma nova versão do su binário disponível. Pressione \'Ok\' para tentar instalar automaticamente.</string>
+    <string name="su_updated">binário su atualizado com sucesso</string>
+    <string name="su_not_updated_title">Atualização automática falhou</string>
+    <string name="su_not_updated">Um erro ocorreu e su não foi atualizado. Um arquivo zip (su-2.3.1-bin-signed.zip) foi colocado no seu sdcard, por favor reinicie em modo de recuperação para para instalar a atualização do seu binário su.</string>
+    <string name="su_up_to_date">su está atualizado</string>
+    <string name="checking">Verificando...</string>
+    <string name="no_connection">Sem conexão de rede. Não foi possível verificar se existe atualizações</string>
+    <string name="manifest_download_failed">Falhou a verificação de versão disponível</string>
+    <string name="su_original">original</string>
+
+    <string name="warning">Aviso</string>
+    <string name="malicious_app_found">Pacote %s não foi encontrado para requisitar permissão para responder as requisições de Superusuário. É provavel que esta aplicação seja maliciosa e está tentando receber acesso superusuário sem seu conhecimento. É recomendo que você a desinstale agora.</string>
+    <string name="malicious_app_notification_ticker">Aplicação potencialmente maliciosa detectado</string>
+    <string name="malicious_app_notification_text">%s pode ser maliciosa.</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="uninstall_successful">Desinstalação foi finalizada</string>
+    <string name="report_msg">Você gostaria de reportar esse pacote para o desenvolvedor do Superusuário para investigação?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="tab_apps">Aplicações</string>
+    <string name="tab_log">Histórico</string>
+    <string name="tab_settings">Configurações</string>
+
     <string name="allow">Permitir</string>
     <string name="forget">Esquecer</string>
     <string name="cancel">Cancelar</string>
