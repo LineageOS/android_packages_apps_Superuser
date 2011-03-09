@@ -32,7 +32,7 @@
   <string name="deny">Відмовити</string>
   <string name="remember">Запам\u2019ятати</string>
   <string name="uid">(uid: %d)</string>
-  <string name="request">%s як %s (uid: %d)</string>
+  <string name="request">%1$s як %2$s (uid: %1$d)</string>
   <string name="unknown">Ім\u2019я невідоме</string>
   <string name="allowed">Надані права</string>
   <string name="denied">Відмовлено</string>
