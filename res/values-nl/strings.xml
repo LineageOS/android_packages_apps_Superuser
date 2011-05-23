@@ -2,6 +2,35 @@
 <resources>
     <string name="app_name">Superuser</string>
     <string name="app_name_request">Superuser Aanvraag</string>
+	
+	<string name="permlab_respond">Reageer op superuser aanvraag</string>
+    <string name="permdesc_respond">Geef app toestemming om te reageren op aanvragen voor superuser toegang.</string>
+    
+    <string name="new_su">Nieuwe superuser versie</string>
+    <string name="new_su_msg">Er is een nieuwe su binary beschikbaar. Druk op \'Ok\' om deze binary automatisch te installeren.</string>
+    <string name="su_updated">su binary succesvol geupdate su</string>
+    <string name="su_not_updated_title">Automatische update mislukt</string>
+    <string name="su_not_updated">Er is een fout opgetreden, su is niet geupdate. Er is een ZIP bestand(su-2.3.1-bin-signed.zip) op je SD kaart geplaatst, herstart in recovery modus en flash het zip bestand om de su binary update alsnog te installeren.</string>
+    <string name="su_up_to_date">su is up to date</string>
+    <string name="checking">Controleren...</string>
+    <string name="no_connection">Geen netwerk connectie. Update controle mislukt</string>
+    <string name="manifest_download_failed">Update controle mislukt</string>
+    <string name="su_original">origineel</string>
+    
+    <string name="warning">Waarschuwing</string>
+    <string name="malicious_app_found">%s vraagt om superuser rechten. Waarschijnlijk is dit een schadelijke app en probeert het superuser rechten te krijgen zonder dat je het weet. Aangeraden wordt om de app nu te verwijderen.</string>
+    <string name="malicious_app_notification_ticker">Potencieel schadelijke app gevonden</string>
+    <string name="malicious_app_notification_text">%s is mogelijk een schadeiljke app.</string>
+    <string name="uninstall">Verwijderen</string>
+    <string name="uninstall_successful">Succesvol verwijderd</string>
+    <string name="report_msg">Wil je de app rapporteren aan de developer van superuser, zodat deze de app kan onderzoeken?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    
+    <string name="tab_apps">Apps</string>
+    <string name="tab_log">Log</string>
+    <string name="tab_settings">Instellingen</string>
+	
     <string name="allow">Toestaan</string>
     <string name="forget">Vergeten</string>
     <string name="cancel">Annuleren</string>
@@ -9,12 +38,54 @@
     <string name="remember">Onthouden</string>
     <string name="uid">(uid: %d)</string>
     <string name="request">%1$s als %2$s (uid: %3$d)</string>
+	<string name="unknown">Onbekende naam</string>
+	
+	<string name="allowed">Toegestaan</string>
+    <string name="denied">Geweigerd</string>
+    <string name="created">Gecreëerd</string>
+    <string name="toggled">Omgeschakeld</string>
+
+    <string name="no_log_data">Geen log data</string>
+    <string name="last_allowed">Laatst toegestaan:</string>
+    <string name="last_denied">Laatst geweigerd:</string>
+    <string name="empty_apps">Geen apps in de lijst</string>
+    <string name="empty_logs">Geen log informatie</string>
+	
     <string name="detail_package">Package:</string>
-    <string name="detail_request">Aangevraagd UID:</string>
+    <string name="detail_request">Aangevraagde UID:</string>
     <string name="detail_command">Commando:</string>
     <string name="detail_status">Status:</string>
     <string name="detail_created">Aangemaakt op:</string>
     <string name="detail_last_accessed">Laatst Benaderd:</string>
+	
     <string name="request_message">De volgende applicatie vraagt om superuser toegang:</string>
     <string name="request_app_name">App:</string>
+	
+	<string name="preferences">Instellingen</string>
+    <string name="pref_category_whitelist_title">Lijst met apps</string>
+    <string name="pref_tap_action_title">Druk actie</string>
+    <string name="pref_tap_action_summary">Uit te voeren actie bij het drukken op een item</string>
+    <string name="pref_show_status_icons_title">Geef status iconen weer</string>
+    <string name="pref_show_status_icons_summary_on">Geef voor elke app een status icoon weer</string>
+    <string name="pref_show_status_icons_summary_off">Geef niet voor elke app een status icoon weer</string>
+    <string name="pref_status_icon_type_title">Status icoon type</string>
+    <string name="pref_status_icon_type_summary">Stijl van weer te geven status icoon</string>
+    <string name="pref_category_log_title">Log</string>
+    <string name="pref_date_format_title">Selecteer datum notatie</string>
+    <string name="pref_24_hour_title">Gebruik 24-uurs notatie</string>
+    <string name="pref_show_seconds_title">Geef seconden weer</string>
+    <string name="pref_clear_log">Maak log leeg</string>
+    <string name="pref_category_notification_title">Notif</string>
+    <string name="pref_notifications_title">Notificaties</string>
+    <string name="pref_notifications_summary_on">Geef een notificatie weer wanneer een app superuser rechten toegewezen heeft gekregen</string>
+    <string name="pref_notifications_summary_off">Geef geen notificatie weer wanneer een app superuser rechten toegewezen heeft gekregen</string>
+    <string name="pref_notification_title">Notificatie type</string>
+    <string name="pref_notification_summary">Weer te geven notificatie type wanneer een app superuser rechten toegewezen heeft gekregen</string>
+    <string name="pref_category_info_title">Superuser informatie</string>
+    <string name="pref_version_title">Superuser v%s</string>
+    <string name="pref_version_summary">Database versie %s</string>
+    <string name="pref_bin_version_title">Su binary v%s</string>
+    <string name="pref_bin_version_summary">Controleren op updates</string>
+
+    <string name="notification_text">%s heeft superuser rechten toegewezen gekregen</string>
 </resources>
