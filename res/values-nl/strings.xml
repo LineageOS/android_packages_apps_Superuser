@@ -15,7 +15,6 @@
     <string name="checking">Controleren...</string>
     <string name="no_connection">Geen netwerk connectie. Update controle mislukt</string>
     <string name="manifest_download_failed">Update controle mislukt</string>
-    <string name="su_original">origineel</string>
     
     <string name="warning">Waarschuwing</string>
     <string name="malicious_app_found">%s vraagt om superuser rechten. Waarschijnlijk is dit een schadelijke app en probeert het superuser rechten te krijgen zonder dat je het weet. Aangeraden wordt om de app nu te verwijderen.</string>
@@ -36,8 +35,6 @@
     <string name="cancel">Annuleren</string>
     <string name="deny">Weigeren</string>
     <string name="remember">Onthouden</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s als %2$s (uid: %3$d)</string>
 	<string name="unknown">Onbekende naam</string>
 	
 	<string name="allowed">Toegestaan</string>
@@ -46,8 +43,6 @@
     <string name="toggled">Omgeschakeld</string>
 
     <string name="no_log_data">Geen log data</string>
-    <string name="last_allowed">Laatst toegestaan:</string>
-    <string name="last_denied">Laatst geweigerd:</string>
     <string name="empty_apps">Geen apps in de lijst</string>
     <string name="empty_logs">Geen log informatie</string>
 	
@@ -61,7 +56,6 @@
     <string name="request_message">De volgende applicatie vraagt om superuser toegang:</string>
     <string name="request_app_name">App:</string>
 	
-	<string name="preferences">Instellingen</string>
     <string name="pref_category_whitelist_title">Lijst met apps</string>
     <string name="pref_tap_action_title">Druk actie</string>
     <string name="pref_tap_action_summary">Uit te voeren actie bij het drukken op een item</string>

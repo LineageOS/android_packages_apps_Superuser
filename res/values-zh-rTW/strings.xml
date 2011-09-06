@@ -13,7 +13,6 @@
     <string name="checking">正在檢查…</string>
     <string name="no_connection">沒有可用的網絡連線。無法檢查更新</string>
     <string name="manifest_download_failed">檢查可用更新失敗</string>
-    <string name="su_original">原始</string>
     <string name="warning">警告</string>
     <string name="malicious_app_found">發現軟體包 %s 申請權限回應最高權限訪問請求。它可能是試圖在不通知你的情況下授予程式最高權限的惡意程式。建議你立即解除安裝它。</string>
     <string name="malicious_app_notification_ticker">發現疑似惡意程式</string>
@@ -33,16 +32,12 @@
     <string name="cancel">取消</string>
     <string name="deny">拒絕</string>
     <string name="remember">記住</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s 作為 %2$s (uid: %3$d)</string>
     <string name="unknown">未知名稱</string>
     <string name="allowed">被允許</string>
     <string name="denied">被拒絕</string>
     <string name="created">被創建</string>
     <string name="toggled">被切換</string>
     <string name="no_log_data">無記錄檔</string>
-    <string name="last_allowed">前次允許:</string>
-    <string name="last_denied">前次拒絕:</string>
     <string name="empty_apps">无程式條目</string>
     <string name="empty_logs">無記錄條目</string>
     <string name="detail_package">包名:</string>
@@ -53,7 +48,6 @@
     <string name="detail_last_accessed">前次存取:</string>
     <string name="request_message">下列程式請求最高許可權存取：</string>
     <string name="request_app_name">程式:</string>
-    <string name="preferences">偏好</string>
     <string name="pref_category_whitelist_title">程式列表</string>
     <string name="pref_tap_action_title">按時的操作</string>
     <string name="pref_tap_action_summary">按條目時執行的操作</string>

@@ -16,7 +16,6 @@
     <string name="no_connection">Pas de connexion réseau. Impossible de chercher les mises à jour</string>
 
     <string name="manifest_download_failed">Impossible de chercher les mises à jour</string>
-    <string name="su_original">original</string>
 
     <string name="warning">Attention</string>
     <string name="malicious_app_found">Le paquet %s demande la permission de répondre aux requêtes super-utilisateur. Il s\'agit probablement d\'une application malveillante qui essaye de s\'approprier les droits super-utilisateur sans votre consentement. Il est recommandé de la désinstaller maintenant.</string>
@@ -37,8 +36,6 @@
     <string name="cancel">Annuler</string>
     <string name="deny">Refuser</string>
     <string name="remember">Se souvenir</string>
-    <string name="uid">(idu: %d)</string>
-    <string name="request">%1$s en tant que %2$s (idu : %3$d)</string>
     <string name="unknown">Nom inconnu</string>
 
     <string name="allowed">Autorisé</string>
@@ -47,8 +44,6 @@
     <string name="toggled">(Dés)activé</string>
 
     <string name="no_log_data">Aucun journal</string>
-    <string name="last_allowed">Dernière autorisation :</string>
-    <string name="last_denied">Dernier refus :</string>
     <string name="empty_apps">Aucune appli dans la liste</string>
     <string name="empty_logs">Aucun journal</string>
 
@@ -62,7 +57,6 @@
     <string name="request_message">L\'application suivante requiert un accès super-utilisateur :</string>
     <string name="request_app_name">Application :</string>
 
-    <string name="preferences">Préférences</string>
     <string name="pref_category_whitelist_title">Préférences de liste blanche</string>
     <string name="pref_tap_action_title">Action au tapé</string>
     <string name="pref_tap_action_summary">Action à effectuer lorsqu\'une entrée est tapée</string>

@@ -15,7 +15,6 @@
     <string name="checking">Verificando...</string>
     <string name="no_connection">Sem conexão de rede. Não foi possível verificar se existe atualizações</string>
     <string name="manifest_download_failed">Falhou a verificação de versão disponível</string>
-    <string name="su_original">original</string>
 
     <string name="warning">Aviso</string>
     <string name="malicious_app_found">Pacote %s não foi encontrado para requisitar permissão para responder as requisições de Superusuário. É provavel que esta aplicação seja maliciosa e está tentando receber acesso superusuário sem seu conhecimento. É recomendo que você a desinstale agora.</string>
@@ -36,8 +35,6 @@
     <string name="cancel">Cancelar</string>
     <string name="deny">Negar</string>
     <string name="remember">Lembrar</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s como %2$s (uid: %3$d)</string>
     <string name="unknown">Nome desconhecido</string>
 
     <string name="allowed">Permitido</string>
@@ -46,8 +43,6 @@
     <string name="toggled">Modificar</string>
 
     <string name="no_log_data">Não há log</string>
-    <string name="last_allowed">Último permitido:</string>
-    <string name="last_denied">Último negado:</string>
     <string name="empty_apps">Não há aplicativos na lista</string>
 
     <string name="detail_package">Pacote:</string>
@@ -60,7 +55,6 @@
     <string name="request_message">O aplicativo a seguir está requisitando acesso de superuser:</string>
     <string name="request_app_name">Aplicativo:</string>
 
-    <string name="preferences">Preferências</string>
     <string name="pref_category_whitelist_title">Lista de aplicativos</string>
     <string name="pref_tap_action_title">Ação de toque</string>
     <string name="pref_tap_action_summary">Ação a ser executada quando o item for tocado</string>

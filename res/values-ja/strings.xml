@@ -12,7 +12,6 @@
     <string name="checking">チェック中...</string>
     <string name="no_connection">ネットワーク接続がありません。更新のチェックはできませんでした。</string>
     <string name="manifest_download_failed">利用できるバージョンのチェックができませんでした。</string>
-    <string name="su_original">オリジナル</string>
 
     <string name="warning">注意</string>
     <string name="malicious_app_found">%sパッケージは、スーパーユーザ要求に対して応じるように設定されています。このアプリは悪意を持ってあなたの知らないうちにスーパーユーザアクセスの許諾をしているかもしれません。今すぐこのアプリをアンインストールすることをおすすめします。</string>
@@ -31,8 +30,6 @@
     <string name="cancel">キャンセル</string>
     <string name="deny">拒否</string>
     <string name="remember">記憶する</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s as %2$s (uid: %3$d)</string>
     <string name="detail_package">パッケージ:</string>
     <string name="detail_request">要求 UID:</string>
     <string name="detail_command">コマンド:</string>
@@ -41,7 +38,6 @@
     <string name="detail_last_accessed">最終アクセス:</string>
     <string name="request_message">次のアプリケーションが Superuser アクセスを要求しています:</string>
     <string name="request_app_name">アプリ:</string>
-    <string name="preferences">設定</string>
     <string name="pref_category_whitelist_title">ホワイトリスト</string>
     <string name="pref_tap_action_title">タップアクション</string>
     <string name="pref_tap_action_summary">エントリがタップされたときに実行するアクション</string>
@@ -58,8 +54,6 @@
     <string name="created">作成</string>
     <string name="toggled">切替</string>
     <string name="no_log_data">ログデータ無し</string>
-    <string name="last_allowed">最終許可:</string>
-    <string name="last_denied">最終拒否:</string>
     <string name="empty_apps">リストは空です</string>
     <string name="empty_logs">ログ情報はありません</string>
 

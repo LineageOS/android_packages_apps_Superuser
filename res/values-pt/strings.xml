@@ -15,7 +15,6 @@
     <string name="manifest_download_failed">Falhou ao checar por versões disponíveis</string>
     <string name="malicious_app_found">SU verificou que pacote %s está requisitando permissão para responder a requisições Superusuário. É provável que essa aplicação é maliciosa e está tentando conseguir acesso superusuário sem seu conhecimento. É recomendado que você a desinstale agora.</string>
     <string name="warning">Aviso</string>
-    <string name="su_original">original</string>
     <string name="malicious_app_notification_ticker">Aplicação potencialmente maliciosa detectada</string>
     <string name="malicious_app_notification_text">%s pode ser maliciosa.</string>
     <string name="uninstall">Desinstalar</string>
@@ -31,16 +30,12 @@
     <string name="cancel">Cancelar</string>
     <string name="deny">Negar</string>
     <string name="remember">Lembar</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s como %2$s \(uid: %3$d\)</string>
     <string name="unknown">Nome desconhecido</string>
     <string name="allowed">Permitido</string>
     <string name="denied">Negado</string>
     <string name="created">Criado</string>
     <string name="toggled">Alternado</string>
     <string name="no_log_data">Sem dados de histórico</string>
-    <string name="last_allowed">Último permitido:</string>
-    <string name="last_denied">Último negado:</string>
     <string name="empty_apps">Nenhuma aplicação na lista</string>
     <string name="empty_logs">Nenhuma informação de histórico</string>
     <string name="detail_package">Pacote:</string>
@@ -51,7 +46,6 @@
     <string name="detail_last_accessed">Último Acesso:::</string>
     <string name="request_message">A Aplicação seguinte está requisitando acesso superusuário:</string>
     <string name="request_app_name">Aplicação:</string>
-    <string name="preferences">Preferências</string>
     <string name="pref_category_whitelist_title">Lista de aplicações</string>
     <string name="pref_tap_action_title">Ação de toque</string>
     <string name="pref_tap_action_summary">Ação a ser executada quando uma entrada é tocada</string>

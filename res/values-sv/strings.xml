@@ -15,7 +15,6 @@
     <string name="checking">Söker...</string>
     <string name="no_connection">Ingen nätverksanslutning. Kunde inte söka efter uppdateringar</string>
     <string name="manifest_download_failed">Misslyckades att söka efter tillgänglig version</string>
-    <string name="su_original">original</string>
     
     <string name="warning">Varning</string>
     <string name="malicious_app_found">Paket %s begärde rättighet att få svara på Superuser-förfrågningar. Sannolikt är detta en skadlig app som försöker tillåta superuser-åtkomst utan din vetskap. Du rekommenderas avinstallera denna nu.</string>
@@ -36,8 +35,6 @@
     <string name="cancel">Avbryt</string>
     <string name="deny">Neka</string>
     <string name="remember">Kom ihåg</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s som %2$s (uid: %3$d)</string>
     <string name="unknown">Okänt namn</string>
 
     <string name="allowed">Tillåten</string>
@@ -46,8 +43,6 @@
     <string name="toggled">Växlad</string>
 
     <string name="no_log_data">Ingen loggdata</string>
-    <string name="last_allowed">Senast tillåten:</string>
-    <string name="last_denied">Senast nekad:</string>
     <string name="empty_apps">Inga appar i listan</string>
     <string name="empty_logs">Ingen logginformation</string>
 
@@ -61,7 +56,6 @@
     <string name="request_message">Följande app efterfrågar superuser-åtkomst:</string>
     <string name="request_app_name">App:</string>
 
-    <string name="preferences">Inställningar</string>
     <string name="pref_category_whitelist_title">App-lista</string>
     <string name="pref_tap_action_title">Tryckåtgärd</string>
     <string name="pref_tap_action_summary">Åtgärd att utföra vid tryck på en post</string>

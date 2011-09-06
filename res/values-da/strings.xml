@@ -11,8 +11,6 @@
     <string name="cancel">Annuller</string>
     <string name="deny">Afvis</string>
     <string name="remember">Husk</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s som %2$s (uid: %3$d)</string>
     <string name="unknown">Ukendt navn</string>
 
     <string name="allowed">Godkendt</string>
@@ -21,8 +19,6 @@
     <string name="toggled">Ændret</string>
 
     <string name="no_log_data">Ingen log data</string>
-    <string name="last_allowed">Sidst godkendt:</string>
-    <string name="last_denied">Sidst afvist:</string>
     <string name="empty_apps">Ingen programmer på listen</string>
 
     <string name="detail_package">Pakke:</string>
@@ -35,7 +31,6 @@
     <string name="request_message">Dette program kræver superbrugertilladelser:</string>
     <string name="request_app_name">Program:</string>
 
-    <string name="preferences">Indstillinger</string>
     <string name="pref_category_whitelist_title">Programliste</string>
     <string name="pref_tap_action_title">Tap-funktion</string>
     <string name="pref_tap_action_summary">Funktion som skal udføres når et program bliver trykket på</string>

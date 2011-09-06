@@ -21,8 +21,6 @@
     <string name="cancel">Avbryt</string>
     <string name="deny">Avslå</string>
     <string name="remember">Husk</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s som %2$s (uid: %3$d)</string>
     <string name="unknown">Ukjent navn</string>
 
     <string name="allowed">Tillatt</string>
@@ -31,8 +29,6 @@
     <string name="toggled">Vekslet</string>
 
     <string name="no_log_data">Ingen loggdata</string>
-    <string name="last_allowed">Siste tillatte:</string>
-    <string name="last_denied">Siste avslåtte:</string>
     <string name="empty_apps">Ingen applikasjoner i listen</string>
     <string name="empty_logs">Ingen logginformasjon</string>
 
@@ -45,7 +41,6 @@
     <string name="request_message">Følgende applikasjon ber om superuser-tilgang:</string>
     <string name="request_app_name">App:</string>
 
-    <string name="preferences">Innstillinger</string>
     <string name="pref_category_whitelist_title">Applikasjonsliste</string>
     <string name="pref_tap_action_title">Trykk på handling</string>
     <string name="pref_tap_action_summary">Handling som utføres når en oppføring blir trykket på.</string>

@@ -15,7 +15,6 @@
     <string name="checking">Checking...</string>
     <string name="no_connection">No network connection. Could not check for updates</string>
     <string name="manifest_download_failed">Checking available version failed</string>
-    <string name="su_original">original</string>
     
     <string name="warning">Warning</string>
     <string name="malicious_app_found">Package %s was found to be requesting permission to respond to Superuser requests. It\'s likely that this app is malicious and attempting to grant superuser access without your knowledge. It\'s recommended that you uninstall it now.</string>
@@ -36,8 +35,6 @@
     <string name="cancel">Cancel</string>
     <string name="deny">Deny</string>
     <string name="remember">Remember</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s as %2$s (uid: %3$d)</string>
     <string name="unknown">Unknown name</string>
 
     <string name="allowed">Allowed</string>
@@ -46,8 +43,6 @@
     <string name="toggled">Toggled</string>
 
     <string name="no_log_data">No log data</string>
-    <string name="last_allowed">Last allowed:</string>
-    <string name="last_denied">Last denied:</string>
     <string name="empty_apps">No apps in list</string>
     <string name="empty_logs">No log information</string>
 
@@ -61,7 +56,6 @@
     <string name="request_message">The following app is requesting superuser access:</string>
     <string name="request_app_name">App:</string>
 
-    <string name="preferences">Preferences</string>
     <string name="pref_category_whitelist_title">Apps list</string>
     <string name="pref_tap_action_title">Tap action</string>
     <string name="pref_tap_action_summary">Action to perform when an entry is tapped</string>

@@ -15,7 +15,6 @@
     <string name="checking">Verificando...</string>
     <string name="no_connection">Nessuna connessione di rete. Non è stato possibile controllare eventuali aggiornamenti</string>
     <string name="manifest_download_failed">La ricerca di nuove versioni disponibili è fallita</string>
-    <string name="su_original">originale</string>
 
     <string name="warning">Attenzione</string>
     <string name="malicious_app_found">L\'applicazione %s ha richiesto il permesso di rispondere alle richieste da Superuser. È probabile che questa applicazione sia malevola e stia tentando di concedere l\'accesso da Superuser senza il tuo consenso. È raccomandato che tu la disinstalli immediatamente.</string>
@@ -36,8 +35,6 @@
     <string name="cancel">Annulla</string>
     <string name="deny">Nega</string>
     <string name="remember">Ricorda</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s come %2$s (uid: %3$d)</string>
     <string name="unknown">Nome sconosciuto</string>
 
     <string name="allowed">Consentito</string>
@@ -46,8 +43,6 @@
     <string name="toggled">Modificato</string>
 
     <string name="no_log_data">Nessun log di dati</string>
-    <string name="last_allowed">Ultimo consentito:</string>
-    <string name="last_denied">Ultimo negato:</string>
     <string name="empty_apps">Nessuna app nella lista</string>
     <string name="empty_logs">Nessuna informazione nel log</string>
 
@@ -61,7 +56,6 @@
     <string name="request_message">Questa applicazione richiede i permessi di root:</string>
     <string name="request_app_name">App:</string>
 
-    <string name="preferences">Impostazioni</string>
     <string name="pref_category_whitelist_title">Lista app</string>
     <string name="pref_tap_action_title">Azione Tap</string>
     <string name="pref_tap_action_summary">Azione da eseguire quando si clicca un\'app</string>

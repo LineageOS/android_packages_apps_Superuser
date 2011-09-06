@@ -13,7 +13,6 @@
     <string name="checking">正在查找…</string>
     <string name="no_connection">没有可用的网络连接。无法查找更新</string>
     <string name="manifest_download_failed">查找可用更新失败</string>
-    <string name="su_original">原始</string>
     <string name="warning">警告</string>
     <string name="malicious_app_found">发现软件包 %s 申请权限响应最高权限访问请求。它可能是试图在不通知你的情况下授予程序最高权限的恶意程序。建议你立即卸载它。</string>
     <string name="malicious_app_notification_ticker">发现疑似恶意程序</string>
@@ -33,16 +32,12 @@
     <string name="cancel">取消</string>
     <string name="deny">拒绝</string>
     <string name="remember">记住</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s 作为 %2$s (uid: %3$d)</string>
     <string name="unknown">未知名称</string>
     <string name="allowed">被允许</string>
     <string name="denied">被拒绝</string>
     <string name="created">被创建</string>
     <string name="toggled">被切换</string>
     <string name="no_log_data">无日志记录</string>
-    <string name="last_allowed">上次允许:</string>
-    <string name="last_denied">上次拒绝:</string>
     <string name="empty_apps">无程序条目</string>
     <string name="empty_logs">无日志条目</string>
     <string name="detail_package">包名:</string>
@@ -53,7 +48,6 @@
     <string name="detail_last_accessed">上次访问:</string>
     <string name="request_message">下列程序请求最高权限访问：</string>
     <string name="request_app_name">程序:</string>
-    <string name="preferences">首选项</string>
     <string name="pref_category_whitelist_title">程序列表</string>
     <string name="pref_tap_action_title">点击时的操作</string>
     <string name="pref_tap_action_summary">点击条目时执行的操作</string>

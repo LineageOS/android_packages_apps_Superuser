@@ -13,7 +13,6 @@
   <string name="checking">Перевірка...</string>
   <string name="no_connection">Підключення до мережі недоступне. Не вдається перевірити наявність оновлень</string>
   <string name="manifest_download_failed">Не вдалося виконати перевірку доступної версії</string>
-  <string name="su_original">оригінал</string>
   <string name="warning">Увага</string>
   <string name="malicious_app_found">Було встановлено, що пакет %s запитує дозвіл відповідати на запити щодо отримання прав суперкористувача. Ймовірно, що ця програма є шкідливою і намагається надати права суперкористувача без вашого відома. Рекомендується видалити її негайно.</string>
   <string name="malicious_app_notification_ticker">Виявлена потенційно небезпечна програма</string>
@@ -31,16 +30,12 @@
   <string name="cancel">Скасувати</string>
   <string name="deny">Відмовити</string>
   <string name="remember">Запам\u2019ятати</string>
-  <string name="uid">(uid: %d)</string>
-  <string name="request">%1$s як %2$s (uid: %1$d)</string>
   <string name="unknown">Ім\u2019я невідоме</string>
   <string name="allowed">Надані права</string>
   <string name="denied">Відмовлено</string>
   <string name="created">Створено</string>
   <string name="toggled">Змінені права</string>
   <string name="no_log_data">Дані журналу відсутні</string>
-  <string name="last_allowed">Востаннє надані права:</string>
-  <string name="last_denied">Востаннє відмовлено:</string>
   <string name="empty_apps">Cписок порожній</string>
   <string name="empty_logs">У журналі немає записів</string>
   <string name="detail_package">Пакет:</string>
@@ -51,7 +46,6 @@
   <string name="detail_last_accessed">Останній доступ:</string>
   <string name="request_message">Програма, яка потребує прав суперкористувача:</string>
   <string name="request_app_name">Програма:</string>
-  <string name="preferences">Налаштування</string>
   <string name="pref_category_whitelist_title">Список програм</string>
   <string name="pref_tap_action_title">Дія за натисканням</string>
   <string name="pref_tap_action_summary">Дія, що виконуватиметься за натисканням на елементі списку програм</string>

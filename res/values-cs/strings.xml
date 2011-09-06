@@ -7,8 +7,6 @@
     <string name="cancel">Zrušit</string>
     <string name="deny">Zakázat</string>
     <string name="remember">Zapamatovat</string>
-    <string name="uid">(uid: %d)</string>
-    <string name="request">%1$s jako %2$s (uid: %3$d)</string>
     <string name="detail_package">Balík:</string>
     <string name="detail_request">Požadované UID:</string>
     <string name="detail_command">Příkaz:</string>
@@ -17,7 +15,6 @@
     <string name="detail_last_accessed">Poslední přístup:</string>
     <string name="request_message">Následující aplikace si žádá SU přístup:</string>
     <string name="request_app_name">Aplikace:</string>
-    <string name="preferences">Možnosti</string>
     <string name="pref_category_whitelist_title">Možnosti povoleného seznamu</string>
     <string name="pref_tap_action_title">Akce při klepnutí</string>
     <string name="pref_tap_action_summary">Zvolte akci, která bude provedena při klepnutí na záznam</string>
