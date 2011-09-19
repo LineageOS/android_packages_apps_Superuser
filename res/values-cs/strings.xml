@@ -1,24 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Superuser</string>
-    <string name="app_name_request">Superuser požadavek</string>
-    <string name="allow">Povolit</string>
-    <string name="forget">Zapomenout</string>
-    <string name="cancel">Zrušit</string>
-    <string name="deny">Zakázat</string>
-    <string name="remember">Zapamatovat</string>
-    <string name="detail_package">Balík:</string>
-    <string name="detail_request">Požadované UID:</string>
-    <string name="detail_command">Příkaz:</string>
-    <string name="detail_status">Status:</string>
-    <string name="detail_created">Vytvořeno:</string>
-    <string name="detail_last_accessed">Poslední přístup:</string>
-    <string name="request_message">Následující aplikace si žádá SU přístup:</string>
-    <string name="request_app_name">Aplikace:</string>
-    <string name="pref_category_whitelist_title">Možnosti povoleného seznamu</string>
-    <string name="pref_tap_action_title">Akce při klepnutí</string>
-    <string name="pref_tap_action_summary">Zvolte akci, která bude provedena při klepnutí na záznam</string>
-    <string name="pref_category_notification_title">Notifikace</string>
-    <string name="pref_notification_title">Notifikace</string>
-    <string name="pref_notification_summary">Zobrazit zprávu v notifikační liště, když aplikace dostane SU povolení</string>
+  <string name="app_name">Superuser</string>
+  <string name="app_name_request">Požadavek Superuser</string>
+
+  <string name="permlab_respond">ragovat na požadavek superuser</string>
+  <string name="permdesc_respond">Umožní aplikaci reagovat na požadavek pro získání oprávnění superuser.</string>
+
+  <string name="new_su">Nová verze příkazu \'su\'</string>
+  <string name="new_su_msg">Je dostupná nová verze příkazu \'su\'. Pro provedení automatické instalace stiskněte \'Ok\'.</string>
+  <string name="su_updated">Příkaz \'su\' úspěšně aktualizován</string>
+  <string name="su_not_updated_title">Automatická aktualizace selhala</string>
+  <string name="su_not_updated">Došlo k chybě a příkaz \'su\' nebyl aktualizován. Aktualizační soubor ZIP byl uložen na kartu SD. Prosím restartujte do recovery režimu a pokuste se jej instalovat ručně.</string>
+  <string name="su_up_to_date">Příkaz \'su\' je aktuální</string>
+  <string name="checking">Probíhá kontrola\u2026</string>
+  <string name="no_connection">Není připojení k síti, nelze zjistit aktualizace</string>
+  <string name="manifest_download_failed">Zjišťování nové verze selhalo</string>
+
+  <string name="warning">Varování</string>
+  <string name="malicious_app_found">Aplikace \'%s\' se pokouší získat práva superuser. To může znamenat, že aplikace je škodlivá a pokouší se získat práva superuser bez vašeho vědomí. Je doporučeno takovou aplikaci co nejdřív odinstalovat.</string>
+  <string name="malicious_app_notification_ticker">Detekována potencionálně nebezbečná aplikace</string>
+  <string name="malicious_app_notification_text">%s může být nebezpečná.</string>
+  <string name="uninstall">Odinstalovat</string>
+  <string name="uninstall_successful">Odinstalace dokončena</string>
+  <string name="report_msg">Chcete nahlásit tuto aplikaci autorovi aplikace Superuser pro další kontroly?</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
+
+  <string name="tab_apps">Aplikace</string>
+  <string name="tab_log">Záznam</string>
+  <string name="tab_settings">Nastavení</string>
+
+  <string name="allow">Povolit</string>
+  <string name="forget">Zapomenout</string>
+  <string name="cancel">Zrušit</string>
+  <string name="deny">Zakázat</string>
+  <string name="remember">Zapamatovat</string>
+  <string name="unknown">Neznámé jméno</string>
+
+  <string name="allowed">Povolen</string>
+  <string name="denied">Zakázán</string>
+  <string name="created">Vytvořen</string>
+  <string name="toggled">Přepnut</string>
+
+  <string name="no_log_data">Žádná data záznamu</string>
+  <string name="empty_apps">Žádná aplikace</string>
+  <string name="empty_logs">Žádný záznam</string>
+
+  <string name="detail_package">Balík:</string>
+  <string name="detail_request">UID požadavku:</string>
+  <string name="detail_command">Příkaz:</string>
+  <string name="detail_status">Status:</string>
+  <string name="detail_created">Vytvořeno:</string>
+  <string name="detail_last_accessed">Poslední přístup:</string>
+
+  <string name="request_message">Tato aplikace si žádá SU přístup:</string>
+  <string name="request_app_name">Aplikace:</string>
+
+  <string name="pref_category_whitelist_title">Možnosti seznamu povolených aplikací</string>
+  <string name="pref_tap_action_title">Akce při klepnutí</string>
+  <string name="pref_tap_action_summary">Zvolte akci, která bude provedena při klepnutí na záznam</string>
+  <string name="pref_show_status_icons_title">Zobrazit stavové ikony</string>
+  <string name="pref_show_status_icons_summary_on">Zobrazit ikonu stavu pro každou aplikaci</string>
+  <string name="pref_show_status_icons_summary_off">Nezobrazovat ikonu stavu aplikace</string>
+  <string name="pref_status_icon_type_title">Typ ikony stavu</string>
+  <string name="pref_status_icon_type_summary">Styl zobrazované ikony stavu</string>
+  <string name="pref_category_log_title">Záznam</string>
+  <string name="pref_date_format_title">Zvolte formát datumu</string>
+  <string name="pref_24_hour_title">Použít 24 hodinový formát</string>
+  <string name="pref_show_seconds_title">Zobrazovat sekundy</string>
+  <string name="pref_clear_log">Vyčistit záznam</string>
+  <string name="pref_category_notification_title">Upozornění</string>
+  <string name="pref_notifications_title">Upozornění</string>
+  <string name="pref_notifications_summary_on">Zobrazit upozornění, pokud aplikace získala oprávnění superuser</string>
+  <string name="pref_notifications_summary_off">Nezobrazovat upozornění, pokud aplikace získala oprávnění superuser</string>
+  <string name="pref_notification_title">Typ upozornění</string>
+  <string name="pref_notification_summary">Typ upozornění, pokud aplikace získá oprávnění superuser</string>
+  <string name="pref_category_info_title">Informace o aplikaci Superuser</string>
+  <string name="pref_version_summary">Verze databáze: %s</string>
+  <string name="pref_bin_version_title">Příkaz su v%s</string>
+  <string name="pref_bin_version_summary">Dotykem bude provedena kontrola aktualizace</string>
+
+  <string name="notification_text">Aplikace \'%s\' získala oprávnění superuser</string>
 </resources>
