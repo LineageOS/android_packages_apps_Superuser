@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_tap_action_entries">
+        <item>Detaily</item>
+        <item>Zabudnúť</item>
+        <item>Prepnúť stav</item>
+    </string-array>
+
+    <string-array name="pref_status_icon_type_entries">
+    	<item>Bod</item>
+    	<item>Emotikon</item>
+    </string-array>
+    <string-array name="pref_date_format_entries">
+    	<item>Predvolený systémom</item>
+    	<item>12/31/2010</item>
+    	<item>31/12/2010</item>
+    	<item>2010/12/31</item>
+    </string-array>
+    <string-array name="pref_notification_entries">
+        <item>Pop-Up</item>
+        <item>Upozornenie</item>
+    </string-array>
+</resources>
