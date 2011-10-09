@@ -1,5 +1,33 @@
 package com.noshufou.android.su;
 
+import com.noshufou.android.su.util.Util;
+
+import org.apache.http.util.ByteArrayBuffer;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.AsyncTask;
+import android.os.Build.VERSION;
+import android.os.Bundle;
+import android.support.v4.app.ListFragment;
+import android.text.Spannable;
+import android.text.style.ForegroundColorSpan;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -13,34 +41,13 @@ import java.net.URLConnection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.http.util.ByteArrayBuffer;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.NotificationManager;
-import android.content.Context;
-import android.database.SQLException;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.Build.VERSION;
-import android.support.v4.app.ListFragment;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.View.OnClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import com.noshufou.android.su.util.Util;
-
 public class UpdaterFragment extends ListFragment implements OnClickListener {
     private static final String TAG = "Su.UpdaterFragment";
     
+    public static final int NOTIFICATION_ID = 42;
+    
     private String MANIFEST_URL;
+    private int CONSOLE_GREY;
     private int CONSOLE_RED;
     private int CONSOLE_GREEN;
 
@@ -56,6 +63,27 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
         public String binaryMd5;
         public String busyboxUrl;
         public String busyboxMd5;
+        
+        public boolean populate(JSONObject manifest) {
+            try {
+                version = manifest.getString("version");
+                versionCode = manifest.getInt("version-code");
+                binaryUrl = manifest.getString("binary");
+                binaryMd5 = manifest.getString("binary-md5sum");
+                busyboxUrl = manifest.getString("busybox");
+                busyboxMd5 = manifest.getString("busybox-md5sum");
+            } catch (JSONException e) {
+                return false;
+            }
+
+            // verify that all values have been properly initialized
+            if (version == null || versionCode == 0 ||
+                    binaryUrl == null || binaryMd5 == null ||
+                    busyboxUrl == null || busyboxMd5 == null) {
+                return false;
+            }
+            return true;
+        }
     }
 
     private Manifest mManifest;
@@ -72,6 +100,7 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
             Bundle savedInstanceState) {
         MANIFEST_URL = getString(Integer.parseInt(VERSION.SDK) < 5?
                 R.string.updater_manifest_legacy:R.string.updater_manifest);
+        CONSOLE_GREY = getActivity().getResources().getColor(R.color.console_grey);
         CONSOLE_RED = getActivity().getResources().getColor(R.color.console_red);
         CONSOLE_GREEN = getActivity().getResources().getColor(R.color.console_green);
 
@@ -112,6 +141,10 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
         public static final int STATUS_FINISHED_SUCCESSFUL = 2;
         public static final int STATUS_FINISHED_FAIL = 3;
         public static final int STATUS_FINISHED_NO_NEED = 4;
+        public static final int STATUS_CONN_FAILED = 5;
+        public static final int STATUS_FINISHED_FAIL_REMOUNT = R.string.updater_failed_remount;
+        public static final int STATUS_FINISHED_FAIL_SBIN =
+                R.string.updater_bad_install_location_explained;
 
         @Override
         protected void onPreExecute() {
@@ -138,7 +171,7 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                 } else {
                     publishProgress(progressTotal, progressStep - 1, progressStep,
                             R.string.updater_fail, CONSOLE_RED);
-                    return STATUS_FINISHED_FAIL;
+                    return STATUS_CONN_FAILED;
                 }
                 // Parse manifest
                 // TODO: Actually parse the manifest here, as of now it's being
@@ -158,8 +191,13 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                 progressStep++;
                 publishProgress(progressTotal, progressStep - 1, progressStep,
                         R.string.updater_step_latest_version);
-                publishProgress(progressTotal, progressStep, progressStep,
-                        mManifest.version, CONSOLE_GREEN);
+                if (mManifest.version != null) {
+                    publishProgress(progressTotal, progressStep, progressStep,
+                            mManifest.version, CONSOLE_GREEN);
+                } else {
+                    publishProgress(progressTotal, progressStep - 1, progressStep,
+                            R.string.updater_fail, CONSOLE_RED);
+                }
                 
                 // Check the currently installed version
                 progressStep++;
@@ -167,6 +205,9 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                         R.string.updater_step_check_installed_version);
                 int installedVersionCode = Util.getSuVersionCode();
                 String installedVersion = Util.getSuVersion();
+                if (installedVersion == null) {
+                    installedVersion = "legacy";
+                }
                 if (installedVersionCode < mManifest.versionCode) {
                     publishProgress(progressTotal, progressStep, progressStep,
                             installedVersion, CONSOLE_RED);
@@ -280,8 +321,9 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                             installedSu, CONSOLE_RED);
                     publishProgress(progressTotal, progressStep - 1, progressStep,
                             R.string.updater_bad_install_location);
-                    return STATUS_FINISHED_FAIL;
+                    return STATUS_FINISHED_FAIL_SBIN;
                 }
+
                 publishProgress(progressTotal, progressStep, progressStep,
                         installedSu, CONSOLE_GREEN);
                 
@@ -349,8 +391,8 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                             mBusyboxPath + " echo YEAH");
                     if (inLine == null || !inLine.equals("YEAH")) {
                         publishProgress(progressTotal, progressStep - 1, progressStep,
-                                R.string.updater_ok, CONSOLE_RED);
-                        return STATUS_FINISHED_FAIL;
+                                R.string.updater_fail, CONSOLE_RED);
+                        return STATUS_FINISHED_FAIL_REMOUNT;
                     }
                     publishProgress(progressTotal, progressStep, progressStep,
                             R.string.updater_ok, CONSOLE_GREEN);
@@ -384,7 +426,20 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                     }
                     publishProgress(progressTotal, progressStep, progressStep,
                             R.string.updater_ok, CONSOLE_GREEN);
-                    
+
+                    // Change su file mode
+                    progressStep++;
+                    publishProgress(progressTotal, progressStep - 1, progressStep,
+                            R.string.updater_step_chmod);
+                    inLine = executeCommand(os, is, mBusyboxPath, "chmod 06755 /system/su", "&&",
+                            mBusyboxPath, "echo YEAH");
+                    if (inLine == null || !inLine.equals("YEAH")) {
+                        publishProgress(progressTotal, progressStep - 1, progressStep,
+                                R.string.updater_fail, CONSOLE_RED);
+                    }
+                    publishProgress(progressTotal, progressStep, progressStep,
+                            R.string.updater_ok, CONSOLE_GREEN);
+
                     // Move /system/su to wherer it belongs
                     progressStep++;
                     publishProgress(progressTotal, progressStep - 1, progressStep,
@@ -413,19 +468,6 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                     publishProgress(progressTotal, progressStep, progressStep,
                             R.string.updater_ok, CONSOLE_GREEN);
                     
-                    // Change su file mode
-                    progressStep++;
-                    publishProgress(progressTotal, progressStep - 1, progressStep,
-                            R.string.updater_step_chmod);
-                    inLine = executeCommand(os, is, mBusyboxPath, "chmod 06755", installedSu, "&&",
-                            mBusyboxPath, "echo YEAH");
-                    if (inLine == null || !inLine.equals("YEAH")) {
-                        publishProgress(progressTotal, progressStep - 1, progressStep,
-                                R.string.updater_fail, CONSOLE_RED);
-                    }
-                    publishProgress(progressTotal, progressStep, progressStep,
-                            R.string.updater_ok, CONSOLE_GREEN);
-
                     // Remount system partition
                     progressStep++;
                     publishProgress(progressTotal, progressStep - 1, progressStep,
@@ -455,6 +497,11 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
                         R.string.updater_step_check_installed_version);
                 installedVersionCode = Util.getSuVersionCode();
                 installedVersion = Util.getSuVersion();
+                if (installedVersion == null) {
+                    publishProgress(progressTotal, progressStep, progressStep,
+                            R.string.updater_fail, CONSOLE_RED);
+                    return STATUS_FINISHED_FAIL;
+                }
                 if (installedVersionCode == mManifest.versionCode) {
                     publishProgress(progressTotal, progressStep, progressStep,
                             installedVersion, CONSOLE_GREEN);
@@ -493,8 +540,10 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
             } else if (values.length == 5) {
                 if (values[3] instanceof String) {
                     addStatusToEntry((String)values[3], (Integer)values[4]);
-                } else  {
+                } else if (values[3] instanceof Integer){
                     addStatusToEntry((Integer)values[3], (Integer)values[4]);
+                } else {
+                    addStatusToEntry(R.string.updater_fail, CONSOLE_RED);
                 }
             }
         }
@@ -522,6 +571,23 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
             case STATUS_FINISHED_FAIL:
                 mActionButton.setText(R.string.updater_try_again);
                 mStatusText.setText(R.string.updater_update_failed);
+                break;
+            case STATUS_CONN_FAILED:
+                mActionButton.setText(R.string.updater_try_again);
+                mStatusText.setText(R.string.updater_no_conn);
+                break;
+            case STATUS_FINISHED_FAIL_REMOUNT:
+            case STATUS_FINISHED_FAIL_SBIN:
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setMessage(result)
+                        .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                            
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                getActivity().finish();
+                            }
+                        })
+                        .create().show();
             }
         }
 
@@ -560,18 +626,12 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
             
             if (localName.equals("manifest")) {
                 try {
-                    JSONObject manifest = new JSONObject(new String(baf.toByteArray()));
                     mManifest = new Manifest();
-                    mManifest.version = manifest.getString("version");
-                    mManifest.versionCode = manifest.getInt("version-code");
-                    mManifest.binaryUrl = manifest.getString("binary");
-                    mManifest.binaryMd5 = manifest.getString("binary-md5sum");
-                    mManifest.busyboxUrl = manifest.getString("busybox");
-                    mManifest.busyboxMd5 = manifest.getString("busybox-md5sum");
+                    return mManifest.populate(new JSONObject(new String(baf.toByteArray())));
                 } catch (JSONException e) {
                     Log.e(TAG, "Malformed manifest file", e);
+                    return false;
                 }
-                return true;
             } else {
                 FileOutputStream outFileStream = getActivity().openFileOutput(localName, 0);
                 outFileStream.write(baf.toByteArray());
@@ -700,7 +760,7 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
     private class ConsoleAdapter extends ArrayAdapter<ConsoleEntry> {
         
         ConsoleAdapter(Context context) {
-            super(context, R.layout.console_item, R.id.console_step);
+            super(context, R.layout.console_item);
         }
         
         @Override
@@ -711,11 +771,14 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            View view = super.getView(position, convertView, parent);
+            TextView view = (TextView) super.getView(position, convertView, parent);
+            ConsoleEntry entry = getItem(position);
             
-            TextView status = (TextView) view.findViewById(R.id.console_status);
-            status.setText(getItem(position).status);
-            status.setTextColor(getItem(position).statusColor);
+            Spannable str = (Spannable) view.getText();
+            str.setSpan(new ForegroundColorSpan(entry.statusColor),
+                    entry.entry.length(),
+                    entry.toString().length(),
+                    Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             
             return view;
         }
@@ -723,8 +786,8 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
     
     private class ConsoleEntry {
         public String entry;
-        public String status;
-        public int statusColor;
+        public String status = "";
+        public int statusColor = CONSOLE_GREY;
         
         public ConsoleEntry(int res) {
             entry = getActivity().getString(res);
@@ -732,7 +795,7 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
 
         @Override
         public String toString() {
-            return entry;
+            return entry + status;
         }
     }
 

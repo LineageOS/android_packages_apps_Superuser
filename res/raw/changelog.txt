@@ -24,6 +24,26 @@
   </head>
 
   <body>
+$ 38
+  %3.0.4
+  _2011-10-09
+    * Remove the requirement for having the latest binary
+    * Add option to suppress the outdated binary option
+    * Add menu option to get elite in the main menu
+    * Don't show clear log in menu when logging is disalbled
+    * Clearer messages to the user as to why the binary updater can't update their binary
+    * More binary updater fixes
+$ 37
+  %3.0.2
+  _ 2011-10-06
+    * Fix FC when viewing app details on phones
+$ 36
+  %3.0.1
+  _ 2011-10-05
+    * New layout for tablets in portrait
+    * Don't show log if logging is disabled
+    * Binary updater fixes
+    * Prevent FC when uninstalling an app
 $ 35
   %3.0
   _ 2011-09-26
