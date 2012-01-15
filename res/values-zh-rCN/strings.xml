@@ -124,6 +124,12 @@
   <string name="pref_bin_version_title_loading">正在获取 su 程序版本</string>
   <string name="pref_bin_version_title">su 程序版本 %s</string>
   <string name="pref_bin_version_summary">点击检查更新</string>
+  <string name="pref_outdated_notification_title">过时的二进制包提醒</string>
+  <string name="pref_outdated_notification_summary_on">当二进制包过时时显示通知</string>
+  <string name="pref_outdated_notification_summary_off">当二进制包过时时不显示通知</string>
+  <string name="pref_advanced_prompt_title">使用高级提示</string>
+  <string name="pref_advanced_prompt_summary_on">在请求提示中不显示警告</string>
+  <string name="pref_advanced_prompt_summary_off">在请求提示中显示警告</string>
   <string name="pref_changelog_title">更新日志</string>
   <string name="pref_changelog_summary">显示更新日志</string>
   <string name="pref_get_elite_title">获取精英版！</string>
