@@ -265,4 +265,7 @@
     <!-- Do not translate any strings below, they are here to prevent build errors -->
     <string name="before_secret_code">*#*#</string>
     <string name="after_secret_code">#*#*</string>
+
+    <string name="root_disabled_title">Enable root access?</string>
+    <string name="root_disabled_summary">Root access is currently disabled for all applications by a system setting. Would you like to enable it?</string>
 </resources>
