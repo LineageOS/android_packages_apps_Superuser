@@ -18,9 +18,9 @@
   <string name="permlab_respond">响应授权请求</string>
   <string name="permdesc_respond">允许应用程序响应授权请求</string>
   <string name="permlab_provider_read">读取授权管理数据</string>
-  <string name="permdesc_provider_read">允许应用程序读取 Superuser ContentProvider 的数据</string>
+  <string name="permdesc_provider_read">允许应用程序读取超级用户内容提供者的数据</string>
   <string name="permlab_provider_write">写入授权管理数据</string>
-  <string name="permdesc_provider_write">允许应用程序写入数据到 Superuser ContentProvider</string>
+  <string name="permdesc_provider_write">允许应用程序写入数据到超级用户内容提供者</string>
   <string name="recent_activity">近期活动</string>
   <string name="yes">是</string>
   <string name="no">否</string>
@@ -51,6 +51,12 @@
   <string name="detail_request">请求 UID</string>
   <string name="detail_command">命令</string>
   <string name="detail_status">状态</string>
+  <string name="use_global_settings">使用全局设置</string>
+  <string name="notifications_enabled">通知已开启</string>
+  <string name="logging_enabled">日志已开启</string>
+  <string name="request_message">%1$s 正在请求 ROOT 权限。\n\n警告: 如果您不想加入此动作， 或者您不理解该请求，拒绝它一般是个不错的注意。</string>
+  <string name="request_more_info">点击获得更多信息</string>
+  <string name="request_less_info">点击获得简洁信息</string>
   <string name="request_app_name">应用程序</string>
   <string name="pref_title">设置</string>
   <string name="pref_category_security">安全性</string>
@@ -117,7 +123,7 @@
   <string name="pref_backup_title">备份应用程序/首选项</string>
   <string name="backup_complete">备份保存到 SD 卡</string>
   <string name="pref_restore_title">还原应用程序/首选项</string>
-  <string name="restore_complete_prefs_only">Preferences restored</string>
+  <string name="restore_complete_prefs_only">首选项已恢复</string>
   <string name="pref_category_info_title">常规</string>
   <string name="pref_version_title">授权管理 版本 %1$s (%2$d)</string>
   <string name="pref_version_summary">数据库版本 %s</string>
@@ -152,7 +158,7 @@
   <string name="updater_step_latest_version">"最新版本 = "</string>
   <string name="updater_step_check_installed_version">"正在检查已安装的版本 = "</string>
   <string name="updater_step_fix_db">"正在修复数据库… "</string>
-  <string name="updater_step_find_busybox">Checking for busybox...\u0020</string>
+  <string name="updater_step_find_busybox">正在检查 busybox...\u0020</string>
   <string name="updater_step_download_busybox">"正在下载自定义 busybox… "</string>
   <string name="updater_step_check_md5sum">"正在校验 md5 值… "</string>
   <string name="updater_step_check_installed_path">"正在检查当前安装路径… "</string>
@@ -167,8 +173,8 @@
   <string name="updater_remount_ro_failed">无法挂载 /system 为只读，请重启以完成更新</string>
   <string name="updater_find_su_failed">无法找到当前安装的 su 程序，更新无法继续</string>
   <string name="updater_bad_install_location">su 程序文件当前安装在 /sbin 中，此更新程序无法完成更新。请为您的设备寻找一个新 ROM。</string>
-  <string name="updater_bad_install_location_explained">This updater is incapable of updating your su binary since it is installed in /sbin. This is not an error in the updater, it is an error on the behalf of your ROM or kernel developer. You can continue to use Superuser with your outdated binary.</string>
-  <string name="updater_failed_remount">This updater cannot update the su binary on phones that have some kind of write protection on the system partition like S-ON. You can continue to use Superuser with your outdated binary, or update su with ROM Manager.</string>
+  <string name="updater_bad_install_location_explained">该更新管理器无法更新您的su二进制包，因为它被安装在 /sbin。 这不是更新管理器的错误, 它是由您的ROM或者内核开发者引起的错误。 您可以继续通过过时的二进制包使用授权管理程序。</string>
+  <string name="updater_failed_remount">该更新管理器无法在手机上更新su二进制包，因为在系统分区有写保护权限，比如S-ON。您可以继续通过过时的二进制包使用授权管理程序，或者通过ROM管理器更新su二进制包。</string>
   <string name="notification_text_allow">%s 已获取最高权限</string>
   <string name="notification_text_deny">%s 已被拒绝获取最高权限</string>
   <string name="notif_outdated_ticker">您的 su 程序版本过旧</string>
