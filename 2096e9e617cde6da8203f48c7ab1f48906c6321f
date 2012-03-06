@@ -1,0 +1,480 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//75s\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Waarom hier juist de korte versie en niet volledig?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75k\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ik zou de Engelse string vertalen als \"Staat de applicatie toe te reageren op verzoeken voor roottoegang\". Maar zeker weten of dat een correctere vertaling is weet ik niet...",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ok -\u003e OK :)",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ik zou overal Superuser voluit doen.",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75Y\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "applicatie voluit?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "de -\u003e het Superuser-icoon.",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Applicatielijst?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Stijl van de weer te geven statuspictogram ?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//75A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ik zou dit ook gewoon loggegevens noemen (zonder boek). En wederom zou ik applicatielijst gebruiken.",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//748\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ook hier zou ik log zonder boek gebruiken (of consequent met boek).",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//744\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Aanmaak van toestemmingen (of hieronder aangemaakte toestemmingen) ?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//740\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Wederom log \u003c-\u003e logboek",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Is het tegenovergestelde van 24-uurs formaat niet 12-uurs formaat?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74s\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Tijdweergave of tijdsweergave?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "app -\u003e applicatie",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74k\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Pop-up of notificatie (hierboven gebruik je notificatie terwijl het over hetzelfde gaat).",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Ik weet even niet een beter woord, maar vind tag niet echt Nederlands. Label zou al beter zijn voor mijn gevoel.",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "applicaties?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "applicaties?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74Y\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Applicatie?\n\nEn hier (en hieronder): su(-programma) of Superuser(-programma)?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74U\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Hoofdletter?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74Q\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Is binaire correct Nederlands?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "hoofdletter K bij kan?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "geweigerd?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//74E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Hier hoort geen koppelteken tussen scan en tag.",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//738\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": ".,..zonder u toestemming... (niet uw)",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//730\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "Waarom aangepast, volgens mij is  \"één applicatie en diens voorkeuren hersteld\" correct?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//73w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-03-06T02:38:00Z",
+      "side": 1,
+      "message": "log \u003c-\u003e logboek. Ook vind ik ingang raar klinken? logboekvermelding?",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
