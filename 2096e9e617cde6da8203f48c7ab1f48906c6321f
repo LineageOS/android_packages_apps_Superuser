@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//7xM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-03-06T19:38:30Z",
+      "side": 1,
+      "message": "Laat maar, begreep het verkeerd...",
+      "parentUuid": "AAAAQX//7yg\u003d",
+      "revId": "2096e9e617cde6da8203f48c7ab1f48906c6321f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//75c\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
