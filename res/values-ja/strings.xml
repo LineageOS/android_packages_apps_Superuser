@@ -51,6 +51,12 @@
   <string name="detail_request">要求されたUID</string>
   <string name="detail_command">コマンド</string>
   <string name="detail_status">ステータス</string>
+  <string name="use_global_settings">グローバルの設定を使用</string>
+  <string name="notifications_enabled">通知は有効</string>
+  <string name="logging_enabled">ロギングは有効</string>
+  <string name="request_message">%1$s がスーパーユーザアクセスを要求しています。\n\n警告: もしこれがあなたが開始したアクションではなかったり、この要求について理解していないのであれば拒否するのが無難です。</string>
+  <string name="request_more_info">タップして詳細</string>
+  <string name="request_less_info">タップして簡略</string>
   <string name="request_app_name">アプリ</string>
   <string name="pref_title">環境設定</string>
   <string name="pref_category_security">セキュリティ</string>
@@ -168,6 +174,8 @@
   <string name="updater_remount_ro_failed">読み取り専用としてシステムを再マウントしようとして失敗しました。アップデートを完了するために再起動してください</string>
   <string name="updater_find_su_failed">現在インストールされているSUコマンドバイナリを見つけることができませんでした。アップデートを続行することはできません</string>
   <string name="updater_bad_install_location">SUコマンドのバイナリは現在、/sbinにインストールされています。このアップデータでは更新できません。お使いのデバイス用の新しいROMを見つけてください。</string>
+  <string name="updater_bad_install_location_explained">このアップデータでは /sbin にインストールされているsuコマンドのバイナリを更新することができません。これはアップデータの不具合ではなく、ROMやカーネル開発者における問題です。このまま古いsuバイナリでもSuperuserを使い続けることができます。</string>
+  <string name="updater_failed_remount">このアップデータでは S-ONなどのセキュリティで書き込み保護されたシステムパーティションをもつ端末のsuバイナリを更新することがでません。このまま古いsuバイナリでSuperuserを使い続けるか、ROM Managerを利用して更新することができます。</string>
   <string name="notification_text_allow">%sがスーパーユーザー権限を取得しました</string>
   <string name="notification_text_deny">%sがスーパーユーザー権限の取得に失敗しました</string>
   <string name="notif_outdated_ticker">お使いのSUバイナリが古いです</string>
@@ -206,4 +214,6 @@
     <item quantity="one">次のパッケージは悪意があります</item>
     <item quantity="other">次のパッケージ群は悪意があります</item>
   </plurals>
+    <string name="root_disabled_title">Rootアクセスを有効にしますか?</string>
+    <string name="root_disabled_summary">現在全てのアプリケーションに対するrootアクセスはシステム設定により無効化されています。有効にしますか?</string>
 </resources>
