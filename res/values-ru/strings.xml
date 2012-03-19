@@ -142,7 +142,7 @@
   <string name="pref_version_title">Суперпользователь v%1$s (%2$d)</string>
   <string name="pref_version_summary">Версия базы данных %s</string>
   <string name="pref_bin_version_title_loading">Загрузка версии программы su</string>
-  <string name="pref_bin_version_title">Su программа в%s </string>
+  <string name="pref_bin_version_title">Версия программы SU %s </string>
   <string name="pref_bin_version_summary">Нажмите для проверки наличия обновлений</string>
   <string name="pref_outdated_notification_title">Уведомления устаревших обновлений</string>
   <string name="pref_outdated_notification_summary_on">Показывать уведомления об устаревшей версии программы</string>
