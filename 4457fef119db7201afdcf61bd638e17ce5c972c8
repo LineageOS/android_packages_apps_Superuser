@@ -1,0 +1,8 @@
+Change-Id: I4457fef119db7201afdcf61bd638e17ce5c972c8
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Fri, 23 Mar 2012 10:02:09 +0300
+Reviewed-on: http://review.cyanogenmod.com/13753
+Project: CyanogenMod/android_packages_apps_Superuser
+Branch: refs/heads/ics
