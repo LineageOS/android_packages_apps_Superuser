@@ -50,6 +50,24 @@
       "revId": "c5ae9cee9767c0c79a5e54b1f983ad5d3cb400d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+VM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-03-23T23:52:22Z",
+      "side": 1,
+      "message": "Ak, okay. I had no chance to test it before because my N1 is running a different ICS ROM (CM9 based but not that up-to-date). Fell free to push a patchset. I agree on all of your comments.",
+      "parentUuid": "AAAARX//+Zg\u003d",
+      "revId": "c5ae9cee9767c0c79a5e54b1f983ad5d3cb400d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
