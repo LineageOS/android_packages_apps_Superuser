@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX//+ZU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 2783
+      },
+      "writtenOn": "2012-03-23T22:06:57Z",
+      "side": 1,
+      "message": "Mir war bis zum Ausprobieren, nur durch den Text, nicht klar, was diese Funktion macht. Schlage vor:\n\ntitle: Erweiterte Berechtigungsanfrage\n\nsummary on: Mehr Anwendungsdetails bei Berechtigungsanfragen\n\nsummary off: Weniger Anwendungsdetails bei Berechtigungsanfragen",
+      "revId": "c5ae9cee9767c0c79a5e54b1f983ad5d3cb400d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+Zc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2783
+      },
+      "writtenOn": "2012-03-23T22:06:57Z",
+      "side": 1,
+      "message": "\"Root-Zugriff deaktiviert!\"",
+      "revId": "c5ae9cee9767c0c79a5e54b1f983ad5d3cb400d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX//+Zg\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 2783
+      },
+      "writtenOn": "2012-03-23T22:06:57Z",
+      "side": 1,
+      "message": "Instead of \"Soll Root-Zugriff erlaubt werden?\", it would be functionally more clear to say \"Systemeinstellung zeigen?\" - because tapping takes the user to that place, it does not immediately make the change.",
+      "revId": "c5ae9cee9767c0c79a5e54b1f983ad5d3cb400d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
