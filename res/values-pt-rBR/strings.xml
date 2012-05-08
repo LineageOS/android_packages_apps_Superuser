@@ -213,4 +213,7 @@
     <item quantity="one">O seguinte pacote parece ser perigoso:</item>
     <item quantity="other">Os seguintes pacotes parecem ser perigosos:</item>
   </plurals>
+  <string name="use_global_settings">Usar configurações global</string>
+  <string name="notifications_enabled">Notificações ativadas</string>
+  <string name="logging_enabled">Log ativado</string>
 </resources>
