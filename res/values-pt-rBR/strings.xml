@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Superuser</string>
   <string name="app_name_request">Pedido de autorização SU</string>
@@ -194,7 +194,6 @@
   <string name="malicious_app_write">Permissão de resposta a pedidos para escrever no fornecedor de pedidos</string>
   <string name="changelog_full_title">Changelog</string>
   <string name="changelog_title">Novidades</string>
-
   <string name="root_disabled_title">Habilitar acesso root ?</string>
   <string name="root_disabled_summary">Acesso root está atualmente desabilitado para todas aplicações, por uma configuração de sistema. Deseja habilita-lo ?</string>
   <plurals name="restore_complete">
@@ -213,4 +212,7 @@
     <item quantity="one">O seguinte pacote parece ser perigoso:</item>
     <item quantity="other">Os seguintes pacotes parecem ser perigosos:</item>
   </plurals>
+  <string name="use_global_settings">Usar configurações globais</string>
+  <string name="notifications_enabled">Notificações ativadas</string>
+  <string name="logging_enabled">Criação de log ativado</string>
 </resources>
