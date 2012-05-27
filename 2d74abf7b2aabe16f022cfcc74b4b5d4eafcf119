@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAATH//+aQ\u003d",
+        "filename": "res/values-it/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-05-27T04:12:16Z",
+      "side": 1,
+      "message": "please remove whitespaces",
+      "revId": "2d74abf7b2aabe16f022cfcc74b4b5d4eafcf119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAATH//+aU\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2012-05-27T04:12:16Z",
+      "side": 1,
+      "message": "please remove whitespaces",
+      "revId": "2d74abf7b2aabe16f022cfcc74b4b5d4eafcf119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
