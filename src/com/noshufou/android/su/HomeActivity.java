@@ -118,7 +118,7 @@ public class HomeActivity extends FragmentActivity implements DialogInterface.On
                 Dialog dialog = new AlertDialog.Builder(this).setMessage(
                         getResources().getString(R.string.root_disabled_summary))
                         .setTitle(R.string.root_disabled_title)
-                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setIconAttribute(android.R.attr.alertDialogIcon)
                         .setPositiveButton(android.R.string.yes, this)
                         .setNegativeButton(android.R.string.no, this)
                         .show();
