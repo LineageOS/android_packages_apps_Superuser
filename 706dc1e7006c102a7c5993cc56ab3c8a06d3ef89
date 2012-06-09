@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3//9WQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 3346
+      },
+      "writtenOn": "2012-06-09T21:26:17Z",
+      "side": 1,
+      "message": "\"für in\"? Should be \"für\" only, or possibly \"Datumsformat in allen Protokollen\"",
+      "revId": "706dc1e7006c102a7c5993cc56ab3c8a06d3ef89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
