@@ -170,7 +170,7 @@ public class UpdaterFragment extends ListFragment implements OnClickListener {
         @Override
         protected Integer doInBackground(Void... params) {
             /* XXX: the current update process is not safe! */
-            return STATUS_CANCELLED;
+            return STATUS_FINISHED_NO_NEED;
 
             int progressTotal = 0;
             int progressStep = 0;
