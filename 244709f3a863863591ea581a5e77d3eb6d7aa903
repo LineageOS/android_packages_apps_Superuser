@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//8eQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-08-10T16:41:24Z",
+      "side": 1,
+      "message": "A fájlban tabok vannak? Láttam több patchset-et, amiben ezért \"haraptak\", nem space-eknek kellene lenni a kódformázási konvenció alapján?",
+      "revId": "244709f3a863863591ea581a5e77d3eb6d7aa903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//8eU\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-08-10T16:41:24Z",
+      "side": 1,
+      "message": "Nem sikerült kiíratnom a programmal ezt az üzenetet, hogy megnézzem a környezetét, de nem így lenne jó?\n\nEgy naplóbejegyzés törlése.\n\nEgyébként az is furcsa hogy \"Egy naplóbejegyzés\" nem inkább \"A naplóbejegyzés\"? De tényleg nem tudom.",
+      "revId": "244709f3a863863591ea581a5e77d3eb6d7aa903",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
