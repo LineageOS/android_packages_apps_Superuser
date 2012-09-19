@@ -10,6 +10,8 @@ LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 
 LOCAL_CERTIFICATE := superuser
 
+LOCAL_DEX_PREOPT := false
+
 include $(BUILD_PACKAGE)
 
 ##
