@@ -456,7 +456,7 @@ public class PermissionsProvider extends ContentProvider {
 
     private class SuDbOpenHelper extends SQLiteOpenHelper {
         private static final String DATABASE_NAME = "su.db";
-        private static final int DATABASE_VERSION = 6;
+        private static final int DATABASE_VERSION = 5;
 
         SuDbOpenHelper(Context context) {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -513,7 +513,7 @@ public class PermissionsProvider extends ContentProvider {
                 upgradeVersion = 4;
             }
 
-            if (upgradeVersion <= 5) {
+            if (upgradeVersion == 4) {
                 Cursor c = db.query(Apps.TABLE_NAME, null, null, null, null, null, null);
                 while (c.moveToNext()) {
                     Util.writeStoreFile(mContext,
@@ -524,7 +524,7 @@ public class PermissionsProvider extends ContentProvider {
                 }
                 c.close();
                 mContext.deleteDatabase("permissions.sqlite");
-                upgradeVersion = 6;
+                upgradeVersion = 5;
             }
 
         }
