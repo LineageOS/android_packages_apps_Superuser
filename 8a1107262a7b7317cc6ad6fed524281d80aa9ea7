@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///7o\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 3214
+      },
+      "writtenOn": "2012-09-27T04:10:00Z",
+      "side": 1,
+      "message": "Erre nem volt semmi ötletem.",
+      "revId": "8a1107262a7b7317cc6ad6fed524281d80aa9ea7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
