@@ -2,6 +2,91 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAYn///pM\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "Tudod mit? Csinálj egy szelektiv keres-cserét a superuser szóra, ahol mint jog szerepel, legyen root.",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pk\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "\"készülékeden\"",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pQ\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "launchert fordíthatjuk kezdöképernyö-alkalmazásra. kevésbé hangzik jól, de legalább érteni fogják",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pg\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "Nem találtam meg az appban, de ez szerintem Törli a régi .... de ne nyúlj hozzá, csak egy észrevétel :)",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pE\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "tehát pl ez root",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAYn///xo\u003d",
         "filename": "res/values-hu/strings.xml",
         "patchSetId": 3
@@ -30,6 +115,57 @@
       "writtenOn": "2012-09-28T02:56:51Z",
       "side": 1,
       "message": "Kimaradt, javítom.",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pc\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "tegez",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pY\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "irhatóként",
+      "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///pU\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-28T12:35:09Z",
+      "side": 1,
+      "message": "Scan cimke? Tudtommal magyarul is NFC ;)",
       "revId": "0d6ec13f17b8623e2ca08bd3f6c80822e39192e4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
