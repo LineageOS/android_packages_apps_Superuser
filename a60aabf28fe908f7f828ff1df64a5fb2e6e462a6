@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///O8\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "A Superuser-rel kapcsolatos...",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///O4\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "Zavaró a Su nagy kezd?bet?vel, ennek futtatható programnak a fájlrendszerben a neve kis bet?vel kezd?dik.",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///O0\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "Ez így lehet hogy jó, az angol változatban miért kezd?dik a mondat itt kisbet?vel?",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Ow\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "Elite beszerzése",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Oo\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "Ez itt mi akar lenni a progiban? Ez van az angol fájlban:\nota rootkeeper. Csak azért akadt meg itt a szemem, mert hiányzik a mondat elejér?l az \"A\". A root túléli, de nem is értem mit akar ez jelenteni.",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///Ok\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "nem található a su bináris.",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///OI\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2012-10-01T13:24:15Z",
+      "side": 1,
+      "message": "A su binárishoz tartozó fájlmód beállítása 06755-re... vagy valami ilyesmi :)",
+      "revId": "a60aabf28fe908f7f828ff1df64a5fb2e6e462a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
