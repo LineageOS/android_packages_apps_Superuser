@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn//+0E\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-03T11:59:42Z",
+      "side": 1,
+      "message": "Még mindig, ez miért elhelyezési? Placement tag van angolban?",
+      "revId": "a5e2cbf4c0d3816b3a4f2d216c741e7db14d2da4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn//+0A\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-10-03T11:59:42Z",
+      "side": 1,
+      "message": "Ez elég ugy, hogy nem találhato su bináris.",
+      "revId": "a5e2cbf4c0d3816b3a4f2d216c741e7db14d2da4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
