@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAY3///to\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2012-10-07T13:12:16Z",
+      "side": 1,
+      "message": "Na?ítání",
+      "revId": "71553d77314684e381364efb3b15cf70969d28ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///ts\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2012-10-07T13:12:16Z",
+      "side": 1,
+      "message": "Oznamovat novou verzi su binary",
+      "revId": "71553d77314684e381364efb3b15cf70969d28ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAY3///t4\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 4632
+      },
+      "writtenOn": "2012-10-07T13:12:16Z",
+      "side": 1,
+      "message": "Oznamovat novou verzi",
+      "revId": "71553d77314684e381364efb3b15cf70969d28ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
