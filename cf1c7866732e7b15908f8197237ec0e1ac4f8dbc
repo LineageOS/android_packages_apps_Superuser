@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH///RA\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Información",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Q8\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Versión Elite comprada",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Q4\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Versión Elite no comprada",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Q0\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Comprar versión Elite",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Qw\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Pulse ...",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Qo\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Notificar binario ...",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Qk\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "... OTA\nIt\u0027s acronym of Over-The-Air, then must be in uppercase.",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Qg\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Nota: Estas opciones no están garantizadas y pueden no funcionar ...",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///Qc\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Cargando versión de \\\u0027su\\\u0027 binario\\u2026",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///QY\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "... \\\u0027su\\\u0027 ...",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///QU\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "... \\\u0027su\u0027\\",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///QQ\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-10-18T21:06:12Z",
+      "side": 1,
+      "message": "Pulsar para ...",
+      "revId": "cf1c7866732e7b15908f8197237ec0e1ac4f8dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
