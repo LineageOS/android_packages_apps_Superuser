@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//8/g\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-11-12T19:35:12Z",
+      "side": 1,
+      "message": "For this and rest of strings: replace \"... \\u0020\" for \"\\u2026\". \\u0020 is a space, and it isn\u0027t necessary in a final of phrase",
+      "revId": "5a59bfdc05f2af7cc1d0e46eb85873de23eeacd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//8/c\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2012-11-12T19:35:12Z",
+      "side": 1,
+      "message": "Last string with \"... \\u0020\" to replace.",
+      "revId": "5a59bfdc05f2af7cc1d0e46eb85873de23eeacd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
