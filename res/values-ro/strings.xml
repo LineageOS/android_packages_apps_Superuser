@@ -10,6 +10,7 @@
   <string name="page_label_apps">aplicatii</string>
   <string name="page_label_log">jurnal</string>
   <string name="menu_extras">Extra</string>
+  <string name="menu_get_elite">Obţineţi versiunea Elite</string>
   <string name="menu_preferences">Preferințe</string>
   <string name="menu_clear">Curăță</string>
   <string name="menu_clear_log">Curăță jurnalul</string>
@@ -43,6 +44,7 @@
   <string name="toggled">Activat</string>
   <string name="empty_apps">Nicio aplicație in listă</string>
   <string name="empty_logs">Jurnalul este gol</string>
+  <string name="log_count">Afişare %1$d intrări</string>
   <string name="log_last_accessed">Ultima dată accesat pe %1$s la %2$s</string>
   <string name="log_last_allowed">Ultima dată permis pe %1$s la %2$s</string>
   <string name="log_last_denied">Ultima dată nepermis pe %1$s la %2$s</string>
@@ -53,6 +55,11 @@
   <string name="detail_request">UID solicitat</string>
   <string name="detail_command">Comandă</string>
   <string name="detail_status">Stare</string>
+  <string name="info_display_changelog">atingeţi pentru a afişa changelog</string>
+  <string name="info_elite_installed">elite instalată</string>
+  <string name="info_elite_not_installed">elite nu este instalată</string>
+  <string name="info_get_elite">obţineţi versiunea elite</string>
+  <string name="info_check_updates">atingeţi pentru a verifica actualizări</string>
   <string name="use_global_settings">Folosește opțiunile globale</string>
   <string name="zero">0</string>
   <string name="one">1</string>
@@ -74,6 +81,7 @@
   <string name="pref_change_pin_title">Schimbare cod PIN</string>
   <string name="pref_timeout_title">Accesul expiră în:</string>
   <string name="pref_timeout_summary">Aplicatii care nu sunt amintite vor avea acces pentru  %1$d secunde dupa cerere</string>
+  <string name="pref_timeout_unit">secunde</string>
   <string name="pref_automatic_action_title">Răspuns automat</string>
   <string name="pref_automatic_action_summary">Setează modul în care Superuser gestionează noile solicitări</string>
   <string name="pref_ghost_mode_title">Mod fantomă</string>
@@ -82,6 +90,7 @@
   <string name="pref_secret_code_title">Cod secret</string>
   <string name="pref_secret_code_summary">Codul secret este *#*#%1$s#*#*</string>
   <string name="pref_advanced_prompt_title">Foloseşte prompt avansat</string>
+  <string name="pref_advanced_prompt_summary">Ascundere avertisment la cererile solicitate</string>
   <string name="pref_category_applist_title">Lista de aplicații  </string>
   <string name="pref_show_status_icons_title">Arata pictogramele de stare</string>
   <string name="pref_status_icon_type_title">Tipul pictogramei de stare</string>
@@ -135,6 +144,8 @@
   <string name="updater_bad_install_location">su este instalat in /sbin. Acest actualizator nu este capabil de actualizare. Va rugam gasiti un nou ROM pentru aparatul dvs.</string>
   <string name="updater_bad_install_location_explained">Acest actualizator nu e capabil de a face update binary-ul tău su, deoarece e instalat în /sbin. Asta nu e o eroare în updater, e o eroare din partea dezvoltatorului ROM-ului sau kernel-ului tău. Poţi să continui să foloseşti Superuser cu binary-ul tău învechit.</string>
   <string name="updater_failed_remount">Acest updater nu poate face update la telefoanele care au un fel de protecţie pe partiţia  de sistem ,/system, cum ar fi S-ON. Poti sa continui să foloseşti Superuser-ul cu binary-ul tău învechit, sau îl poţi actualiza cu ROM Manager.</string>
+  <string name="notification_text_allow">%1$s a obţinut permisiuni Superuser</string>
+  <string name="notification_text_deny">%1$s nu a obţinut permisiuni Superuser</string>
   <string name="notif_outdated_ticker">Aveți o versiune de SU invechită</string>
   <string name="notif_outdated_title">Versiune SU invechită</string>
   <string name="notif_outdated_text">Apăsați pentru a actualiza SU</string>
@@ -154,8 +165,6 @@
   <string name="malicious_app_write">solicită permisiunea de a scrie la furnizorul de permisiuni</string>
   <string name="changelog_full_title">Schimbari recente</string>
   <string name="changelog_title">Ce e nou</string>
-  <string name="before_secret_code">*#*#</string>
-  <string name="after_secret_code">#*#*</string>
   <plurals name="restore_complete">
     <item quantity="one">O aplicaţie si preferinţe restaurate</item>
     <item quantity="other">%1$d aplicaţii şi preferinţe restaurate</item>
