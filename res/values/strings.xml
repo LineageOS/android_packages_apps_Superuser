@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
+
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-  
+
     http://www.apache.org/licenses/LICENSE-2.0
-  
+
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,11 +22,11 @@
     <string name="description_log">Log</string>
     <string name="description_preferences">Preferences</string>
     <string name="description_extras">Extras</string>
-    
+
     <string name="page_label_info">info</string>
     <string name="page_label_apps">apps</string>
     <string name="page_label_log">log</string>
-    
+
     <string name="menu_extras">Extras</string>
     <string name="menu_get_elite">Get Elite</string>
     <string name="menu_preferences">Preferences</string>
@@ -51,7 +51,7 @@
     <string name="no">No</string>
     <string name="ok">Okay</string>
     <string name="loading">loading</string>
-    
+
     <string name="allow">Allow</string>
     <string name="cancel">Cancel</string>
     <string name="deny">Deny</string>
@@ -80,7 +80,7 @@
     <string name="detail_request">Requested UID</string>
     <string name="detail_command">Command</string>
     <string name="detail_status">Status</string>
-    
+
     <string name="info_display_changelog">tap to display changelog</string>
     <string name="info_elite_installed">elite installed</string>
     <string name="info_elite_not_installed">elite not installed</string>
@@ -123,6 +123,7 @@
 
     <string name="pref_title">Preferences</string>
     <string name="pref_category_security">Security</string>
+    <string name="pref_user_mode_title">Multi-user mode</string>
     <string name="pref_pin_title">Use PIN</string>
     <string name="pref_change_pin_title">Change PIN</string>
     <string name="pref_timeout_title">Access timeout</string>
