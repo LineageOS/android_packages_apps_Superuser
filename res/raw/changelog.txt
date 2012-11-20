@@ -24,6 +24,14 @@
   </head>
 
   <body>
+$ 50
+  %3.3
+  _2012-11-20
+  * Multi-user support with 3 modes
+  * Support for apps that use multiple commands
+  * Fix for Android 4.2
+  * Other bugfixes
+
 $ 47
   %3.2
   _2012-07
@@ -36,7 +44,7 @@ $ 47
   * Temporarily disable the binary updater for security concerns
   * Close several security vulnerabilities
   * Fix white prompt on some devices
-  
+
 $ 46
   %3.1.3
   _2012-07-01
@@ -127,7 +135,7 @@ $ 35
     * Show seconds in log defaults to off now
     * Fix FC when trying to swipe left/right in HomeActivity
     * Fix changelog version tracking, only show what's changed since the last time the changelog was displayed on launch
-    
+
 $ 34
   % 3.0-beta4
   _ 2011-08-21
@@ -136,7 +144,7 @@ $ 34
     * Fix a FC in the LogService
     * Updated translations from crowdin.net, see <a href="http://androidsu.com/3-0-beta/translators">the translators page</a> for details
     * Change the Changelog dialog so that Elite only features are more obvious
-  
+
 $ 33
   % 3.0 beta3
   _ 2011-08-02
@@ -148,7 +156,7 @@ $ 33
     * Fix for apps being removed from the allow list when they're updated
     * <span class="elite">*</span> Use the PIN activity for setting the code for Ghost mode
     * Changelog dialog thanks to <a href="https://code.google.com/p/android-change-log/">Karsten Priegnitz</a>
-    
+
 $ 32
   % 3.0 beta2
   _ 2011-06-26
@@ -160,7 +168,7 @@ $ 32
     * Better handling of database to reduce FCs
     * Fixed bug causing some apps to not display right
     * Fixed bug causing some apps to prompt again even if they're already remembered
-    
+
 $ 31
   % 3.0 beta1
   _ 2011-06-19
