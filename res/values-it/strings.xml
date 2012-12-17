@@ -36,6 +36,7 @@
   <string name="set">Imposta</string>
   <string name="remember">Salva</string>
   <string name="remember_disabled">Salvataggio non disponibile fino all\'aggiornamento di su</string>
+  <string name="any">Applica a tutti i comandi di questa app</string>
   <string name="request">%1$s come %2$s (uid:%3$d)</string>
   <string name="unknown">Nome sconosciuto</string>
   <string name="allowed">Consentito</string>
@@ -83,6 +84,7 @@
   <string name="request_app_name">Applicazione</string>
   <string name="pref_title">Impostazioni</string>
   <string name="pref_category_security">Sicurezza</string>
+  <string name="pref_user_mode_title">Modalità multi-utente</string>
   <string name="pref_pin_title">Usa PIN</string>
   <string name="pref_change_pin_title">Cambia PIN</string>
   <string name="pref_timeout_title">Timeout accesso</string>
@@ -199,6 +201,7 @@
   <string name="malicious_apps_uninstall">Disinstalla</string>
   <string name="malicious_apps_ignore">Ignora</string>
   <string name="malicious_app_notification_ticker">Rilevata applicazione potenzialmente dannosa</string>
+  <string name="malicious_app_notification_text">%1$s è potenzialmente dannosso. Tocca per disinstallare.</string>
   <string name="malicious_app_uid">condivide l\'UID con Superuser</string>
   <string name="malicious_app_respond">richiede autorizzazione risposta</string>
   <string name="malicious_app_write">richiede autorizzazione scrittura permission provider</string>
