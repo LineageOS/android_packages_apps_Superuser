@@ -58,6 +58,7 @@
     <string name="set">Set</string>
     <string name="remember">Remember</string>
     <string name="remember_disabled">Remembering disabled until su is updated</string>
+    <string name="any">Apply to any commands from this app</string>
     <string name="request">%1$s as %2$s (uid: %3$d)</string>
     <string name="unknown">Unknown name</string>
 
@@ -123,6 +124,7 @@
 
     <string name="pref_title">Preferences</string>
     <string name="pref_category_security">Security</string>
+    <string name="pref_user_mode_title">Multi-user mode</string>
     <string name="pref_pin_title">Use PIN</string>
     <string name="pref_change_pin_title">Change PIN</string>
     <string name="pref_timeout_title">Access timeout</string>

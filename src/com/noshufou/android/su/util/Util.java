@@ -20,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -30,7 +31,9 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -785,40 +788,98 @@ public class Util {
     }
 
     public static boolean writeStoreFile(Context context, int uid, int execUid, String cmd, int allow) {
-        File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
-        storedDir.mkdirs();
-        if (cmd == null) {
-            Log.d(TAG, "App stored for logging purposes, file not required");
-            return false;
-        }
-        String fileName = uid + "-" + execUid;
-        try {
-            OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(
-                    new File(storedDir.getAbsolutePath() + File.separator + fileName)));
-            switch (allow) {
-                case AllowType.ALLOW:
-                    out.write("allow\n");
-                    break;
-                case AllowType.DENY:
-                    out.write("deny\n");
-                    break;
-                default:
-                    out.write("prompt\n");
-            }
-            out.write(cmd);
-            out.write('\n');
-            out.flush();
-            out.close();
-        } catch (FileNotFoundException e) {
-            Log.w(TAG, "Store file not written", e);
-            return false;
-        } catch (IOException e) {
-            Log.w(TAG, "Store file not written", e);
-            return false;
-        }
-        return true;
+    	File storeFile = getStoreFile(context, uid, execUid);
+    	if (storeFile.exists()) {
+    		return appendStoreFile(storeFile, cmd, allow);
+    	} else {
+    		HashMap<String, String> cmds = new HashMap<String, String>(1);
+    		cmds.put(cmd, getAllowString(allow));
+    		return writeStoreFile(storeFile, cmds);
+    	}
     }
     
+    public static boolean deleteStoreFile(Context context, int uid, int execUid, String cmd) {
+    	File storeFile = getStoreFile(context, uid, execUid);
+    	if (!storeFile.exists()) return true;
+    	HashMap<String, String> cmds = readStoreFile(storeFile);
+    	cmds.remove(cmd);
+    	if (cmds.isEmpty() || cmds.containsKey("any")) {
+    		return storeFile.delete();
+    	} else {
+    		return writeStoreFile(storeFile, cmds);
+    	}
+    }
+    
+    private static String getAllowString(int allow) {
+    	switch (allow) {
+    	case AllowType.ALLOW:
+    		return "allow";
+    	case AllowType.DENY:
+    		return "deny";
+    	default:
+    		return "prompt";
+    	}
+    }
+    
+    private static File getStoreFile(Context context, int uid, int execUid) {
+    	File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
+    	storedDir.mkdirs();
+    	String fileName = uid + "-" + execUid;
+    	return new File(storedDir, fileName);
+    }
+    
+    private static boolean writeStoreFile(File storeFile, HashMap<String, String> cmds) {
+    	try {
+			OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(storeFile));
+			if (cmds.containsKey("any")) {
+				out.write(cmds.get("any") + '\n');
+				out.write("any\n");
+			} else {
+				for (Map.Entry<String, String> entry : cmds.entrySet()) {
+					out.write(entry.getValue() + '\n');
+					out.write(entry.getKey() + '\n');
+				}
+			}
+			out.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return false;
+		}
+    	return true;
+    }
+    
+    private static boolean appendStoreFile(File storeFile, String cmd, int allow) {
+    	HashMap<String, String> cmds = readStoreFile(storeFile);
+    	cmds.put(cmd, getAllowString(allow));
+    	writeStoreFile(storeFile, cmds);
+    	return true;
+    }
+    
+    private static HashMap<String, String> readStoreFile(File storeFile) {
+    	try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(new DataInputStream(
+					new FileInputStream(storeFile))));
+			HashMap<String, String> cmds = new HashMap<String, String>();
+			String allow, cmd;
+			while ((allow = br.readLine()) != null && (cmd = br.readLine()) != null) {
+				cmds.put(cmd, allow);
+			}
+			br.close();
+			return cmds;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	return null;
+    }
+
     public static boolean writeDefaultStoreFile(Context context) {
         File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
         storedDir.mkdirs();
@@ -840,4 +901,42 @@ public class Util {
         }
         return true;
     }
+    
+    public static boolean writeOptionsFile(Context context) {
+        File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
+        storedDir.mkdirs();
+        File optFile = new File(storedDir.getAbsolutePath() + File.separator + "options");
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        String ownerMode = prefs.getString(Preferences.USER_MODE, "owner_only");
+        try {
+            OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(optFile.getAbsolutePath()));
+            out.write(ownerMode);
+            out.write("\n");
+            out.flush();
+            out.close();
+        } catch (FileNotFoundException e) {
+            Log.w(TAG, "Options file not written", e);
+            return false;
+        } catch (IOException e) {
+            Log.w(TAG, "Options file not written", e);
+            return false;
+        }
+        return true;
+    }
+    
+    public static boolean isUserOwner(Context context) {
+        PackageManager pm = context.getPackageManager();
+        try {
+			ApplicationInfo ai = pm.getApplicationInfo(context.getPackageName(), 0);
+			if (ai.uid < 99999) {
+				return true;
+			} else {
+				return false;
+			}
+		} catch (NameNotFoundException e) {
+			Log.e(TAG, "Divided by zero...");
+			return false;
+		}
+    }
+    
 }
