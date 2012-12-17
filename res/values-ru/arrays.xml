@@ -26,4 +26,9 @@
     <item>По центру</item>
     <item>Снизу</item>
   </string-array>
+  <string-array name="pref_user_mode_entries">
+    <item>Только владелец</item>
+    <item>Контролируется владельцем</item>
+    <item>Контролируется пользователем</item>
+  </string-array>
 </resources>
