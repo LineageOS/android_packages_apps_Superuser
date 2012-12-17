@@ -35,6 +35,7 @@
   <string name="set">Установить</string>
   <string name="remember">Запомнить</string>
   <string name="remember_disabled">Запоминание выключено пока программа su не обновлена</string>
+  <string name="any">Разрешить любые команды для этого приложения</string>
   <string name="request">%1$s как %2$s (uid: %3$d)</string>
   <string name="unknown">Неизвестное имя</string>
   <string name="allowed">Допускается</string>
@@ -73,6 +74,7 @@
   <string name="request_app_name">Приложение</string>
   <string name="pref_title">Настройки</string>
   <string name="pref_category_security">Защита</string>
+  <string name="pref_user_mode_title">Многопользовательский режим</string>
   <string name="pref_pin_title">Использование PIN-кода</string>
   <string name="pref_change_pin_title">Изменить PIN-код</string>
   <string name="pref_timeout_title">Таймаут доступа</string>
