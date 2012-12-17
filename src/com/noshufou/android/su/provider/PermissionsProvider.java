@@ -281,6 +281,11 @@ public class PermissionsProvider extends ContentProvider {
 
         // TODO: Check columns in incoming projection to make sure they're valid
         projection = projection==null?defaultProjection:projection;
+        if (selectionArgs == null || selectionArgs.length == 0 ||
+            (selectionArgs.length == 1 && selectionArgs[0] == null)) {
+            selection = null;
+            selectionArgs = null;
+        }
         Cursor c = null;
         try {
             c = qBuilder.query(mDb,
