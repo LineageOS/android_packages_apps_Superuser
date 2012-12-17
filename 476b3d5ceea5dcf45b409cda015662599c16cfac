@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//+UU\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+UM\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+UI\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+UE\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+UA\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+T8\u003d",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+T4\u003d",
+        "filename": "res/raw/changelog.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+T0\u003d",
+        "filename": "res/raw/changelog.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+Tw\u003d",
+        "filename": "res/raw/changelog.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+Ts\u003d",
+        "filename": "res/raw/changelog.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+To\u003d",
+        "filename": "res/raw/changelog.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-17T04:16:55Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "476b3d5ceea5dcf45b409cda015662599c16cfac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
