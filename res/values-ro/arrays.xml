@@ -26,4 +26,9 @@
     <item>Centru</item>
     <item>Jos</item>
   </string-array>
+    <string-array name="pref_user_mode_entries">
+    <item>Doar proprietar</item>
+    <item>Controlat de proprietar</item>
+    <item>Controlat de utilizator</item>
+    </string-array>
 </resources>
