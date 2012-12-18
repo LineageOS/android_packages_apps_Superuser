@@ -216,4 +216,10 @@
     <item quantity="one">O seguinte pacote parece ser perigoso:</item>
     <item quantity="other">Os seguintes pacotes parecem ser perigosos:</item>
   </plurals>
+  <string name="menu_get_elite">Obeter Elite</string>
+  <string name="any">Aplicar para qualquer comando deste applicativo</string>
+  <string name="info_working">trabalhando...</string>
+  <string name="pref_user_mode_title">Modo multi-usuário</string>
+  <string name="root_disabled_title">Ativar acesso root?</string>
+  <string name="root_disabled_summary">Acesso root está atualmente desativado por uma configuração de sistema para todas as aplicações. Você deseja ativá-lo?</string>
 </resources>
