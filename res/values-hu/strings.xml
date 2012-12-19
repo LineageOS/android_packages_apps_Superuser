@@ -58,6 +58,7 @@
     <string name="set">Beállít</string>
     <string name="remember">Megjegyzés</string>
     <string name="remember_disabled">A megjegyzés funkció kikapcsolva, amíg a su frissítés végbe nem ment</string>
+    <string name="any">Parancsok engedélyezése az alkalmazás számára</string>
     <string name="request">%1$s, mint %2$s (uid: %3$d)</string>
     <string name="unknown">Ismeretlen név</string>
 
@@ -123,6 +124,7 @@
 
     <string name="pref_title">Beállítások</string>
     <string name="pref_category_security">Biztonság</string>
+    <string name="pref_user_mode_title">Több felhasználós mód</string>
     <string name="pref_pin_title">PIN-kód használata</string>
     <string name="pref_change_pin_title">PIN-kód módosítása</string>
     <string name="pref_timeout_title">Hozzáférés időtúllépés</string>
