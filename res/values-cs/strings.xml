@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Superuser</string>
     <string name="app_name_request">Požadavek Superuser</string>
     <string name="description_home">Domů</string>
@@ -53,16 +69,6 @@
     <string name="use_global_settings">Použít globální nastavení</string>
     <string name="notifications_enabled">\u0020\u0020\u0020\u0020Upozornění povoleno</string>
     <string name="logging_enabled">\u0020\u0020\u0020\u0020Záznam povolen</string>
-    <string name="zero">0</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
     <string name="request_message">Aplikace %1$s vyžaduje přístup Superuser.\n\nVarování: Pokud si nejste jisti, kdo a proč tuto akci vyvolal nebo pokud tomuto požadavku nerozumíte, je opravdu doporučeno tento požadavek nepovolit.</string>
     <string name="request_more_info">Více informací</string>
     <string name="request_less_info">Méně informací</string>
@@ -171,8 +177,6 @@
     <string name="malicious_app_write">žádá o oprávnění k zápisu k poskytovateli oprávnění</string>
     <string name="changelog_full_title">Seznam změn</string>
     <string name="changelog_title">Co je nového</string>
-    <string name="before_secret_code">*#*#</string>
-    <string name="after_secret_code">#*#*</string>
     <plurals name="restore_complete">
       <item quantity="one">Jedna aplikace a předvolby byly obnoveny</item>
       <item quantity="other">%1$d aplikace a předvolby obnoveny</item>

@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-  
-    http://www.apache.org/licenses/LICENSE-2.0
-  
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
-<resources>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <dimen name="text_size_console">10sp</dimen>
-
     <dimen name="page_margin">10dp</dimen>
-
     <dimen name="action_bar_switch_padding">16dip</dimen>
 
     <!-- Dimensions for an app list item -->
@@ -40,9 +39,7 @@
     <dimen name="log_item_gap_between_fields">5dip</dimen>
     <dimen name="log_item_header_padding_left">10dip</dimen>
 
-    <!--  Dimensions for PagerHeaders -->
+    <!-- Dimensions for PagerHeaders -->
     <dimen name="pager_header_height">32dp</dimen>
-
     <dimen name="pref_side_padding">12dp</dimen>
-
 </resources>
