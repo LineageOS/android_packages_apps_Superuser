@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="allow">אפשר</string>
+    <string name="cancel">ביטול</string>
+    <string name="deny">מנע</string>
+    <string name="set">קבע</string>
+    <string name="remember">זכור</string>
+    <string name="pref_write_allow_tag_summary">כתוב תג חדש לשימוש כדי לאפשר</string>
+    <string name="updater_ok">אישור!</string>
+    <string name="updater_remount_ro_failed">נכשל בטעינה מחדש של המערכת לקריאה בלבד, אנא הפעל מחדש כדי לסיים את העדכון</string>
+    <string name="updater_find_su_failed">נכשל במציאת Superuser בינארי הנוכחית המותקנת כעת. העדכון לא יכול להמשיך</string>
+    <string name="updater_bad_install_location">Superuser בינארי מותקנת כעת ב- /sbin. המעדכן הזה אינו מסוגל לעדכן אותה. אנא מצא ROM חדש עבור ההתקן שלך.</string>
+    <string name="pin_enter_secret_code">הקש קוד סודי</string>
+    <string name="malicious_app_uid">שתף את UID עם Superuser</string>
+    <string name="malicious_app_respond">הגב לבקשת הרשאות</string>
+    <string name="malicious_app_write">ספק הרשאות לבקשות הרשאה לכתיבה</string>
+    <string name="changelog_full_title">יומן שינויים</string>
+    <string name="changelog_title">מה חדש</string>
+</resources>
