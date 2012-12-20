@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-  
-    http://www.apache.org/licenses/LICENSE-2.0
-  
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
-<resources>
-<!--     Base application theme is the default theme -->
-<!--     <style name="Theme" parent="android:Theme" /> -->
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
 
-<!--     Variation on the Light theme that turns off the title -->
-<!--     <style name="Theme.Superuser" parent="android:style/Theme.Light"> -->
-<!--         <item name="android:windowNoTitle">true</item> -->
-<!--         <item name="android:windowContentOverlay">@null</item> -->
-<!--        <item name="android:windowBackground">@color/title_background</item> -->
-<!--     </style> -->
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Base application theme is the default theme
+     <style name="Theme" parent="android:Theme" />
+
+    Variation on the Light theme that turns off the title
+    <style name="Theme.Superuser" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/title_background</item>
+    </style>
+ -->
 
     <style name="Theme.Superuser" parent="Theme.Sherlock.Light.DarkActionBar">
         <item name="actionBarStyle">@style/Widget.Superuser.ActionBar</item>
@@ -31,12 +33,12 @@
         <item name="absForceOverflow">true</item>
         <item name="android:windowBackground">@android:color/white</item>
     </style>
-    
+
     <style name="Theme.Superuser.Details">
         <item name="actionBarStyle">@style/Widget.Superuser.ActionBar.Details</item>
         <item name="android:actionBarStyle">@style/Widget.Superuser.ActionBar.Details</item>
     </style>
-    
+
     <style name="Widget.Superuser.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
         <item name="background">@color/title_background</item>
         <item name="android:background">@color/title_background</item>
@@ -45,7 +47,7 @@
         <item name="displayOptions">useLogo|showHome</item>
         <item name="android:displayOptions">useLogo|showHome</item>
     </style>
-    
+
     <style name="Widget.Superuser.ActionBar.Details" parent="Widget.Superuser.ActionBar">
         <item name="icon">@drawable/ic_title_home</item>
         <item name="android:icon">@drawable/ic_title_home</item>
@@ -57,7 +59,7 @@
         <item name="actionBarStyle">@style/Widget.Superuser.ActionBar.Details</item>
         <item name="android:actionBarStyle">@style/Widget.Superuser.ActionBar.Details</item>
     </style>
-    
+
     <style name="Dialog" parent="android:style/Theme.Dialog" />
 
     <style name="Theme.Dialog.Alert" parent="Dialog">
@@ -78,7 +80,7 @@
         <item name="android:layout_height">64px</item>
         <item name="android:background">@drawable/options_button</item>
     </style>
-    
+
     <style name="OptionsDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1px</item>
@@ -86,7 +88,7 @@
     </style>
 
     <style name="Panel" parent="@android:style/Theme.Panel" />
-    
+
     <style name="RequestPanel" parent="@style/Panel">
         <item name="android:windowBackground">@drawable/dialog_background</item>
         <item name="android:windowIsFloating">false</item>
@@ -100,13 +102,14 @@
         <item name="android:paddingRight">15dp</item>
         <item name="android:orientation">vertical</item>
     </style>
-    
+
     <style name="AppDetailsRow">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:background">@drawable/app_icon_header_background</item>
     </style>
+
     <style name="DetailsLabel">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -121,14 +124,14 @@
         <item name="android:paddingLeft">20dp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    
+
     <style name="AppInfoRow" parent="AppDetailsRow">
         <item name="android:background">@drawable/app_list_selector</item>
         <item name="android:paddingTop">5dp</item>
         <item name="android:paddingBottom">5dp</item>
         <item name="android:paddingRight">20dp</item>
     </style>
-    
+
     <style name="InfoLabel" parent="DetailsLabel">
         <item name="android:textStyle">bold</item>
     </style>
@@ -138,11 +141,11 @@
         <item name="android:layout_height">1dp</item>
         <item name="android:background">@drawable/app_list_divider</item>
     </style>
-    
+
     <style name="InfoInfo" parent="DetailsInfo">
         <item name="android:textStyle">normal</item>
     </style>
-    
+
     <style name="PinButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -153,14 +156,14 @@
         <item name="android:background">@drawable/btn_dial</item>
         <item name="android:singleLine">true</item>
     </style>
-    
+
     <style name="Animations" />
-    
+
     <style name="Animations.GrowFromBottom">
         <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
     </style>
-    
+
     <style name="Animations.GrowFromTop">
         <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
         <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
