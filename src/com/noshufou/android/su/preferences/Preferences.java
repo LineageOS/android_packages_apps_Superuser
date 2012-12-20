@@ -2,9 +2,9 @@ package com.noshufou.android.su.preferences;
 
 
 public class Preferences {
-    
+
     public static final String USER_MODE = "pref_user_mode";
-	public static final String PIN = "pref_pin";
+    public static final String PIN = "pref_pin";
     public static final String CHANGE_PIN = "pref_change_pin";
     public static final String TIMEOUT = "pref_timeout";
     public static final String AUTOMATIC_ACTION = "pref_automatic_action";
@@ -36,7 +36,7 @@ public class Preferences {
     public static final String GET_ELITE = "pref_get_elite";
     public static final String TEMP_UNROOT = "pref_temp_unroot";
     public static final String OTA_SURVIVE = "pref_ota_survive";
-    
+
     public static final String CATEGORY_SECURITY = "pref_category_security";
     public static final String CATEGORY_APPLIST = "pref_category_applist";
     public static final String CATEGORY_LOG = "pref_category_log";

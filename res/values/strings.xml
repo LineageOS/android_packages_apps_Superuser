@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-  
-    http://www.apache.org/licenses/LICENSE-2.0
-  
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Superuser</string>
     <string name="app_name_request">Superuser Request</string>
 
@@ -22,11 +23,11 @@
     <string name="description_log">Log</string>
     <string name="description_preferences">Preferences</string>
     <string name="description_extras">Extras</string>
-    
+
     <string name="page_label_info">info</string>
     <string name="page_label_apps">apps</string>
     <string name="page_label_log">log</string>
-    
+
     <string name="menu_extras">Extras</string>
     <string name="menu_get_elite">Get Elite</string>
     <string name="menu_preferences">Preferences</string>
@@ -50,7 +51,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="ok">Okay</string>
-    <string name="loading">loading</string>
+    <string name="loading">loading&#8230;</string>
     
     <string name="allow">Allow</string>
     <string name="cancel">Cancel</string>
@@ -81,7 +82,7 @@
     <string name="detail_request">Requested UID</string>
     <string name="detail_command">Command</string>
     <string name="detail_status">Status</string>
-    
+
     <string name="info_display_changelog">tap to display changelog</string>
     <string name="info_elite_installed">elite installed</string>
     <string name="info_elite_not_installed">elite not installed</string>
@@ -92,30 +93,19 @@
     <string name="info_temp_unroot_unsuccessful">temp unroot unsuccessful</string>
     <string name="info_ota_survival">ota rootkeeper</string>
     <string name="info_ota_survival_warning">note: these options are not guaranteed and will not work for all devices</string>
-    <string name="info_version_loading">loading Superuser version</string>
+    <string name="info_version_loading">loading Superuser version&#8230;</string>
     <string name="info_version">superuser v%1$s (%2$d)</string>
-    <string name="info_bin_version_loading">Loading su binary version</string>
+    <string name="info_bin_version_loading">Loading su binary version&#8230;</string>
     <string name="info_bin_version">su binary v%1$s (%2$d)</string>
     <string name="info_bin_version_not_found">su binary not found</string>
     <string name="info_check_for_updates">tap to check for updates</string>
     <string name="info_outdated_notification">outdated binary notification</string>
     <string name="info_changelog_summary">Display the changelog</string>
-    <string name="info_working">working…</string>
+    <string name="info_working">working&#8230;</string>
 
     <string name="use_global_settings">Use global settings</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Notifications enabled</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Logging enabled</string>
-
-    <string name="zero">0</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
+    <string name="notifications_enabled">;&#32;&#32;Notifications enabled</string>
+    <string name="logging_enabled">&#32;&#32;Logging enabled</string>
 
     <string name="request_message">%1$s is requesting Superuser access.\n\nWarning: If you did not initiate this action, or if you do not understand this request, it\'s generally a good idea to deny it.</string>
     <string name="request_more_info">Tap for more info</string>
@@ -154,8 +144,8 @@
     <string name="pref_date_format_title">Select date format</string>
     <string name="pref_date_format_summary">Format used to display date in all logs</string>
     <string name="pref_clear_log_title">Clear log</string>
-    <string name="pref_clearing_log_title">Clearing log</string>
-    <string name="pref_clearing_log_summary">Please wait</string>
+    <string name="pref_clearing_log_title">Clearing log&#8230;</string>
+    <string name="pref_clearing_log_summary">Please wait&#8230;</string>
     <string name="pref_category_notification_title">Notifications</string>
     <string name="pref_notifications_title">Notifications</string>
     <string name="pref_notifications_type_title">Notification type</string>
@@ -189,7 +179,7 @@
     <string name="updater_update">Update</string>
     <string name="updater_update_anyway">Update anyway</string>
     <string name="updater_cool">That was cool, do it again</string>
-    <string name="updater_working">Working…</string>
+    <string name="updater_working">Working&#8230;</string>
     <string name="updater_ok">okay!</string>
     <string name="updater_fail">fail!</string>
     <string name="updater_not_found">not found</string>
@@ -197,22 +187,22 @@
     <string name="updater_no_conn">Failed to download manifest. Check internet connection</string>
     <string name="updater_try_again">Try again</string>
     <string name="updater_su_updated">su binary updated successfully</string>
-    <string name="updater_step_download_manifest">Downloading manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Parsing manifest…\u0020</string>
-    <string name="updater_step_latest_version">Latest version =\u0020</string>
-    <string name="updater_step_check_installed_version">Checking installed version =\u0020</string>
-    <string name="updater_step_fix_db">Fixing database…\u0020</string>
-    <string name="updater_step_unpack_sutools">Unpacking sutools…\u0020</string>
-    <string name="updater_step_check_installed_path">Checking current install path…\u0020</string>
-    <string name="updater_step_download_su">Downloading new binary…\u0020</string>
-    <string name="updater_step_get_root">Gaining root access…\u0020</string>
-    <string name="updater_step_remount_rw">Remounting /system as rw…\u0020</string>
-    <string name="updater_step_cp">Copying su to /system…\u0020</string>
-    <string name="updater_step_chmod">Changing su file mode to 06755…\u0020</string>
-    <string name="updater_step_ops_check">Making sure new su works…\u0020</string>
-    <string name="updater_step_mv">Moving su to it\'s final location…\u0020</string>
-    <string name="updater_step_remount_ro">Remounting /system as ro…\u0020</string>
-    <string name="updater_step_clean_up">Cleaning up…\u0020</string>
+    <string name="updater_step_download_manifest">Downloading manifest&#8230;</string>
+    <string name="updater_step_parse_manifest">Parsing manifest&#8230;</string>
+    <string name="updater_step_latest_version">Latest version =&#32;</string>
+    <string name="updater_step_check_installed_version">Checking installed version =&#32;</string>
+    <string name="updater_step_fix_db">Fixing database&#8230;</string>
+    <string name="updater_step_unpack_sutools">Unpacking sutools&#8230;</string>
+    <string name="updater_step_check_installed_path">Checking current install path&#8230;</string>
+    <string name="updater_step_download_su">Downloading new binary&#8230;</string>
+    <string name="updater_step_get_root">Gaining root access&#8230;</string>
+    <string name="updater_step_remount_rw">Remounting /system as rw&#8230;</string>
+    <string name="updater_step_cp">Copying su to /system&#8230;</string>
+    <string name="updater_step_chmod">Changing su file mode to 06755&#8230;</string>
+    <string name="updater_step_ops_check">Making sure new su works&#8230;</string>
+    <string name="updater_step_mv">Moving su to it\'s final location&#8230;</string>
+    <string name="updater_step_remount_ro">Remounting /system as ro&#8230;</string>
+    <string name="updater_step_clean_up">Cleaning up&#8230;</string>
     <string name="updater_remount_ro_failed">Failed to remount the system as read-only, please reboot to finish the update</string>
     <string name="updater_find_su_failed">Failed to find currently installed su binary. Update cannot continue</string>
     <string name="updater_bad_install_location">su binary is currently installed in /sbin. This updater is not capable of updating it. Please find a new ROM for your device.</string>
@@ -225,7 +215,7 @@
     <string name="notif_outdated_ticker">Your su binary is outdated</string>
     <string name="notif_outdated_title">su binary outdated</string>
     <string name="notif_outdated_text">Tap to update su binary</string>
-    
+
     <string name="pin_enter_pin">Enter PIN</string>
     <string name="pin_new_pin">Enter new PIN</string>
     <string name="pin_confirm_pin">Confirm PIN</string>
@@ -235,13 +225,13 @@
         <item quantity="other">Nope - %1$d tries left</item>
     </plurals>
     <string name="pin_enter_secret_code">Enter secret code</string>
-    
+
     <string name="nfc_write_tag">Scan tag to write</string>
 
     <string name="malicious_apps_title">Warning</string>
     <plurals name="malicious_apps_message1">
-    	<item quantity="one">The following package was found to be malicious:</item>
-    	<item quantity="other">The following packages were found to be malicious:</item>
+        <item quantity="one">The following package was found to be malicious:</item>
+        <item quantity="other">The following packages were found to be malicious:</item>
     </plurals>
     <string name="malicious_apps_message2">Apps are marked as malicious because they contain elements that indicate they are attempting to grant root access, possibly without your consent. It is highly recommended you uninstall them immediately.</string>
     <string name="malicious_apps_uninstall">Uninstall</string>
@@ -258,7 +248,18 @@
     <string name="root_disabled_title">Enable root access?</string>
     <string name="root_disabled_summary">Root access is currently disabled for all applications by a system setting. Would you like to enable it?</string>
 
-    <!-- Do not translate any strings below, they are here to prevent build errors -->
-    <string name="before_secret_code">*#*#</string>
-    <string name="after_secret_code">#*#*</string>
+    <!-- Do not translate -->
+    <string name="before_secret_code" translatable="false">*#*#</string>
+    <string name="after_secret_code" translatable="false">#*#*</string>
+
+    <string name="zero" translatable="false">0</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
 </resources>
