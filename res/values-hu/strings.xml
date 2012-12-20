@@ -105,17 +105,6 @@
     <string name="notifications_enabled">\u0020\u0020\u0020\u0020Értesítések engedélyezve</string>
     <string name="logging_enabled">\u0020\u0020\u0020\u0020Naplózás engedélyezve</string>
 
-    <string name="zero">0</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
-
     <string name="request_message">%1s root jogokat kér.\n\nFigyelem: Amennyiben nem Ön indította ezt a folyamatot, vagy nincs tisztában a funkcióval, jobban jár, ha letiltja!</string>
     <string name="request_more_info">Érintse meg több információért</string>
     <string name="request_less_info">Érintse meg kevesebb információért</string>
