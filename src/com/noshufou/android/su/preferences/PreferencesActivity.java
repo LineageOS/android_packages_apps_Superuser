@@ -56,7 +56,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
     private static final int REQUEST_CHANGE_PIN = 3;
     private static final int REQUEST_WRITE_TAG = 4;
     private static final int REQUEST_SECRET_CODE = 5;
-    
+
     SharedPreferences mPrefs = null;
 
     private Preference mLogLimit = null;
@@ -67,7 +67,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
     private CheckBoxPreference mGhostMode = null;
     private Preference mSecretCode = null;
     private Preference mUserMode = null;
-    
+
     private Context mContext;
     private boolean mElite = false;
 
@@ -124,11 +124,11 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
                 }
             }
         }
-        
+
         mClearLog = prefScreen.findPreference(Preferences.CLEAR_LOG);
-        mUserMode = findPreference(Preferences.USER_MODE); 
+        mUserMode = findPreference(Preferences.USER_MODE);
         if (!Util.isUserOwner(this) && mUserMode != null) {
-        	mUserMode.setEnabled(false);
+            mUserMode.setEnabled(false);
         }
 
     }
@@ -287,7 +287,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
         } else if (key.equals(Preferences.AUTOMATIC_ACTION)) {
             Util.writeDefaultStoreFile(this);
         } else if (key.equals(Preferences.USER_MODE)) {
-        	Util.writeOptionsFile(this);
+            Util.writeOptionsFile(this);
         }
     }
 
@@ -352,7 +352,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
             break;
         }
     }
-    
+
     private class ClearLog extends AsyncTask<Void, Void, Integer> {
 
         @Override

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
+
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-  
+
     http://www.apache.org/licenses/LICENSE-2.0
-  
+
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,11 +22,11 @@
     <string name="description_log">Log</string>
     <string name="description_preferences">Preferences</string>
     <string name="description_extras">Extras</string>
-    
+
     <string name="page_label_info">info</string>
     <string name="page_label_apps">apps</string>
     <string name="page_label_log">log</string>
-    
+
     <string name="menu_extras">Extras</string>
     <string name="menu_get_elite">Get Elite</string>
     <string name="menu_preferences">Preferences</string>
@@ -81,7 +81,7 @@
     <string name="detail_request">Requested UID</string>
     <string name="detail_command">Command</string>
     <string name="detail_status">Status</string>
-    
+
     <string name="info_display_changelog">tap to display changelog</string>
     <string name="info_elite_installed">elite installed</string>
     <string name="info_elite_not_installed">elite not installed</string>
@@ -225,7 +225,7 @@
     <string name="notif_outdated_ticker">Your su binary is outdated</string>
     <string name="notif_outdated_title">su binary outdated</string>
     <string name="notif_outdated_text">Tap to update su binary</string>
-    
+
     <string name="pin_enter_pin">Enter PIN</string>
     <string name="pin_new_pin">Enter new PIN</string>
     <string name="pin_confirm_pin">Confirm PIN</string>
@@ -235,13 +235,13 @@
         <item quantity="other">Nope - %1$d tries left</item>
     </plurals>
     <string name="pin_enter_secret_code">Enter secret code</string>
-    
+
     <string name="nfc_write_tag">Scan tag to write</string>
 
     <string name="malicious_apps_title">Warning</string>
     <plurals name="malicious_apps_message1">
-    	<item quantity="one">The following package was found to be malicious:</item>
-    	<item quantity="other">The following packages were found to be malicious:</item>
+        <item quantity="one">The following package was found to be malicious:</item>
+        <item quantity="other">The following packages were found to be malicious:</item>
     </plurals>
     <string name="malicious_apps_message2">Apps are marked as malicious because they contain elements that indicate they are attempting to grant root access, possibly without your consent. It is highly recommended you uninstall them immediately.</string>
     <string name="malicious_apps_uninstall">Uninstall</string>
