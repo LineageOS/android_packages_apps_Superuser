@@ -55,13 +55,13 @@ public class PreferencesFragment extends PreferenceFragment
                         "xml",
                         getActivity().getPackageName());
         addPreferencesFromResource(mScreen);
-        
+
         mPrefs = getPreferenceScreen().getSharedPreferences();
 
         mElite = Util.elitePresent(getActivity(), false, 0);
         if (!mElite) {
             for (String s : Preferences.ELITE_PREFS) {
-                
+
                 Preference pref = findPreference(s);
                 if (pref != null) {
                     pref.setEnabled(false);
@@ -111,10 +111,10 @@ public class PreferencesFragment extends PreferenceFragment
             mSecretCode.setSummary(getString(R.string.pref_secret_code_summary,
                     mPrefs.getString(Preferences.SECRET_CODE, "787378737")));
 //        mToastLocation = findPreference(Preferences.TOAST_LOCATION);
-        
-        mUserMode = findPreference(Preferences.USER_MODE); 
+
+        mUserMode = findPreference(Preferences.USER_MODE);
         if (!Util.isUserOwner(getActivity()) && mUserMode != null) {
-        	mUserMode.setEnabled(false);
+            mUserMode.setEnabled(false);
         }
 
         updateTimeout(mPrefs.getInt(Preferences.TIMEOUT, 0));
@@ -192,7 +192,7 @@ public class PreferencesFragment extends PreferenceFragment
                     }
                 })
                 .setOnCancelListener(new DialogInterface.OnCancelListener() {
-                    
+
                     @Override
                     public void onCancel(DialogInterface dialog) {
                         mGhostMode.setChecked(false);
@@ -254,7 +254,7 @@ public class PreferencesFragment extends PreferenceFragment
         } else if (key.equals(Preferences.AUTOMATIC_ACTION)) {
             Util.writeDefaultStoreFile(getActivity());
         } else if (key.equals(Preferences.USER_MODE)) {
-        	Util.writeOptionsFile(getActivity());
+            Util.writeOptionsFile(getActivity());
         }
     }
 
@@ -271,7 +271,7 @@ public class PreferencesFragment extends PreferenceFragment
             }
             return;
         }
-        
+
         switch (requestCode) {
         case Preferences.REQUEST_ENABLE_PIN:
         case Preferences.REQUEST_CHANGE_PIN:
@@ -321,7 +321,7 @@ public class PreferencesFragment extends PreferenceFragment
                     mPrefs.getBoolean(Preferences.DELETE_OLD_LOGS, true) && enabled);
         }
     }
-    
+
     private void setDepsNotifications(boolean enabled) {
         if (mScreen == R.xml.prefs_notifications) {
             getPreferenceScreen().setEnabled(enabled);
@@ -329,7 +329,7 @@ public class PreferencesFragment extends PreferenceFragment
                     mPrefs.getString(Preferences.NOTIFICATION_TYPE, "toast").equals("toast") && enabled);
         }
     }
-    
+
     private void setDepsNfc(boolean pinEnabled) {
         if (mScreen == R.xml.prefs_nfc) {
             getPreferenceScreen().setEnabled(pinEnabled);
@@ -337,13 +337,13 @@ public class PreferencesFragment extends PreferenceFragment
                     mPrefs.getBoolean(Preferences.USE_ALLOW_TAG, false) && pinEnabled);
         }
     }
-    
+
     private void updateSecretCode(CharSequence code) {
         if (mScreen == R.xml.prefs_security)
             findPreference(Preferences.SECRET_CODE)
                     .setSummary(getString(R.string.pref_secret_code_summary, code));
     }
-    
+
     private void updateTimeout(int timeout) {
         if (mScreen == R.xml.prefs_security)
             findPreference(Preferences.TIMEOUT)
@@ -404,7 +404,7 @@ public class PreferencesFragment extends PreferenceFragment
             }
         }
     }
-    
+
     private class RestoreApps extends AsyncTask<Void, Void, Integer> {
 
         @Override
