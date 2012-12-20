@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright (c) 2011 Adam Shanks (ChainsDD)
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -56,7 +56,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
     private static final int REQUEST_CHANGE_PIN = 3;
     private static final int REQUEST_WRITE_TAG = 4;
     private static final int REQUEST_SECRET_CODE = 5;
-    
+
     SharedPreferences mPrefs = null;
 
     private Preference mLogLimit = null;
@@ -67,7 +67,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
     private CheckBoxPreference mGhostMode = null;
     private Preference mSecretCode = null;
     private Preference mUserMode = null;
-    
+
     private Context mContext;
     private boolean mElite = false;
 
@@ -124,11 +124,11 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
                 }
             }
         }
-        
+
         mClearLog = prefScreen.findPreference(Preferences.CLEAR_LOG);
-        mUserMode = findPreference(Preferences.USER_MODE); 
+        mUserMode = findPreference(Preferences.USER_MODE);
         if (!Util.isUserOwner(this) && mUserMode != null) {
-        	mUserMode.setEnabled(false);
+            mUserMode.setEnabled(false);
         }
 
     }
@@ -287,7 +287,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
         } else if (key.equals(Preferences.AUTOMATIC_ACTION)) {
             Util.writeDefaultStoreFile(this);
         } else if (key.equals(Preferences.USER_MODE)) {
-        	Util.writeOptionsFile(this);
+            Util.writeOptionsFile(this);
         }
     }
 
@@ -327,7 +327,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
             }
             return;
         }
-        
+
         switch (requestCode) {
         case REQUEST_ENABLE_PIN:
         case REQUEST_CHANGE_PIN:
@@ -352,7 +352,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
             break;
         }
     }
-    
+
     private class ClearLog extends AsyncTask<Void, Void, Integer> {
 
         @Override
@@ -376,7 +376,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
                     getResources().getQuantityString(R.plurals.pref_logs_deleted, result, result),
                     Toast.LENGTH_SHORT).show();
         }
-        
+
     }
 
     private class BackupApps extends AsyncTask<Void, Void, Boolean> {
@@ -400,7 +400,7 @@ implements OnSharedPreferenceChangeListener, OnPreferenceChangeListener {
             }
         }
     }
-    
+
     private class RestoreApps extends AsyncTask<Void, Void, Integer> {
 
         @Override
