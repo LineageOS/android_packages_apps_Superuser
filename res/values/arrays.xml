@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (c) 2011 Adam Shanks (ChainsDD)
-  
+
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-  
+
     http://www.apache.org/licenses/LICENSE-2.0
-  
+
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -21,7 +21,7 @@
         <item>Allow</item>
     </string-array>
     <!-- Do not translate -->
-    <string-array name="pref_automatic_action_values">
+    <string-array name="pref_automatic_action_values" translatable="false">
         <item>prompt</item>
         <item>deny</item>
         <item>allow</item>
@@ -32,7 +32,7 @@
         <item>Emoticon</item>
     </string-array>
     <!-- Do not translate -->
-    <string-array name="pref_status_icon_type_values">
+    <string-array name="pref_status_icon_type_values" translatable="false">
         <item>dot</item>
         <item>emote</item>
     </string-array>
@@ -44,7 +44,7 @@
         <item>2011/12/31</item>
     </string-array>
     <!-- Do not translate -->
-    <string-array name="pref_date_format_values">
+    <string-array name="pref_date_format_values" translatable="false">
         <item>default</item>
         <item>MM/dd/yyyy</item>
         <item>dd/MM/yyyy</item>
@@ -56,7 +56,7 @@
         <item>Status bar</item>
     </string-array>
     <!-- Do not translate -->
-    <string-array name="pref_notifications_type_values">
+    <string-array name="pref_notifications_type_values" translatable="false">
         <item>toast</item>
         <item>status</item>
     </string-array>
@@ -67,20 +67,21 @@
         <item>Center</item>
         <item>Bottom</item>
     </string-array>
-    <string-array name="pref_toast_location_values">
+    <!-- Do not translate -->
+    <string-array name="pref_toast_location_values" translatable="false">
         <item>0</item>
         <item>48</item>
         <item>17</item>
         <item>80</item>
     </string-array>
-    
+
     <string-array name="pref_user_mode_entries">
         <item>Owner only</item>
         <item>Owner controlled</item>
         <item>User controlled</item>
     </string-array>
     <!-- Do not translate -->
-    <string-array name="pref_user_mode_values">
+    <string-array name="pref_user_mode_values" translatable="false">
         <item>owner_only</item>
         <item>owner</item>
         <item>user</item>
