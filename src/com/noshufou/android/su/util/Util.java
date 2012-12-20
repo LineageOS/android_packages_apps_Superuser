@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright (c) 2011 Adam Shanks (ChainsDD)
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -65,12 +65,12 @@ import com.noshufou.android.su.service.UpdaterService;
 
 public class Util {
     private static final String TAG = "Su.Util";
-    
+
     public static final int MALICIOUS_NOT = 0;
     public static final int MALICIOUS_UID = 1;
     public static final int MALICIOUS_RESPOND = 2;
     public static final int MALICIOUS_PROVIDER_WRITE = 3;
-    
+
     private static final SparseArray<String> sSystemUids = new SparseArray<String>(32);
     static {
         sSystemUids.put(0, "root");
@@ -106,7 +106,7 @@ public class Util {
         sSystemUids.put(9998, "misc");
         sSystemUids.put(9999, "nobody");
     }
-    
+
     public static class MenuId {
         public static final int ELITE = 0;
         public static final int TOGGLE = 1;
@@ -121,7 +121,7 @@ public class Util {
         public static final int OTA_SURVIVE = 10;
         public static final int PREFERENCES = 11;
     }
-    
+
     public static class VersionInfo {
         public String version = "";
         public int versionCode = 0;
@@ -252,7 +252,7 @@ public class Util {
 
         return uidName;
     }
-    
+
     public static void goHome(Context context) {
         // Be clever here, otherwise the home button doesn't work as advertised.
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
@@ -363,7 +363,7 @@ public class Util {
         }
         return 0;
     }
-    
+
     public static VersionInfo getSuVersionInfo() {
         VersionInfo info = new VersionInfo();
         Process process = null;
@@ -564,7 +564,7 @@ public class Util {
     public static void toggleAppIcon(Context context, boolean newState) {
         ComponentName componentName = new ComponentName("com.noshufou.android.su",
                 "com.noshufou.android.su.Su");
-        context.getPackageManager().setComponentEnabledSetting(componentName, 
+        context.getPackageManager().setComponentEnabledSetting(componentName,
                 newState ? PackageManager.COMPONENT_ENABLED_STATE_ENABLED:
                     PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
                 PackageManager.DONT_KILL_APP);
@@ -598,7 +598,7 @@ public class Util {
 
         // Finally we check for any permissions that other apps should not have.
         if (packageInfo.requestedPermissions != null) {
-            String[] bannedPermissions = new String[] { 
+            String[] bannedPermissions = new String[] {
                 "com.noshufou.android.su.RESPOND",
                 "com.noshufou.android.su.provider.WRITE"
             };
@@ -620,7 +620,7 @@ public class Util {
     public static void showOutdatedNotification(Context context) {
         if (PreferenceManager.getDefaultSharedPreferences(context)
                 .getBoolean(Preferences.OUTDATED_NOTIFICATION, true)) {
-            NotificationManager nm = 
+            NotificationManager nm =
                     (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
                     new Intent(context, UpdaterActivity.class), 0);
@@ -660,7 +660,7 @@ public class Util {
         File suTools = context.getFileStreamPath("sutools");
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         int sutoolsVersion = prefs.getInt("sutoolsVersion", 0);
-        
+
         PackageManager pm = context.getPackageManager();
         int appVersionCode;
         try {
@@ -681,7 +681,7 @@ public class Util {
             Log.e(TAG, "Could not extract sutools");
             return null;
         }
-        
+
         Process process;
         try {
             process = new ProcessBuilder()
@@ -788,96 +788,96 @@ public class Util {
     }
 
     public static boolean writeStoreFile(Context context, int uid, int execUid, String cmd, int allow) {
-    	File storeFile = getStoreFile(context, uid, execUid);
-    	if (storeFile.exists()) {
-    		return appendStoreFile(storeFile, cmd, allow);
-    	} else {
-    		HashMap<String, String> cmds = new HashMap<String, String>(1);
-    		cmds.put(cmd, getAllowString(allow));
-    		return writeStoreFile(storeFile, cmds);
-    	}
+        File storeFile = getStoreFile(context, uid, execUid);
+        if (storeFile.exists()) {
+            return appendStoreFile(storeFile, cmd, allow);
+        } else {
+            HashMap<String, String> cmds = new HashMap<String, String>(1);
+            cmds.put(cmd, getAllowString(allow));
+            return writeStoreFile(storeFile, cmds);
+        }
     }
-    
+
     public static boolean deleteStoreFile(Context context, int uid, int execUid, String cmd) {
-    	File storeFile = getStoreFile(context, uid, execUid);
-    	if (!storeFile.exists()) return true;
-    	HashMap<String, String> cmds = readStoreFile(storeFile);
-    	cmds.remove(cmd);
-    	if (cmds.isEmpty() || cmds.containsKey("any")) {
-    		return storeFile.delete();
-    	} else {
-    		return writeStoreFile(storeFile, cmds);
-    	}
+        File storeFile = getStoreFile(context, uid, execUid);
+        if (!storeFile.exists()) return true;
+        HashMap<String, String> cmds = readStoreFile(storeFile);
+        cmds.remove(cmd);
+        if (cmds.isEmpty() || cmds.containsKey("any")) {
+            return storeFile.delete();
+        } else {
+            return writeStoreFile(storeFile, cmds);
+        }
     }
-    
+
     private static String getAllowString(int allow) {
-    	switch (allow) {
-    	case AllowType.ALLOW:
-    		return "allow";
-    	case AllowType.DENY:
-    		return "deny";
-    	default:
-    		return "prompt";
-    	}
+        switch (allow) {
+        case AllowType.ALLOW:
+            return "allow";
+        case AllowType.DENY:
+            return "deny";
+        default:
+            return "prompt";
+        }
     }
-    
+
     private static File getStoreFile(Context context, int uid, int execUid) {
-    	File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
-    	storedDir.mkdirs();
-    	String fileName = uid + "-" + execUid;
-    	return new File(storedDir, fileName);
+        File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
+        storedDir.mkdirs();
+        String fileName = uid + "-" + execUid;
+        return new File(storedDir, fileName);
     }
-    
+
     private static boolean writeStoreFile(File storeFile, HashMap<String, String> cmds) {
-    	try {
-			OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(storeFile));
-			if (cmds.containsKey("any")) {
-				out.write(cmds.get("any") + '\n');
-				out.write("any\n");
-			} else {
-				for (Map.Entry<String, String> entry : cmds.entrySet()) {
-					out.write(entry.getValue() + '\n');
-					out.write(entry.getKey() + '\n');
-				}
-			}
-			out.close();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return false;
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return false;
-		}
-    	return true;
+        try {
+            OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(storeFile));
+            if (cmds.containsKey("any")) {
+                out.write(cmds.get("any") + '\n');
+                out.write("any\n");
+            } else {
+                for (Map.Entry<String, String> entry : cmds.entrySet()) {
+                    out.write(entry.getValue() + '\n');
+                    out.write(entry.getKey() + '\n');
+                }
+            }
+            out.close();
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return false;
+        }
+        return true;
     }
-    
+
     private static boolean appendStoreFile(File storeFile, String cmd, int allow) {
-    	HashMap<String, String> cmds = readStoreFile(storeFile);
-    	cmds.put(cmd, getAllowString(allow));
-    	writeStoreFile(storeFile, cmds);
-    	return true;
+        HashMap<String, String> cmds = readStoreFile(storeFile);
+        cmds.put(cmd, getAllowString(allow));
+        writeStoreFile(storeFile, cmds);
+        return true;
     }
-    
+
     private static HashMap<String, String> readStoreFile(File storeFile) {
-    	try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(new DataInputStream(
-					new FileInputStream(storeFile))));
-			HashMap<String, String> cmds = new HashMap<String, String>();
-			String allow, cmd;
-			while ((allow = br.readLine()) != null && (cmd = br.readLine()) != null) {
-				cmds.put(cmd, allow);
-			}
-			br.close();
-			return cmds;
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    	return null;
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(new DataInputStream(
+                    new FileInputStream(storeFile))));
+            HashMap<String, String> cmds = new HashMap<String, String>();
+            String allow, cmd;
+            while ((allow = br.readLine()) != null && (cmd = br.readLine()) != null) {
+                cmds.put(cmd, allow);
+            }
+            br.close();
+            return cmds;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public static boolean writeDefaultStoreFile(Context context) {
@@ -901,7 +901,7 @@ public class Util {
         }
         return true;
     }
-    
+
     public static boolean writeOptionsFile(Context context) {
         File storedDir = new File(context.getFilesDir().getAbsolutePath() + File.separator + "stored");
         storedDir.mkdirs();
@@ -923,20 +923,20 @@ public class Util {
         }
         return true;
     }
-    
+
     public static boolean isUserOwner(Context context) {
         PackageManager pm = context.getPackageManager();
         try {
-			ApplicationInfo ai = pm.getApplicationInfo(context.getPackageName(), 0);
-			if (ai.uid < 99999) {
-				return true;
-			} else {
-				return false;
-			}
-		} catch (NameNotFoundException e) {
-			Log.e(TAG, "Divided by zero...");
-			return false;
-		}
+            ApplicationInfo ai = pm.getApplicationInfo(context.getPackageName(), 0);
+            if (ai.uid < 99999) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (NameNotFoundException e) {
+            Log.e(TAG, "Divided by zero...");
+            return false;
+        }
     }
-    
+
 }
