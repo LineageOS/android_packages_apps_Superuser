@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//8so\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-21T23:09:28Z",
+      "side": 1,
+      "message": "...su-Binärdatei ;)",
+      "revId": "ee1da445e649e0d9cbd1584d12e4ea051bf9998b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8sk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-21T23:09:28Z",
+      "side": 1,
+      "message": "su-Binärdatei ;)",
+      "revId": "ee1da445e649e0d9cbd1584d12e4ea051bf9998b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8sg\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-21T23:09:28Z",
+      "side": 1,
+      "message": "su-Binärdatei ;)",
+      "revId": "ee1da445e649e0d9cbd1584d12e4ea051bf9998b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
