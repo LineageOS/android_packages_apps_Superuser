@@ -360,6 +360,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//8v4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T18:13:48Z",
+      "side": 1,
+      "message": "Muss ich dann jeden String auf translatable\u003d\"false\" setzen?",
+      "parentUuid": "AAAAbH//8wM\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//8wI\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -696,6 +714,24 @@
       "writtenOn": "2012-12-21T18:04:49Z",
       "side": 1,
       "message": "su-Binary ist doch SuperUser, wieso nicht den eigentlichen Namen verwenden?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8vw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T18:13:48Z",
+      "side": 1,
+      "message": "Nein ist es nicht. Superuser ist die App, welche die \"su-Anfragen\" regelt und protokolliert. Sonst könnte jede App Zugriff bekommen.",
+      "parentUuid": "AAAAbH//8wA\u003d",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
