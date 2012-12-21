@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//80o\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "Position klingt wirklich besser.",
+      "parentUuid": "AAAAbH//86c\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//86g\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-12-21T06:36:52Z",
       "side": 1,
       "message": "\"des\" Binary",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//80k\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "Die eigentliche Übersetzung von Binary ist ja Binärdatei, da es aber ziemlich blöd klingt und mehr für Verwirrung als für Aufklärung sorgt bleiben wir am besten bei Binary. Da es dafür keinen eindeutigen Artikel gibt finde \"der su-Binary\" und \"die Binary\" am besten.",
+      "parentUuid": "AAAAbH//86g\u003d",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//80g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "Ausrufezeichen kann weg, hast du recht.",
+      "parentUuid": "AAAAbH//86k\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//86o\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2012-12-21T06:36:52Z",
       "side": 1,
       "message": "\"Neues\"... geladen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//80c\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "\"Neue Binary wird geladen\u0026#8230;\\u0020\"",
+      "parentUuid": "AAAAbH//86o\u003d",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -104,6 +176,41 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//80U\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "Klingt besser",
+      "parentUuid": "AAAAbH//860\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//80Y\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "/system unschreibbar einbinden...",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//864\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -115,6 +222,24 @@
       "writtenOn": "2012-12-21T06:36:52Z",
       "side": 1,
       "message": "heißt es nicht \"das\" Binary?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//80M\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T15:42:09Z",
+      "side": 1,
+      "message": "Siehe Zeile 142",
+      "parentUuid": "AAAAbH//864\u003d",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
