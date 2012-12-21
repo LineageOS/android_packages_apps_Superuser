@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//86c\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "Position...",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//86g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "\"des\" Binary",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//86k\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "Ausrufezeichenflut? hier nicht nötig.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//86o\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "\"Neues\"... geladen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//86s\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "/system schreibbar einbinden...",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//860\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "Sicherstellen, dass die neue su-Version funktioniert",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//864\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-12-21T06:36:52Z",
+      "side": 1,
+      "message": "heißt es nicht \"das\" Binary?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
