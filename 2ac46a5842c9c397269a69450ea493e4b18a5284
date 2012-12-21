@@ -2,6 +2,482 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAbH//80A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Auf Superuser-Anfragen reagieren",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8z8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Erlaubt einer Anwendung, auf Anfragen für Superuser-Zugriff zu reagieren",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8z4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Superuser-Daten lesen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8z0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Superuser-Daten schreiben",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Fertig",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Keine Protokollinformationen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Superuser-Elite installiert",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Superuser-Elite nicht installiert",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zg\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Temporärer unroot",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "temporärer unroot nicht erfolgreich",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Diese Optionen sind experimentell und funktionieren nicht auf allen Geräten",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Superuser-Version wird geladen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "su-Binary-Version wird geladen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "su-Binary v%1$s (%2$d)",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "su-Binary nicht gefunden",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "\\u0020\\u0020\\u0020\\u0020 \nWas bedeuten diese Zeichen?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8zA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Müssen die Zahlen wirklich übersetzt werden?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Der Ghost-Modus verbirgt Superuser im App-Drawer. Um Superuser zu starten muss man dann einen Geheimcode im Ziffernblock eingeben.\\n\\nDer voreingestellte Geheimcode ist *#*#787378737#*#*.\\n\\nBeachten Sie, dass Sie den Ghost-Modus nicht aktivieren sollten, wenn ihr Gerät keinen Ziffernblock besitzt.\\n\\nGhost-Modus aktivieren?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Ghost-Modus wurde aktiviert.\\nBitte den Launcher oder das Telefon neustarten.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Geheimcode ändern",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Aktueller Geheimcode: *#*#%1$s#*#*",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Apps",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Statusicons anzeigen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8x8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Statusicon Typ",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8x4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Aussehen der Statusicons",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8x0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Protokolldaten anzeigen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Alte Protokolleinträge löschen",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xs\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Art der Benachrichtigung, wenn einer Anwendung su-Zugriff erteilt wird",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//86c\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -37,6 +513,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//8xo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Binary-Updater",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//86g\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -66,6 +559,57 @@
       "side": 1,
       "message": "Die eigentliche Übersetzung von Binary ist ja Binärdatei, da es aber ziemlich blöd klingt und mehr für Verwirrung als für Aufklärung sorgt bleiben wir am besten bei Binary. Da es dafür keinen eindeutigen Artikel gibt finde \"der su-Binary\" und \"die Binary\" am besten.",
       "parentUuid": "AAAAbH//86g\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xk\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Neue Version der su-Binary gefunden.\\n\\nJetzt aktualisieren?",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Arbeitet\u0026#8230;",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "OK",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -211,6 +755,74 @@
     },
     {
       "key": {
+        "uuid": "AAAAbH//8xU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Aktivieren des Lesezugriffs fehlgeschlagen.\u001c\\nBitte Gerät neustarten, um die Aktualisierung abzuschließen.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "su-Binary wurde nicht gefunden.\\nAktualisierung kann nicht \nfortgesetzt werden.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Die su-Binary ist derzeit unter /sbin installiert. Der Updater ist nicht in der Lage die su-Binary zu aktualisieren.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Der Updater ist nicht in der Lage die su-Binary zu aktualisieren, da su in /sbin installiert ist. Dies ist kein Fehler im Updater, sondern des ROM- oder Kernel-Entwicklers.\\n\\nSuperuser kann weiterhin mit der veralteten Binary verwendet werden.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbH//864\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -240,6 +852,57 @@
       "side": 1,
       "message": "Siehe Zeile 142",
       "parentUuid": "AAAAbH//864\u003d",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8yI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Neue Ziffern eingeben",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8ws\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Apps werden als schädlich eingestuft, wenn sie Elemente enthalten, die darauf hinweisen, dass sie möglicherweise ohne Ihr Einverständnis versuchen root-Zugriff zu erhalten. Es wird dringend empfohlen unverzüglich zu deinstallieren.",
+      "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//8xA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-21T17:37:49Z",
+      "side": 1,
+      "message": "Muss nicht übersetzt werden!",
       "revId": "2ac46a5842c9c397269a69450ea493e4b18a5284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
