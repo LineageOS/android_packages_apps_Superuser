@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn///fc\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "\u0027su-Binary\u0027 sieht irgendwie komisch aus. Wie wäre es mit:\n\nMerken deaktiviert, bis \u0027su\u0027 aktualisiert wurde.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "veraltetes",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "\u0027Root temporär entfernen\u0027?",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Werden info_outdated_notification und info_outdated_binary_notification wirklich beide verwendet? Wenn ja: siehe oben.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Vielleicht besser \u0027ausgelöst\u0027 an Stelle von \u0027hervorgerufen\u0027.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "...Um Superuser zu starten, muss man in diesem Fall einen Geheimcode über den Ziffernblock eingeben.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "\u0027Status-Symbole anzeigen\u0027?",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///fA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Vor Typ fehlt auf alle Fälle ein Bindestrich.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///e8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Siehe oben: Vorschlag: \u0027su\u0027-Updater",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///e4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Neue Version von \u0027su\u0027 gefunden.\n\nbzw.\n\nNeue Version des su-Binaries gefunden.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///e0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "\u0027su\u0027\nbzw.\nDas su-Binary",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ew\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "siehe oben",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///es\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "siehe oben",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///eo\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "siehe oben",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ek\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "...versuchen, Root-Zugriff zu erhalten. Es wird empfohlen, diese Apps...\n\n(Kommas und Großschreibung)",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///eg\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Deinstallieren muss groß geschrieben werden.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ec\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-12-27T19:03:06Z",
+      "side": 1,
+      "message": "Root-Zugriff würde ich (siehe oben) groß schreiben.",
+      "revId": "6ee6f5ebcff236dbe8df8b223b77f4166095310d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
