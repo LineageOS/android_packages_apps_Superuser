@@ -26,4 +26,9 @@
     <item>Au centre</item>
     <item>En bas</item>
   </string-array>
+  <string-array name="pref_user_mode_entries">
+     <item>Seulement le propriétaire</item>
+     <item>Controlé par le propriétaire</item>
+     <item>Controlé par l\'utilisateur</item>
+  </string-array>
 </resources>
