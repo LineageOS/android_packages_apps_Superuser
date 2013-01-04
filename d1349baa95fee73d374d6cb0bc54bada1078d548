@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH//+/g\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "...für den Superuser-Zugriff...",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+/c\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "...einer Anwendung... \n\nananlog zu Z.42",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+/Y\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "...einer Anwendung...",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+/U\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "temporär",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+/Q\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "...auf allen Geräten.",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+/I\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "Geist-Modus? Mix aus Deutsch und Englisch erscheint mir unpassend. Evtl. Unsichtbar.",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//++4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "Format der Datumsdarstellung in Protokollen.",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//++0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "Hinweis \u003d Benachrichtigung?",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//++w\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "...werden soll.",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//++s\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-01-04T23:38:15Z",
+      "side": 1,
+      "message": "Was ist gemeint?",
+      "revId": "d1349baa95fee73d374d6cb0bc54bada1078d548",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
