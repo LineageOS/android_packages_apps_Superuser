@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH///OE\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "question que je me pose à chaque fois : Doit-on mettre les accents sur les majuscules ou pas dans nos traductions?",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///OI\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "mettre à 2013 ?",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///N4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///N0\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///Nw\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "n\u0027a pas de composeur \u003e clavier ? ou méthode de saisie ?",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///Ns\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "ou redémarrer",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///NY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///NU\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///NQ\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///NM\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 2990
+      },
+      "writtenOn": "2013-01-04T16:59:23Z",
+      "side": 1,
+      "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
