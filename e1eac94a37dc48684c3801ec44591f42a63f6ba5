@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcH///FI\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-01-04T20:30:58Z",
+      "side": 1,
+      "message": "Pareil, je me suis souvent posé la question. Et bien Wikipedia nous dit que oui, même si j\u0027ai pas souvenir d\u0027avoir appris ça à l\u0027école... :) http://fr.wikipedia.org/wiki/Usage_des_majuscules_en_fran%C3%A7ais",
+      "parentUuid": "AAAAcH///OE\u003d",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcH///OI\u003d",
         "filename": "res/values-fr/arrays.xml",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcH///FM\u003d",
+        "filename": "res/values-fr/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-01-04T20:30:58Z",
+      "side": 1,
+      "message": "Ce sera plus d\u0027actualité",
+      "parentUuid": "AAAAcH///OI\u003d",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcH///N4\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2013-01-04T16:59:23Z",
       "side": 1,
       "message": "PIN",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///FA\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-01-04T20:30:58Z",
+      "side": 1,
+      "message": "Ouai j\u0027ai pas osé modifier la première fois",
+      "parentUuid": "AAAAcH///N4\u003d",
       "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -81,6 +135,24 @@
       "writtenOn": "2013-01-04T16:59:23Z",
       "side": 1,
       "message": "n\u0027a pas de composeur \u003e clavier ? ou méthode de saisie ?",
+      "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///FE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-01-04T20:30:58Z",
+      "side": 1,
+      "message": "Il doit parler du clavier téléphonique, les *#*# c\u0027est pour faire des actions à partir du \"dialer\"",
+      "parentUuid": "AAAAcH///Nw\u003d",
       "revId": "e1eac94a37dc48684c3801ec44591f42a63f6ba5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
