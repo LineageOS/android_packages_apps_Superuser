@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///+E\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-06T05:14:48Z",
+      "side": 1,
+      "message": "Please remove lines 261-263",
+      "revId": "eda223527bdf1929647b8bbc05e758e6dc9b9a58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
