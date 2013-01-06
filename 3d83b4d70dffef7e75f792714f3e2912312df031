@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcH//+og\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-01-06T03:47:05Z",
+      "side": 1,
+      "message": "2eme pers du pl, \"scannez\" donc :)",
+      "revId": "3d83b4d70dffef7e75f792714f3e2912312df031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+oc\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-01-06T03:47:05Z",
+      "side": 1,
+      "message": "petite faute, actuellement* :)",
+      "revId": "3d83b4d70dffef7e75f792714f3e2912312df031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
