@@ -1,0 +1,242 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcX///pQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Settings",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///pM\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Settings",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///pA\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "app",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///o8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "app",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///ow\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "updater (no capital U)",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///oo\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "There is an update available. Install now?",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///os\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "There is no update available.",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///ok\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Install",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///og\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Reinstall",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///oc\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Reinstall",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///oY\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "OK",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///oU\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "Cannot download manifest",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///o4\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "new (no N)",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///o0\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-07T02:22:49Z",
+      "side": 1,
+      "message": "apps",
+      "revId": "d71ca692cc0461678dc7b8a6607450e9efc87e42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
