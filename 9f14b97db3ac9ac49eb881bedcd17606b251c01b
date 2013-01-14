@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//9h8\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2505
+      },
+      "writtenOn": "2013-01-14T05:07:16Z",
+      "side": 1,
+      "message": "installée",
+      "revId": "9f14b97db3ac9ac49eb881bedcd17606b251c01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9h4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 2505
+      },
+      "writtenOn": "2013-01-14T05:07:16Z",
+      "side": 1,
+      "message": "installée",
+      "revId": "9f14b97db3ac9ac49eb881bedcd17606b251c01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9hw\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 2505
+      },
+      "writtenOn": "2013-01-14T05:07:16Z",
+      "side": 1,
+      "message": "restaurés",
+      "revId": "9f14b97db3ac9ac49eb881bedcd17606b251c01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
