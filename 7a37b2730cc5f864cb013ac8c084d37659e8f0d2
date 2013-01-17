@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//8iE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-17T02:24:26Z",
+      "side": 1,
+      "message": "La version Elite est installée",
+      "revId": "7a37b2730cc5f864cb013ac8c084d37659e8f0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8iA\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-17T02:24:26Z",
+      "side": 1,
+      "message": "La version Elite n\\\u0027est pas installée",
+      "revId": "7a37b2730cc5f864cb013ac8c084d37659e8f0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8iM\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-17T02:24:26Z",
+      "side": 1,
+      "message": "Note: cette option n\\\u0027est pas garantie et peut ne pas fonctionner sur votre appareil",
+      "revId": "7a37b2730cc5f864cb013ac8c084d37659e8f0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8h4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 5470
+      },
+      "writtenOn": "2013-01-17T02:24:26Z",
+      "side": 1,
+      "message": "Paramètres restaurés",
+      "revId": "7a37b2730cc5f864cb013ac8c084d37659e8f0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
