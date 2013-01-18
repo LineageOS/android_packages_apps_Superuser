@@ -177,22 +177,6 @@
     <string name="malicious_app_write">žádá o oprávnění k zápisu k poskytovateli oprávnění</string>
     <string name="changelog_full_title">Seznam změn</string>
     <string name="changelog_title">Co je nového</string>
-    <plurals name="restore_complete">
-      <item quantity="one">Jedna aplikace a předvolby byly obnoveny</item>
-      <item quantity="other">%1$d aplikace a předvolby obnoveny</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-      <item quantity="one">Jeden protokol odstraněn</item>
-      <item quantity="other">%1$d protokolů odstraněno</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-      <item quantity="one">Poslední šance</item>
-      <item quantity="other">Ne - zbývá %1$d pokusů</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-      <item quantity="one">Následující balíček byl shledán škodlivým:</item>
-      <item quantity="other">Následující balíčky byly shledány jako škodlivé:</item>
-    </plurals>
 
     <!-- Update for JB -->
     <string name="page_label_apps">Aplikace</string>

@@ -15,7 +15,23 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <item type="id" name="title_container" />
-    <item type="id" name="title_logo" />
-    <item type="id" name="title_text" />
+    <plurals name="restore_complete">
+        <item quantity="one">1 app and all settings restored</item>
+        <item quantity="other">%1$d apps and all settings restored</item>
+    </plurals>
+
+    <plurals name="pref_logs_deleted">
+        <item quantity="one">1 log deleted</item>
+        <item quantity="other">%1$d logs deleted</item>
+    </plurals>
+
+    <plurals name="pin_incorrect_try">
+        <item quantity="one">1 try left</item>
+        <item quantity="other">%1$d tries left</item>
+    </plurals>
+
+    <plurals name="malicious_apps_message1">
+        <item quantity="one">The following package was found to be malicious:</item>
+        <item quantity="other">The following packages were found to be malicious:</item>
+    </plurals>
 </resources>
