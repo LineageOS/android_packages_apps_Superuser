@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//79I\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-01-18T23:44:10Z",
+      "side": 1,
+      "message": "Oh sorry, you\u0027re right!",
+      "parentUuid": "AAAAcn//7/I\u003d",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//7/g\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "AOSP uses HTML style, yes, but AOSP has never used \u0026#8230; and has always used \\u2026\n\n- https://github.com/CyanogenMod/android_packages_apps_Settings/blob/cm-10.1/res/values/strings.xml (you won\u0027t find \u0026#8230;, but you will find \\u2026)\n\nCould you otherwise show a case where AOSP uses \u0026#8230;?",
       "parentUuid": "AAAAcn//7/g\u003d",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//79E\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-01-18T23:44:10Z",
+      "side": 1,
+      "message": "OK. I have never seen before that AOSP uses \u0027\\u2026\u0027.\nI just saw that they used \u0026amp; and thats HTML style, so I thought it\u0027s correct to keep it consistent and use \u0027\u0026#8230;\u0027 for \u0027...\u0027. But when AOSP uses \u0027\\u2026\u0027 it\u0027s correct.",
+      "parentUuid": "AAAAcn//7/M\u003d",
       "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
