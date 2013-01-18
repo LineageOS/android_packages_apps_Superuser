@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//7/s\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-01-18T22:27:51Z",
+      "side": 1,
+      "message": "Why? When wen want to follow AOSP code style it was right as ist was before. In a array file a \u0027tap\u0027 ist two spaces not four as it is ins a strings file.",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7/g\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-01-18T22:27:51Z",
+      "side": 1,
+      "message": "Why java unicode? It\u0027s an XML file. AOSP uses HTML style (as ist was before).\n\u0026amp; is an example.",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
