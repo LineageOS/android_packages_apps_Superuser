@@ -145,17 +145,9 @@
     <string name="backup_complete">Sikkerhedskopi gemt på SD-kort</string>
     <string name="pref_restore_title">Gendan apps/indstillinger</string>
     <string name="pref_get_elite_summary">Køb elite for at åbne for alle indstillingerne</string>
-    <plurals name="restore_complete">
-            <item quantity="one">En app og indstillinger gendannet</item>
-            <item quantity="other">%1$d apps og indstillinger gendannet</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Indstillinger gendannet</string>
     <string name="pref_category_info_title">Generelt</string>
     <string name="pref_elite_only">Kun tilgængelig for Elite-brugere</string>
-    <plurals name="pref_logs_deleted">
-            <item quantity="one">En logpost er slettet</item>
-            <item quantity="other">%1$d logposter er slettet</item>
-    </plurals>
     <string name="updater_title">Binær opdatering</string>
     <string name="updater_new_su_found">Ny version af su-binær fundet. Opdatér nu?</string>
     <string name="updater_current_installed">Nyeste version er allerede installeret. Ingen handling påkrævet.</string>
@@ -200,17 +192,9 @@
     <string name="pin_new_pin">Indtast ny PIN</string>
     <string name="pin_confirm_pin">Bekræft PIN</string>
     <string name="pin_mismatch">PIN-koderne er ikke ens, prøv igen</string>
-    <plurals name="pin_incorrect_try">
-            <item quantity="one">Sidste chance</item>
-            <item quantity="other">Niks - %1$d forsøg tilbage</item>
-    </plurals>
     <string name="pin_enter_secret_code">Indtast den hemmelige kode</string>
     <string name="nfc_write_tag">Skan NFC-tag for at skrive</string>
     <string name="malicious_apps_title">Advarsel</string>
-    <plurals name="malicious_apps_message1">
-            <item quantity="one">Den følgende pakke ser ud til at være skadelig:</item>
-            <item quantity="other">De følgende pakker ser ud til at være skadelige:</item>
-    </plurals>
     <string name="malicious_apps_message2">Apps bliver markeret som ondsindede, fordi de indeholder elementer der tyder på, at de forsøger at tildele root-adgang, muligvis uden dit samtykke. Du anbefales på det kraftigste at afinstallere dem straks.</string>
     <string name="malicious_apps_uninstall">Afinstaller</string>
     <string name="malicious_apps_ignore">Ignorér</string>

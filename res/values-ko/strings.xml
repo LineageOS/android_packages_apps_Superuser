@@ -160,22 +160,22 @@
     <string name="updater_no_conn">매니페스트를 다운로드할 수 없습니다.\n인터넷 연결상태를 확인하십시오.</string>
     <string name="updater_try_again">다시 시도</string>
     <string name="updater_su_updated">슈퍼유저 바이너리가 업데이트되었습니다.</string>
-    <string name="updater_step_download_manifest">Manifest 다운로드 중…\u0020</string>
-    <string name="updater_step_parse_manifest">Manifest 분석 중…\u0020</string>
+    <string name="updater_step_download_manifest">Manifest 다운로드 중\u2026</string>
+    <string name="updater_step_parse_manifest">Manifest 분석 중\u2026</string>
     <string name="updater_step_latest_version">최신 버전 =\u0020</string>
     <string name="updater_step_check_installed_version">설치된 버전 확인 중 =\u0020</string>
-    <string name="updater_step_fix_db">데이터베이스 교정 중…\u0020</string>
-    <string name="updater_step_unpack_sutools">SU 도구 압축을 푸는 중…\u0020</string>
-    <string name="updater_step_check_installed_path">현재 설치경로 확인 중…\u0020</string>
-    <string name="updater_step_download_su">새 바이너리 다운로드 중…\u0020</string>
-    <string name="updater_step_get_root">루트 액세스 조율 중…\u0020</string>
-    <string name="updater_step_remount_rw">쓰기 모드로 system 폴더를 재마운트하는 중…\u0020</string>
-    <string name="updater_step_cp">system 폴더로 SU 복사 중…\u0020</string>
-    <string name="updater_step_chmod">SU 파일 권한을 06755로 변경 중…\u0020</string>
-    <string name="updater_step_ops_check">새로운 SU 작업 중…\u0020</string>
-    <string name="updater_step_mv">SU 바이너리를 최종 위치로 이동 중…\u0020</string>
-    <string name="updater_step_remount_ro">system 폴더를 읽기 전용 모드로 재마운트하는 중…\u0020</string>
-    <string name="updater_step_clean_up">작업 정리 중…\u0020</string>
+    <string name="updater_step_fix_db">데이터베이스 교정 중\u2026</string>
+    <string name="updater_step_unpack_sutools">SU 도구 압축을 푸는 중\u2026</string>
+    <string name="updater_step_check_installed_path">현재 설치경로 확인 중\u2026</string>
+    <string name="updater_step_download_su">새 바이너리 다운로드 중\u2026</string>
+    <string name="updater_step_get_root">루트 액세스 조율 중\u2026</string>
+    <string name="updater_step_remount_rw">쓰기 모드로 system 폴더를 재마운트하는 중\u2026</string>
+    <string name="updater_step_cp">system 폴더로 SU 복사 중\u2026</string>
+    <string name="updater_step_chmod">SU 파일 권한을 06755로 변경 중\u2026</string>
+    <string name="updater_step_ops_check">새로운 SU 작업 중\u2026</string>
+    <string name="updater_step_mv">SU 바이너리를 최종 위치로 이동 중\u2026</string>
+    <string name="updater_step_remount_ro">system 폴더를 읽기 전용 모드로 재마운트하는 중\u2026</string>
+    <string name="updater_step_clean_up">작업 정리 중\u2026</string>
     <string name="updater_remount_ro_failed">system 폴더를 읽기 전용으로 재마운트하지 못했습니다. 업데이트를 완료하려면 기기를 다시 시작하십시오.</string>
     <string name="updater_find_su_failed">현재 설치된 슈퍼유저 바이너리가 검색되지 않아 업데이트를 진행할 수 없습니다.</string>
     <string name="updater_bad_install_location">현재 슈퍼유저 바이너리가 /sbin 경로에 설치되어 있으므로 이 업데이터로는 업데이트할 수 없습니다. 사용자의 기기에 맞는 새로운 롬을 찾으시기 바랍니다.</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">권한 공급자에 쓰기 권한 요청</string>
     <string name="changelog_full_title">변경 내역</string>
     <string name="changelog_title">새로운 기능</string>
-    <plurals name="restore_complete">
-        <item quantity="one">1개의 어플 및 설정을 복원했습니다.</item>
-        <item quantity="other">%1$d개의 어플 및 설정을 복원했습니다.</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">1개의 로그가 삭제되었습니다.</item>
-        <item quantity="other">%1$d개의 로그가 삭제되었습니다.</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">마지막 기회</item>
-        <item quantity="other">실패 - %1$d회 시도 가능</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">다음 패키지는 악성 어플로 판명되었습니다.</item>
-        <item quantity="other">다음 패키지는 악성 어플로 판명되었습니다.</item>
-    </plurals>
 </resources>

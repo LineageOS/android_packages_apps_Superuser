@@ -203,20 +203,4 @@
     <string name="malicious_app_write">żąda pozwolenia zapisu uprawnień dostawcy</string>
     <string name="changelog_full_title">Lista zmian</string>
     <string name="changelog_title">Co nowego</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Jedna aplikacja i preferencje przywrócone</item>
-        <item quantity="other">%1$d aplikacje i preferencje przywrócone</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Jeden dziennik został usunięty</item>
-        <item quantity="other">%1$d dzienniki usunięte</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Ostatnia szansa</item>
-        <item quantity="other">Nie - pozostało %1$d prób</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Poniższy pakiet został uznany za złośliwy:</item>
-        <item quantity="other">Poniższe pakiety zostały uznane za złośliwe:</item>
-    </plurals>
 </resources>

@@ -205,20 +205,4 @@
     <string name="malicious_app_write">請求可寫入權限提供者的權限</string>
     <string name="changelog_full_title">更新項目</string>
     <string name="changelog_title">更新內容</string>
-    <plurals name="restore_complete">
-        <item quantity="one">已還原一個應用程式和偏好好設定</item>
-        <item quantity="other">已還原 %1$d 個應用程式和偏好設定</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">刪除一筆紀錄</item>
-        <item quantity="other">%1$d 刪除日誌</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">最後一次機會</item>
-        <item quantity="other">錯誤 - 還可嘗試%1$d次</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">發現下列應用程式套件為惡意程式：</item>
-        <item quantity="other">發現下列應用程式套件為惡意程式：</item>
-    </plurals>
 </resources>
