@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8Pc\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Ug\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8UI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "De oude melding vind ik beter",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8PY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done\n- Geen logboekinformatie",
+      "parentUuid": "AAAAcn//8UI\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8Ek\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "- Melding bij verouderd \\\u0027su\\\u0027-bestand",
+      "parentUuid": "AAAAcn//8T8\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8Ts\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -64,6 +118,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "\\\u0027su\\\u0027-bestandsversie laden",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Eg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Ts\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8Ec\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8To\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8Tg\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -98,6 +188,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- Kan \\\u0027su\\\u0027-bestand niet vinden",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8EY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Tg\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8EU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "- Melding bij verouderd \\\u0027su\\\u0027-bestand (om misverstanden met de app zelf te voorkomen)",
+      "parentUuid": "AAAAcn//8SY\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8SU\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -132,6 +258,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- %1$s vraagt ??om root-toegang.\\n\\nLet op: als u deze actie niet zelf initieerde, of deze melding niet begrijpt, is het raadzaam te weigeren\n\n\u0027initiate\u0027 is niet hetzelfde als \u0027instemmen\u0027",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8EQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "- \\\u0027%1$s\\\u0027 vraagt ??om root-toegang.\\n\\nLet op: als u dit niet zelf gestart heeft of deze melding niet begrijpt, is het raadzaam te weigeren",
+      "parentUuid": "AAAAcn//8SU\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8EM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8SM\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8R8\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -166,6 +328,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "pictogam -\u003e pictogram\n\n\nLet wel dat als er geen -\u003e Let wel op dat als er geen\n\n\ngeen telefoonkiezer geïnstalleerd is, u dan Superuser niet meer kunt openen - \u003e geen telefoonkiezer geïnstalleerd is, u Superuser dan niet meer kunt openen\n\n\naangeraden -\u003e aan te raden\n\n\n\\\u0027Onzichtbare modus wilt -\u003e \\\u0027Onzichtbare modus\\\u0027 wilt",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8EI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8R8\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8EE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Ro\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8Rc\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -200,6 +398,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- Type statuspictogram",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8EA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Rc\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -223,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8D8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8RY\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8RU\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -234,6 +468,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- \\\u0027su\\\u0027-bestandsupdater",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8D4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8RU\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -257,6 +509,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8D0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8RQ\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8RE\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -268,6 +538,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- Systeemmap opnieuw aankoppelen als schrijfbaar\\u2026",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Dw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Ik heb toch liever de voorkeur aan \u0027beschrijfbaar\u0027...",
+      "parentUuid": "AAAAcn//8RE\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -291,6 +579,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8Ds\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "huidig*\nDone",
+      "parentUuid": "AAAAcn//8Q8\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8Q4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -302,6 +608,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- \\\u0027su\\\u0027-bestand is momenteel geïnstalleerd in /sbin. De updater is niet in staat om deze bij te werken. Het is raadzaam een andere ROM te installeren",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Do\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Q4\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -325,6 +649,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8Dg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8Qk\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8QU\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -336,6 +678,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "Hierdoor kan het \\\u0027su\\\u0027-bestand niet bijgewerkt",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Dc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8QU\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -359,6 +719,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8DY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8QQ\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8QM\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -370,6 +748,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "- \\\u0027su\\\u0027-bestand verouderd",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8DU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8QM\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -393,6 +789,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8DQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8QE\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8P8\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -410,6 +824,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8DM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8P8\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8P0\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
@@ -421,6 +853,24 @@
       "writtenOn": "2013-01-18T01:31:08Z",
       "side": 1,
       "message": "schrijtoegang -\u003e schrijftoegang",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8DI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T20:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//8P0\u003d",
       "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
