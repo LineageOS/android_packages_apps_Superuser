@@ -161,19 +161,4 @@
     <string name="malicious_app_write">izin sağlayıcısına yazmak için izin ister</string>
     <string name="changelog_full_title">Değişiklik Listesi</string>
     <string name="changelog_title">Neler Yeni</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Bir uygulama ve seçenek geri yüklendi</item>
-        <item quantity="other">%1$d uygulama ve seçenek geri yüklendi</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Bir giri silindi</item>
-        <item quantity="other">%1$d kayıt silindi</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Son şans</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Şu uygulama zararlı olarak tespit edildi:</item>
-        <item quantity="other">Şu uygulamalar zararlı olarak tespit edildi:</item>
-    </plurals>
 </resources>

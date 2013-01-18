@@ -139,20 +139,20 @@
     <string name="updater_no_conn">Не вдалося завантажити файл маніфесту. Перевірте підключення до Інтернету</string>
     <string name="updater_try_again">Повторити</string>
     <string name="updater_su_updated">su успішно оновлено</string>
-    <string name="updater_step_download_manifest">Звантаження manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Парсинг manifest…\u0020</string>
+    <string name="updater_step_download_manifest">Звантаження manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Парсинг manifest\u2026</string>
     <string name="updater_step_latest_version">Остання версія =\u0020</string>
     <string name="updater_step_check_installed_version">Перевірка встановленої версії =\u0020</string>
-    <string name="updater_step_fix_db">Виправлення бази даних…\u0020</string>
-    <string name="updater_step_check_installed_path">Перевірка поточного місця установки ... \ u0020</string>
-    <string name="updater_step_download_su">Звантаження нової програми...\u0020</string>
-    <string name="updater_step_get_root">Отримуємо доступ рівня root…\u0020</string>
-    <string name="updater_step_remount_rw">Монтування /system для запису...\u0020</string>
-    <string name="updater_step_cp">Копіювання su до /system...\u0020</string>
-    <string name="updater_step_chmod">Зміна прав для файлу su на 06755...\u0020</string>
-    <string name="updater_step_mv">Переміщення su на постійне місце...\u0020</string>
-    <string name="updater_step_remount_ro">Монтування /system для читання...\u0020</string>
-    <string name="updater_step_clean_up">Очищення…\u0020</string>
+    <string name="updater_step_fix_db">Виправлення бази даних\u2026</string>
+    <string name="updater_step_check_installed_path">Перевірка поточного місця установки\u2026</string>
+    <string name="updater_step_download_su">Звантаження нової програми\u2026</string>
+    <string name="updater_step_get_root">Отримуємо доступ рівня root\u2026</string>
+    <string name="updater_step_remount_rw">Монтування /system для запису\u2026</string>
+    <string name="updater_step_cp">Копіювання su до /system\u2026</string>
+    <string name="updater_step_chmod">Зміна прав для файлу su на 06755\u2026</string>
+    <string name="updater_step_mv">Переміщення su на постійне місце\u2026</string>
+    <string name="updater_step_remount_ro">Монтування /system для читання\u2026</string>
+    <string name="updater_step_clean_up">Очищення\u2026</string>
     <string name="updater_remount_ro_failed">Не вдалося перемонтувати систему тільки для читання, будь ласка, перезавантажте пристрій для завершення оновлення.</string>
     <string name="updater_find_su_failed">Не вдалося знайти двійковий файл su. Оновлення неможливе.</string>
     <string name="updater_bad_install_location">Двійковий файл su знаходиться в каталозі /sbin. Програма оновлення не може його оновити. Будь ласка, знайдіть нову прошивку для свого пристрою.</string>
@@ -180,20 +180,4 @@
     <string name="malicious_app_write">запит дозволу на запис до постачальника послуг</string>
     <string name="changelog_full_title">Список змін</string>
     <string name="changelog_title">Що нового</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Одну програму з даними відновлено</item>
-        <item quantity="other">%1$d програм з даними відновлено</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Один запис журналу видалено</item>
-        <item quantity="other">%1$d записів журналу видалено</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Останній шанс</item>
-        <item quantity="other">Ні - залишилось    спроб: %1$d</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Наступний пакет виявився шкідливим:</item>
-        <item quantity="other">Наступні пакети були визнані шкідливими:</item>
-    </plurals>
 </resources>

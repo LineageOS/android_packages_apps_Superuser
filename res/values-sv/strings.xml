@@ -87,15 +87,4 @@
     <string name="malicious_app_write">begär behörighet att skriva till behörighetsleverantör</string>
     <string name="changelog_full_title">Ändringslogg</string>
     <string name="changelog_title">Vad som är nytt</string>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">En logg raderades</item>
-        <item quantity="other">%1$d loggar raderades</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Sista chansen</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Följande paket befanns vara skadligt:</item>
-        <item quantity="other">Följande paket befanns vara skadliga:</item>
-    </plurals>
 </resources>

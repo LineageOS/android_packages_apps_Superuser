@@ -150,19 +150,4 @@
     <string name="malicious_app_write">zahteva dovoljenje za pisanje v dovoljenja ponudnika</string>
     <string name="changelog_full_title">Seznam sprememb</string>
     <string name="changelog_title">Novosti</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Ena aplikacija in nastavitev obnovljena</item>
-        <item quantity="other">%1$d aplikacij in nastavitev obnovljenih</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">En dnevnik izbrisan</item>
-        <item quantity="other">%1$d dnevnikov izbrisanih</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Zadnja priložnost</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Ugotovljeno je bilo, da je naslednji paket zlonameren:</item>
-        <item quantity="other">Ugotovljeno je bilo, da so naslednji paketi zlonamerni:</item>
-    </plurals>
 </resources>

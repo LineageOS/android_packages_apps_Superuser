@@ -182,20 +182,4 @@
     <string name="malicious_app_write">запрашивает разрешение на запись в разрешения поставщика</string>
     <string name="changelog_full_title">Список изменений</string>
     <string name="changelog_title">Новые Изменения</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Одно приложение и данные восстановлены</item>
-        <item quantity="other">%1$d приложений с данными восстановлено</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Один пункт удален из журнала</item>
-        <item quantity="other">%1$d пунктов удалено из журнала</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Последний шанс</item>
-        <item quantity="other">Нет - осталось %1$d попыток</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Следующий пакет был отмечен вредоносным:</item>
-        <item quantity="other">Следующие пакеты были отмечены вредоносными:</item>
-    </plurals>
 </resources>

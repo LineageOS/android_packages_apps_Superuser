@@ -209,20 +209,4 @@
     <string name="malicious_app_write">请求写入超级用户存储权限</string>
     <string name="changelog_full_title">更新日志</string>
     <string name="changelog_title">更新日志</string>
-    <plurals name="restore_complete">
-        <item quantity="one">已还原 1 个应用程序和首选项</item>
-        <item quantity="other">已还原 %1$d 个应用程序和首选项</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">已删除 1 条日志</item>
-        <item quantity="other">已删除 %1$d 条日志</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">最后 1 次机会</item>
-        <item quantity="other">不正确 - 还可以尝试 %1$d 次</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">发现下列应用程序包为恶意程序：</item>
-        <item quantity="other">发现下列应用程序包为恶意程序：</item>
-    </plurals>
 </resources>

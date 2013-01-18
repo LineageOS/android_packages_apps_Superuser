@@ -161,17 +161,9 @@
     <string name="backup_complete">Sauvegarde enregistrée sur la carte sd</string>
     <string name="pref_restore_title">Restaurer applis/préférences</string>
     <string name="pref_get_elite_summary">Acheter la version Elite pour débloquer toutes les options</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Une application et paramètres restaurés</item>
-        <item quantity="other">%1$d applications et paramètres restaurés</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Paramètres restaurées</string>
     <string name="pref_category_info_title">Général</string>
     <string name="pref_elite_only">Uniquement disponible avec la version Elite</string>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Une entrée de journal supprimée</item>
-        <item quantity="other">%1$d entrées de journal supprimées</item>
-    </plurals>
 
     <string name="updater_title">Mise à jour de l\'exécutable</string>
     <string name="updater_new_su_found">Une nouvelle version de l\'exécutable SU a été trouvée. Mettre à jour maintenant\u00A0?</string>
@@ -220,19 +212,11 @@
     <string name="pin_new_pin">Entrez le nouveau code PIN</string>
     <string name="pin_confirm_pin">Confirmez le code PIN</string>
     <string name="pin_mismatch">Les codes PIN ne correspondent pas, veuillez réessayer</string>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Dernière chance</item>
-        <item quantity="other">Non - %1$d essais restants</item>
-    </plurals>
     <string name="pin_enter_secret_code">Entrez le code secret</string>
 
     <string name="nfc_write_tag">Scannez le tag pour enregistrer</string>
 
     <string name="malicious_apps_title">Attention</string>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Le paquetage suivant s\'est avéré malveillant:</item>
-        <item quantity="other">Les paquetages suivants se sont avérés malveillants:</item>
-    </plurals>
     <string name="malicious_apps_message2">Des applications sont marquées comme malveillantes car elles contiennent des éléments qui indiquent qu\'elles essaient d\'accorder un accès root, potentiellement sans votre accord. Il est fortement recommandé de les désinstaller immédiatement.</string>
     <string name="malicious_apps_uninstall">Désinstaller</string>
     <string name="malicious_apps_ignore">Ignorer</string>

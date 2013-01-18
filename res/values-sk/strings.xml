@@ -203,20 +203,4 @@
     <string name="malicious_app_write">vyžaduje povolenie k zápisu poskytovateľovi oprávnení</string>
     <string name="changelog_full_title">Zoznam zmien</string>
     <string name="changelog_title">Čo je nové</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Jedna apl. a nastavenia boli obnovené</item>
-        <item quantity="other">%1$d apl. a nastavenia boli obnovené</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Jeden záznam vymazaný</item>
-        <item quantity="other">%1$d záznamov vymazaných</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Posledná možnosť</item>
-        <item quantity="other">Nie, zostáva %1$d pokusov</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Nasledujúci balíček bol identifikovaný ako nebezpečný:</item>
-        <item quantity="other">Nasledujúce balíčky boli identifikované ako nebezpečné:</item>
-    </plurals>
 </resources>

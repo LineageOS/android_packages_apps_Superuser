@@ -203,20 +203,4 @@
     <string name="malicious_app_write">изисква разрешение за запис в разрешения на доставчик</string>
     <string name="changelog_full_title">Промени</string>
     <string name="changelog_title">Какво ново</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Възстановено едно прил и настройки</item>
-        <item quantity="other">Възстановени %1$d прил и настройки</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Един дневник изтрит</item>
-        <item quantity="other">%1$d дневника изтрити</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Последен шанс</item>
-        <item quantity="other">Не - остават %1$d опита</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Следния пакет се оказа злонамерен:</item>
-        <item quantity="other">Следните пакети се оказаха злонамерени:</item>
-    </plurals>
 </resources>
