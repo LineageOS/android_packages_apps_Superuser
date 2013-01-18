@@ -69,8 +69,8 @@
     <string name="detail_command">Komut</string>
     <string name="detail_status">Durum</string>
     <string name="use_global_settings">Genel ayarları kullan</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Uyarılar etkin</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020İşlem kaydı etkin</string>
+    <string name="notifications_enabled">&#32;&#32;Uyarılar etkin</string>
+    <string name="logging_enabled">&#32;&#32;İşlem kaydı etkin</string>
     <string name="request_message">%1$s Superuser erişimi istiyor.\n\nUyarı: Eğer bu olayı siz başlatmadıysanız, veya bu erişimin ne olduğunu anlamadıysanız, genellikle reddetmek iyi bir seçenektir.</string>
     <string name="request_more_info">Daha fazla bilgi için dokunun</string>
     <string name="request_less_info">Daha az bilgi için dokunun</string>
@@ -84,7 +84,7 @@
     <string name="pref_automatic_action_title">Otomatik yanıt</string>
     <string name="pref_automatic_action_summary">Superuser\'ın yeni istekleri işleme biçimini ayarlayın</string>
     <string name="pref_ghost_mode_title">Hayalet modu</string>
-    <string name="pref_ghost_mode_message">Hayalet modu Superuser simgesini başlatıcıdan gizler. Simge başlatıcı tekrar başlatıldığında gizli hale gelecektir. Simge gizlendiğinde Superuser\'a gizli kodu çevirerek ulaşabilirsiniz. Varsayılan kod *#*#787378737#*#* (*#*#superuser#*#*) dur, ama numaralar değiştirilebilir.\n\nEğer cihazınızda bir çevirici yoksa, Hayalet modunu başlatamayacağınıza dikkat edin.\n\nHayalet modu başlatılsın mı?</string>
+    <string name="pref_ghost_mode_message">Hayalet modu Superuser simgesini başlatıcıdan gizler. Simge başlatıcı tekrar başlatıldığında gizli hale gelecektir. Simge gizlendiğinde Superuser\'a gizli kodu çevirerek ulaşabilirsiniz. Varsayılan kod *#*#787378737#*#* dur, ama numaralar değiştirilebilir.\n\nEğer cihazınızda bir çevirici yoksa, Hayalet modunu başlatamayacağınıza dikkat edin.\n\nHayalet modu başlatılsın mı?</string>
     <string name="pref_ghost_mode_enabled_message">Hayalet modu başlatıldı. Lütfen değişimi görmek için başlatıcınızı veya cihazınızı yeniden başlatın.</string>
     <string name="pref_secret_code_title">Gizli kod</string>
     <string name="pref_secret_code_summary">Gizli kod: *#*#%1$s#*#*</string>
@@ -135,8 +135,8 @@
     <string name="updater_no_conn">Bildiri indirilemedi. İnternet bağlantısını kontrol edin</string>
     <string name="updater_try_again">Tekrar deneyin</string>
     <string name="updater_su_updated">su dosyası başarıyla güncelleştirildi</string>
-    <string name="updater_step_latest_version">Son sürüm =\u0020</string>
-    <string name="updater_step_check_installed_version">Yüklü versiyon =\u0020</string>
+    <string name="updater_step_latest_version">Son sürüm =&#32;</string>
+    <string name="updater_step_check_installed_version">Yüklü versiyon =&#32;</string>
     <string name="updater_remount_ro_failed">Sistem salt okunur olarak ayarlanamadı, güncellemeyi tamamlamak için yeniden başlatın</string>
     <string name="updater_find_su_failed">Yüklenmiş su dosyası bulunamıyor. Güncelleme devam edemez</string>
     <string name="updater_bad_install_location">Bu güncelleyici su dosyaları /sbin klasöründe yüklü olduğu için güncelleme yapamıyor. Lütfen cihazınız için yeni bir ROM bulun.</string>
@@ -161,19 +161,4 @@
     <string name="malicious_app_write">izin sağlayıcısına yazmak için izin ister</string>
     <string name="changelog_full_title">Değişiklik Listesi</string>
     <string name="changelog_title">Neler Yeni</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Bir uygulama ve seçenek geri yüklendi</item>
-        <item quantity="other">%1$d uygulama ve seçenek geri yüklendi</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Bir giri silindi</item>
-        <item quantity="other">%1$d kayıt silindi</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Son şans</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Şu uygulama zararlı olarak tespit edildi:</item>
-        <item quantity="other">Şu uygulamalar zararlı olarak tespit edildi:</item>
-    </plurals>
 </resources>

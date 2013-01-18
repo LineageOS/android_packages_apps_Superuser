@@ -76,7 +76,7 @@
     <string name="pref_timeout_title">Časovna omejitev dostopa</string>
     <string name="pref_automatic_action_title">Samodejni odgovor</string>
     <string name="pref_ghost_mode_title">Ghost način</string>
-    <string name="pref_ghost_mode_message">Ghost način skrije Superuser ikono iz launcher-ja. Ikona bo skrita naslednjič, ko se launcher zažene. Ko je ikona skrita lahko dostopate do Superuser s klicanjem skrivne kode. Privzeta skrivna koda je *#*#787378737#*#* (*#*#superuser#*#*), ampak številke se lahko spremenijo.\n\nOpomba, da če vaša naprava nima dialer-ja, je bolje, da ne omogočite Ghost načina.\n\nOmogoči Ghost način?</string>
+    <string name="pref_ghost_mode_message">Ghost način skrije Superuser ikono iz launcher-ja. Ikona bo skrita naslednjič, ko se launcher zažene. Ko je ikona skrita lahko dostopate do Superuser s klicanjem skrivne kode. Privzeta skrivna koda je *#*#787378737#*#*, ampak številke se lahko spremenijo.\n\nOpomba, da če vaša naprava nima dialer-ja, je bolje, da ne omogočite Ghost načina.\n\nOmogoči Ghost način?</string>
     <string name="pref_ghost_mode_enabled_message">Ghost način omogočen. Prosimo, ponovno zaženite svoj launcher ali ponovno zaženite telefon, da vidite spremembe.</string>
     <string name="pref_secret_code_title">Skrivna koda</string>
     <string name="pref_secret_code_summary">Skrivna koda je *#*#%1$s#*#*</string>
@@ -127,8 +127,8 @@
     <string name="updater_no_conn">Napaka pri prenosu manifesta. Preverite internetno povezavo</string>
     <string name="updater_try_again">Poskusi znova</string>
     <string name="updater_su_updated">su binary uspešno posodobljena</string>
-    <string name="updater_step_latest_version">Najnovejša različica =\u0020</string>
-    <string name="updater_step_check_installed_version">Preverjam nameščeno različico =\u0020</string>
+    <string name="updater_step_latest_version">Najnovejša različica =&#32;</string>
+    <string name="updater_step_check_installed_version">Preverjam nameščeno različico =&#32;</string>
     <string name="updater_remount_ro_failed">Ponovno vpetje sistema samo za branje ni uspelo, prosimo ponovno zaženite telefon za dokončanje posodobitve</string>
     <string name="updater_find_su_failed">Ni bilo mogoče najti trenutno nameščen su binary. Posodobitve ni mogoče nadaljevati</string>
     <string name="updater_bad_install_location">su binary je trenutno nameščen v /sbin. Ni možno izvesti posodobitve. Prosimo poiščite nov ROM za vašo napravo.</string>
@@ -150,19 +150,4 @@
     <string name="malicious_app_write">zahteva dovoljenje za pisanje v dovoljenja ponudnika</string>
     <string name="changelog_full_title">Seznam sprememb</string>
     <string name="changelog_title">Novosti</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Ena aplikacija in nastavitev obnovljena</item>
-        <item quantity="other">%1$d aplikacij in nastavitev obnovljenih</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">En dnevnik izbrisan</item>
-        <item quantity="other">%1$d dnevnikov izbrisanih</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Zadnja priložnost</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Ugotovljeno je bilo, da je naslednji paket zlonameren:</item>
-        <item quantity="other">Ugotovljeno je bilo, da so naslednji paketi zlonamerni:</item>
-    </plurals>
 </resources>

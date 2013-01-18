@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">二進位檔過期通知</string>
     <string name="info_changelog_summary">顯示更新紀錄</string>
     <string name="use_global_settings">使用全域設定</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020已啟用通知</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020已啟用紀錄</string>
+    <string name="notifications_enabled">&#32;&#32;已啟用通知</string>
+    <string name="logging_enabled">&#32;&#32;已啟用紀錄</string>
     <string name="request_message">%1$s 正在請求超級使用者存取.\n\n警告：如果你不會初始化此操作，或者如果您不了解這項要求，一般情況下拒絕它是個好主意。</string>
     <string name="request_more_info">點擊展開資訊</string>
     <string name="request_less_info">點擊摺疊資訊</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">自動回應</string>
     <string name="pref_automatic_action_summary">設定超級使用者處理新請求的方式</string>
     <string name="pref_ghost_mode_title">幽靈模式</string>
-    <string name="pref_ghost_mode_message">幽靈模式會隱藏啟動器的超級使用者圖示，圖示將會在啟動器下次重啟後隱藏。一旦圖示被隱藏，您僅能靠在撥號介面輸入安全碼執行超級使用者。預設安全碼為 *#*#787378737#*#* (*#*#superuser#*#*) ，數字可做更改。
+    <string name="pref_ghost_mode_message">幽靈模式會隱藏啟動器的超級使用者圖示，圖示將會在啟動器下次重啟後隱藏。一旦圖示被隱藏，您僅能靠在撥號介面輸入安全碼執行超級使用者。預設安全碼為 *#*#787378737#*#* ，數字可做更改。
 
 請注意，如果您的設備沒有撥號介面，您不該啟用幽靈模式。</string>
     <string name="pref_ghost_mode_enabled_message">幽靈模式已啟用。請重新啟動您的啟動器或是重新開機。</string>
@@ -154,7 +154,7 @@
     <string name="updater_update">更新</string>
     <string name="updater_update_anyway">還是更新</string>
     <string name="updater_cool">不錯喔！再做一次。</string>
-    <string name="updater_working">工作中…</string>
+    <string name="updater_working">工作中\u2026</string>
     <string name="updater_ok">完成！</string>
     <string name="updater_fail">失敗！</string>
     <string name="updater_not_found">找不到</string>
@@ -162,22 +162,22 @@
     <string name="updater_no_conn">無法下載清單。請檢查網路連接</string>
     <string name="updater_try_again">再試一次</string>
     <string name="updater_su_updated">su二進位檔更新成功</string>
-    <string name="updater_step_download_manifest">正在下載清單…\u0020</string>
-    <string name="updater_step_parse_manifest">解析清單…\u0020</string>
-    <string name="updater_step_latest_version">最新版本 =\u0020</string>
-    <string name="updater_step_check_installed_version">檢查已安裝的版本 =\u0020</string>
-    <string name="updater_step_fix_db">修復資料庫中…\u0020</string>
-    <string name="updater_step_unpack_sutools">正在解壓縮su工具…\u0020</string>
-    <string name="updater_step_check_installed_path">正在檢查目前安裝路徑…\u0020</string>
-    <string name="updater_step_download_su">正在下載新版二進位檔…\u0020</string>
-    <string name="updater_step_get_root">取得root權限中…\u0020</string>
-    <string name="updater_step_remount_rw">重新掛載 /system 為可讀寫…\u0020</string>
-    <string name="updater_step_cp">複製 su 到/system…\u0020</string>
-    <string name="updater_step_chmod">正在更改su檔案模式為06755…\u0020</string>
-    <string name="updater_step_ops_check">正在確認新su工作正常…\u0020</string>
-    <string name="updater_step_mv">正在移動su到最終位置…\u0020</string>
-    <string name="updater_step_remount_ro">重新掛載/system 為只可讀…\u0020</string>
-    <string name="updater_step_clean_up">正在清理…\u0020</string>
+    <string name="updater_step_download_manifest">正在下載清單\u2026</string>
+    <string name="updater_step_parse_manifest">解析清單\u2026</string>
+    <string name="updater_step_latest_version">最新版本 =&#32;</string>
+    <string name="updater_step_check_installed_version">檢查已安裝的版本 =&#32;</string>
+    <string name="updater_step_fix_db">修復資料庫中\u2026</string>
+    <string name="updater_step_unpack_sutools">正在解壓縮su工具\u2026</string>
+    <string name="updater_step_check_installed_path">正在檢查目前安裝路徑\u2026</string>
+    <string name="updater_step_download_su">正在下載新版二進位檔\u2026</string>
+    <string name="updater_step_get_root">取得root權限中\u2026</string>
+    <string name="updater_step_remount_rw">重新掛載 /system 為可讀寫\u2026</string>
+    <string name="updater_step_cp">複製 su 到/system\u2026</string>
+    <string name="updater_step_chmod">正在更改su檔案模式為06755\u2026</string>
+    <string name="updater_step_ops_check">正在確認新su工作正常\u2026</string>
+    <string name="updater_step_mv">正在移動su到最終位置\u2026</string>
+    <string name="updater_step_remount_ro">重新掛載/system 為只可讀\u2026</string>
+    <string name="updater_step_clean_up">正在清理\u2026</string>
     <string name="updater_remount_ro_failed">重新將系統掛載為唯讀失敗。請重新開機以便完成更新</string>
     <string name="updater_find_su_failed">無法找到目前已安裝的su二進位檔。更新無法繼續</string>
     <string name="updater_bad_install_location">su二進位檔目前安裝於/sbin中。此更新程式無法對其進行更新。請尋找適用於您裝置的新ROM。</string>
@@ -205,20 +205,4 @@
     <string name="malicious_app_write">請求可寫入權限提供者的權限</string>
     <string name="changelog_full_title">更新項目</string>
     <string name="changelog_title">更新內容</string>
-    <plurals name="restore_complete">
-        <item quantity="one">已還原一個應用程式和偏好好設定</item>
-        <item quantity="other">已還原 %1$d 個應用程式和偏好設定</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">刪除一筆紀錄</item>
-        <item quantity="other">%1$d 刪除日誌</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">最後一次機會</item>
-        <item quantity="other">錯誤 - 還可嘗試%1$d次</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">發現下列應用程式套件為惡意程式：</item>
-        <item quantity="other">發現下列應用程式套件為惡意程式：</item>
-    </plurals>
 </resources>

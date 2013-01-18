@@ -90,10 +90,10 @@
     <string name="info_check_for_updates">Tocca per verificare gli aggiornamenti</string>
     <string name="info_outdated_notification">Notifica eseguibile obsoleto</string>
     <string name="info_changelog_summary">Mostra il changelog</string>
-    <string name="info_working">attendere…</string>
+    <string name="info_working">attendere\u2026</string>
     <string name="use_global_settings">Usa impostazioni globali</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Notifiche abilitate</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Registro abilitato</string>
+    <string name="notifications_enabled">&#32;&#32;Notifiche abilitate</string>
+    <string name="logging_enabled">&#32;&#32;Registro abilitato</string>
     <string name="request_message">%1$s sta richiedendo l\'accesso root. \n\nAttenzione: se non hai aperto tu questa applicazione o se non capisci questa richiesta, generalmente è una buona idea negare l\'accesso.</string>
     <string name="request_more_info">Premi per più informazioni</string>
     <string name="request_less_info">Premi per meno informazioni</string>
@@ -109,7 +109,7 @@
     <string name="pref_automatic_action_title">Risposta automatica</string>
     <string name="pref_automatic_action_summary">Imposta il modo in cui Superuser gestisce le nuove richieste</string>
     <string name="pref_ghost_mode_title">Modalità Ghost</string>
-    <string name="pref_ghost_mode_message">La modalità ghost nasconde l\'icona di Superuser dal launcher. L\'icona verrà nascosta al primo riavvio del launcher. Quando l\'icona è nascosta, è possibile accedere a Superuser componendo un codice segreto nel dialer. Il codice segreto predefinito è **#787378737##*#* (*#*#superuser#*#*), ma le cifre possono essere cambiate.\n\nNota che se il dispositivo non dispone di un dialer non dovresti attivare la modalità Ghost.\n\nAttivare la modalità ghost?</string>
+    <string name="pref_ghost_mode_message">La modalità ghost nasconde l\'icona di Superuser dal launcher. L\'icona verrà nascosta al primo riavvio del launcher. Quando l\'icona è nascosta, è possibile accedere a Superuser componendo un codice segreto nel dialer. Il codice segreto predefinito è **#787378737##*#*, ma le cifre possono essere cambiate.\n\nNota che se il dispositivo non dispone di un dialer non dovresti attivare la modalità Ghost.\n\nAttivare la modalità ghost?</string>
     <string name="pref_ghost_mode_enabled_message">Modalità Ghost attivata. Riavviare il launcher o il telefono.</string>
     <string name="pref_secret_code_title">Codice segreto</string>
     <string name="pref_secret_code_summary">Il codice segreto è *#*#%1$s#*#*</string>
@@ -147,24 +147,16 @@
     <string name="backup_complete">Backup salvato su sdcard</string>
     <string name="pref_restore_title">Ripristino app./impost.</string>
     <string name="pref_get_elite_summary">Compra Elite per sbloccare tutte le opzioni</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Un\'applicazione ripristinata</item>
-        <item quantity="other">%1$d applicazioni ripristinate</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Preferenze ripristinate</string>
     <string name="pref_category_info_title">Generale</string>
     <string name="pref_elite_only">Disponibile agli utenti Elite</string>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Un registro cancellato</item>
-        <item quantity="other">%1$d registri cancellati</item>
-    </plurals>
     <string name="updater_title">Update eseguibile su</string>
     <string name="updater_new_su_found">Trovata nuova versione di su. Aggiornare?</string>
     <string name="updater_current_installed">Ultima versione già installata. Nessuna azione necessaria.</string>
     <string name="updater_update">Aggiorna</string>
     <string name="updater_update_anyway">Aggiorna comunque</string>
     <string name="updater_cool">Ripeti</string>
-    <string name="updater_working">Attendere…</string>
+    <string name="updater_working">Attendere\u2026</string>
     <string name="updater_ok">OK!</string>
     <string name="updater_fail">non riuscito!</string>
     <string name="updater_not_found">Non trovato</string>
@@ -172,22 +164,22 @@
     <string name="updater_no_conn">Download manifest fallito. Controlla la connessione internet</string>
     <string name="updater_try_again">Riprova</string>
     <string name="updater_su_updated">Eseguibile su aggiornato con successo</string>
-    <string name="updater_step_download_manifest">Download del manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Verifica del manifest…\u0020</string>
+    <string name="updater_step_download_manifest">Download del manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Verifica del manifest\u2026</string>
     <string name="updater_step_latest_version">Ultima versione=\u0020</string>
     <string name="updater_step_check_installed_version">Controllo versione installata =\u0020</string>
-    <string name="updater_step_fix_db">Riparazione database…\u0020</string>
-    <string name="updater_step_unpack_sutools">Scompattazione sutools…\u0020</string>
-    <string name="updater_step_check_installed_path">Controllo percorso installazione…\u0020</string>
-    <string name="updater_step_download_su">Download nuovo eseguibile…\u0020</string>
-    <string name="updater_step_get_root">Richiesta permessi di root…\u0020</string>
-    <string name="updater_step_remount_rw">Mount in lettura/scrittura di /system…\u0020</string>
-    <string name="updater_step_cp">Copia di su in /system…\u0020</string>
-    <string name="updater_step_chmod">Cambio permessi del file in 06755…\u0020</string>
-    <string name="updater_step_ops_check">Verifica funzionamento su…\u0020</string>
-    <string name="updater_step_mv">Spostamento su in posizione finale…\u0020</string>
-    <string name="updater_step_remount_ro">Mount in sola lettura di /system…\u0020</string>
-    <string name="updater_step_clean_up">Pulizia…\u0020</string>
+    <string name="updater_step_fix_db">Riparazione database\u2026</string>
+    <string name="updater_step_unpack_sutools">Scompattazione sutools\u2026</string>
+    <string name="updater_step_check_installed_path">Controllo percorso installazione\u2026</string>
+    <string name="updater_step_download_su">Download nuovo eseguibile\u2026</string>
+    <string name="updater_step_get_root">Richiesta permessi di root\u2026</string>
+    <string name="updater_step_remount_rw">Mount in lettura/scrittura di /system\u2026</string>
+    <string name="updater_step_cp">Copia di su in /system\u2026</string>
+    <string name="updater_step_chmod">Cambio permessi del file in 06755\u2026</string>
+    <string name="updater_step_ops_check">Verifica funzionamento su\u2026</string>
+    <string name="updater_step_mv">Spostamento su in posizione finale\u2026</string>
+    <string name="updater_step_remount_ro">Mount in sola lettura di /system\u2026</string>
+    <string name="updater_step_clean_up">Pulizia\u2026</string>
     <string name="updater_remount_ro_failed">Mount della partizione /system in sola lettura fallito, riavviare per completare l\'aggiornamento</string>
     <string name="updater_find_su_failed">Impossibile trovare il binario su installato. L\'aggiornamento non può proseguire</string>
     <string name="updater_bad_install_location">l\'eseguibile su è attualmente installato in /sbin, dove è impossibile aggiornarlo. Si prega di cambiare ROM al dispositivo.</string>
@@ -202,17 +194,9 @@
     <string name="pin_new_pin">Inserisci nuovo PIN</string>
     <string name="pin_confirm_pin">Conferma PIN</string>
     <string name="pin_mismatch">PIN differenti, riprova</string>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Ultimo tentativo</item>
-        <item quantity="other">No! - %1$d tentativi rimasti</item>
-    </plurals>
     <string name="pin_enter_secret_code">Inserisci codice segreto</string>
     <string name="nfc_write_tag">Scansiona tag da scrivere</string>
     <string name="malicious_apps_title">Attenzione</string>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Il seguente pacchetto è dannoso:</item>
-        <item quantity="other">I seguenti pacchetti sono dannosi:</item>
-    </plurals>
     <string name="malicious_apps_message2">Le applicazioni sono identificate come dannose perché contengono elementi che stanno tentando di ottenere accesso root, probabilmente senza il tuo consenso. Si consiglia di disinstallarle immediatamente.</string>
     <string name="malicious_apps_uninstall">Disinstalla</string>
     <string name="malicious_apps_ignore">Ignora</string>

@@ -51,7 +51,7 @@
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="ok">OK</string>
-    <string name="loading">Laden&#8230;</string>
+    <string name="loading">Laden\u2026</string>
 
     <string name="allow">Erlauben</string>
     <string name="cancel">Abbrechen</string>
@@ -93,15 +93,15 @@
     <string name="info_temp_unroot_unsuccessful">Root konnte temporär nicht entfernt werden</string>
     <string name="info_ota_survival">OTA Root-Keeper</string>
     <string name="info_ota_survival_warning">Diese Optionen sind experimentell und funktionieren nicht auf allen Geräten</string>
-    <string name="info_version_loading">Superuser-Version wird geladen&#8230;</string>
+    <string name="info_version_loading">Superuser-Version wird geladen\u2026</string>
     <string name="info_version">Superuser v%1$s (%2$d)</string>
-    <string name="info_bin_version_loading">\‘su\‘-Version wird geladen&#8230;</string>
+    <string name="info_bin_version_loading">\‘su\‘-Version wird geladen\u2026</string>
     <string name="info_bin_version">\‘su\‘ v%1$s (%2$d)</string>
     <string name="info_bin_version_not_found">\‘su\‘ konnte nicht gefunden werden</string>
     <string name="info_check_for_updates">Drücken, um auf Updates zu prüfen</string>
     <string name="info_outdated_notification">Über veraltete \‘su\‘-Version benachrichtigen</string>
     <string name="info_changelog_summary">Changelog anzeigen</string>
-    <string name="info_working">Arbeitet&#8230;</string>
+    <string name="info_working">Arbeitet\u2026</string>
 
     <string name="use_global_settings">Globale Einstellungen</string>
     <string name="notifications_enabled">&#32;&#32;Benachrichtigungen</string>
@@ -144,8 +144,8 @@
     <string name="pref_date_format_title">Datumsformat</string>
     <string name="pref_date_format_summary">Format der Datumsdarstellung in Protokollen</string>
     <string name="pref_clear_log_title">Protokoll löschen</string>
-    <string name="pref_clearing_log_title">Protokoll wird gelöscht&#8230;</string>
-    <string name="pref_clearing_log_summary">Bitte warten&#8230;</string>
+    <string name="pref_clearing_log_title">Protokoll wird gelöscht\u2026</string>
+    <string name="pref_clearing_log_summary">Bitte warten\u2026</string>
     <string name="pref_category_notification_title">Benachrichtigungen</string>
     <string name="pref_notifications_title">Benachrichtigungen</string>
     <string name="pref_notifications_type_title">Benachrichtigungsart</string>
@@ -161,17 +161,9 @@
     <string name="backup_complete">Daten gesichert</string>
     <string name="pref_restore_title">Daten wiederherstellen</string>
     <string name="pref_get_elite_summary">Superuser Elite kaufen um alle Funktionen freizuschalten</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Eine App und Einstellungen wiederhergestellt</item>
-        <item quantity="other">%1$d Apps und Einstellungen wiederhergestellt</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Einstellungen wiederhergestellt</string>
     <string name="pref_category_info_title">Allgemein</string>
     <string name="pref_elite_only">Nur für Nutzer der Elite-Version verfügbar</string>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Ein Protokoll gelöscht</item>
-        <item quantity="other">%1$d Protokolle gelöscht</item>
-    </plurals>
 
     <string name="updater_title">\‘su\‘-Updater</string>
     <string name="updater_new_su_found">Neue \‘su\‘-Version gefunden.\n\nJetzt aktualisieren?</string>
@@ -179,7 +171,7 @@
     <string name="updater_update">Aktualisieren</string>
     <string name="updater_update_anyway">Trotzdem aktualisieren</string>
     <string name="updater_cool">Das war cool, mach es nochmal</string>
-    <string name="updater_working">Arbeitet&#8230;</string>
+    <string name="updater_working">Arbeitet\u2026</string>
     <string name="updater_ok">OK</string>
     <string name="updater_fail">Fehlgeschlagen</string>
     <string name="updater_not_found">Nicht gefunden</string>
@@ -187,22 +179,22 @@
     <string name="updater_no_conn">Fehler beim Herunterladen des Manifests.\n\nInternetverbindung überprüfen</string>
     <string name="updater_try_again">Erneut versuchen</string>
     <string name="updater_su_updated">su-Binary erfolgreich aktualisiert</string>
-    <string name="updater_step_download_manifest">Manifest wird heruntergeladen&#8230;</string>
-    <string name="updater_step_parse_manifest">Analysiere Manifest&#8230;</string>
+    <string name="updater_step_download_manifest">Manifest wird heruntergeladen\u2026</string>
+    <string name="updater_step_parse_manifest">Analysiere Manifest\u2026</string>
     <string name="updater_step_latest_version">Neueste Version =&#32;</string>
     <string name="updater_step_check_installed_version">Überprüfe installierte Version =&#32;</string>
-    <string name="updater_step_fix_db">Datenbank wird repariert&#8230;</string>
-    <string name="updater_step_unpack_sutools">Entpacke sutools&#8230;</string>
-    <string name="updater_step_check_installed_path">Momentaner Installationspfad wird überprüft&#8230;&#32;</string>
-    <string name="updater_step_download_su">Neue \‘su\‘-Version wird geladen&#8230;</string>
-    <string name="updater_step_get_root">Erlange Root-Zugriff&#8230;</string>
-    <string name="updater_step_remount_rw">/system schreibbar einbinden&#8230;</string>
-    <string name="updater_step_cp">Kopiere \‘su\‘ nach /system&#8230;</string>
-    <string name="updater_step_chmod">\‘su\‘-Zugriffsrechte nach 06755 ändern&#8230;</string>
-    <string name="updater_step_ops_check">Sicherstellen, dass die neue \‘su\‘-Version funktioniert&#8230;</string>
-    <string name="updater_step_mv">Verschiebe \‘su\‘ zu seiner endgültigen Position&#8230;</string>
-    <string name="updater_step_remount_ro">/system unbeschreibbar einbinden&#8230;</string>
-    <string name="updater_step_clean_up">Aufräumen&#8230;</string>
+    <string name="updater_step_fix_db">Datenbank wird repariert\u2026</string>
+    <string name="updater_step_unpack_sutools">Entpacke sutools\u2026</string>
+    <string name="updater_step_check_installed_path">Momentaner Installationspfad wird überprüft\u2026&#32;</string>
+    <string name="updater_step_download_su">Neue \‘su\‘-Version wird geladen\u2026</string>
+    <string name="updater_step_get_root">Erlange Root-Zugriff\u2026</string>
+    <string name="updater_step_remount_rw">/system schreibbar einbinden\u2026</string>
+    <string name="updater_step_cp">Kopiere \‘su\‘ nach /system\u2026</string>
+    <string name="updater_step_chmod">\‘su\‘-Zugriffsrechte nach 06755 ändern\u2026</string>
+    <string name="updater_step_ops_check">Sicherstellen, dass die neue \‘su\‘-Version funktioniert\u2026</string>
+    <string name="updater_step_mv">Verschiebe \‘su\‘ zu seiner endgültigen Position\u2026</string>
+    <string name="updater_step_remount_ro">/system unbeschreibbar einbinden\u2026</string>
+    <string name="updater_step_clean_up">Aufräumen\u2026</string>
     <string name="updater_remount_ro_failed">Aktivieren des Lesezugriffs fehlgeschlagen.\nBitte Gerät neustarten, um die Aktualisierung abzuschließen.</string>
     <string name="updater_find_su_failed">\‘su\‘ konnte nicht gefunden werden.\nAktualisierung fehlgeschlagen.</string>
     <string name="updater_bad_install_location">\‘su\‘ ist derzeit unter /sbin installiert. Der Updater ist nicht in der Lage die \‘su\‘ zu aktualisieren.</string>
@@ -220,19 +212,11 @@
     <string name="pin_new_pin">Neue PIN eingeben</string>
     <string name="pin_confirm_pin">PIN bestätigen</string>
     <string name="pin_mismatch">PINs stimmen nicht überein, versuchen Sie es erneut</string>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Letzte Chance</item>
-        <item quantity="other">Nein - %1$d Versuche verbleiben</item>
-    </plurals>
     <string name="pin_enter_secret_code">Geheimcode eingeben</string>
 
     <string name="nfc_write_tag">Zum Schreiben bitte Etikett scannen</string>
 
     <string name="malicious_apps_title">Warnung</string>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Die folgende App wurde als schädlich eingestuft:</item>
-        <item quantity="other">Die folgenden Apps wurden als schädlich eingestuft:</item>
-    </plurals>
     <string name="malicious_apps_message2">Apps werden als schädlich eingestuft, wenn sie Elemente enthalten, die darauf hinweisen, dass sie möglicherweise ohne Ihr Einverständnis versuchen, Root-Zugriff zu erhalten. Es wird empfohlen, diese Apps Apps unverzüglich zu deinstallieren.</string>
     <string name="malicious_apps_uninstall">Deinstallieren</string>
     <string name="malicious_apps_ignore">Ignorieren</string>

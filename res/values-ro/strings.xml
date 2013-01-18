@@ -104,7 +104,7 @@
     <string name="pref_automatic_action_title">Răspuns automat</string>
     <string name="pref_automatic_action_summary">Setează modul în care Superuser gestionează noile solicitări</string>
     <string name="pref_ghost_mode_title">Mod fantomă</string>
-    <string name="pref_ghost_mode_message">Modul fantomă ascunde pictograma Superuser din lista de aplicații. Aceasta va fi ascunsă data următoare când launcher-ul este redeschis. Odată ascunsă, poți accesa superuser sunând la un număr secret. Inițial acesta este *#*#787378737#*#* (*#*#superuser#*#*), dar poate fi schimbat.\n\n Dacă pe aparatul tău nu poţi suna la numere, ar trebui să lași modul fantomă dezactivat.\n\n Activezi modul fantomă?</string>
+    <string name="pref_ghost_mode_message">Modul fantomă ascunde pictograma Superuser din lista de aplicații. Aceasta va fi ascunsă data următoare când launcher-ul este redeschis. Odată ascunsă, poți accesa superuser sunând la un număr secret. Inițial acesta este *#*#787378737#*#*, dar poate fi schimbat.\n\n Dacă pe aparatul tău nu poţi suna la numere, ar trebui să lași modul fantomă dezactivat.\n\n Activezi modul fantomă?</string>
     <string name="pref_ghost_mode_enabled_message">Mod fantomă activat. Restartează telefonul pentru a vedea schimbarea.</string>
     <string name="pref_secret_code_title">Cod secret</string>
     <string name="pref_secret_code_summary">Codul secret este *#*#%1$s#*#*</string>
@@ -156,8 +156,8 @@
     <string name="updater_no_conn">Nu s-a putut descărca manifestul. Verificaţi conexiunea la internet</string>
     <string name="updater_try_again">Încercați din nou</string>
     <string name="updater_su_updated">su a fost actualizat cu succes</string>
-    <string name="updater_step_latest_version">Ultima versiune =\u0020</string>
-    <string name="updater_step_check_installed_version">Se verifică versiunea instalată =\u0020</string>
+    <string name="updater_step_latest_version">Ultima versiune =&#32;</string>
+    <string name="updater_step_check_installed_version">Se verifică versiunea instalată =&#32;</string>
     <string name="updater_remount_ro_failed">Sistemul nu s-a putut remonta ca read-only, vă rugăm reporniți aparatul pentru a termina actualizarea.</string>
     <string name="updater_find_su_failed">Su nu a fost găsit. Actualizarea nu poate continua</string>
     <string name="updater_bad_install_location">su este instalat in /sbin. Acest actualizator nu este capabil de actualizare. Va rugam gasiti un nou ROM pentru aparatul dvs.</string>
@@ -188,23 +188,4 @@
 
     <string name="changelog_full_title">Schimbari recente</string>
     <string name="changelog_title">Ce e nou</string>
-
-    <plurals name="restore_complete">
-        <item quantity="one">O aplicaţie si preferinţe restaurate</item>
-        <item quantity="other">%1$d aplicaţii şi preferinţe restaurate</item>
-    </plurals>
-
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Un fișier de jurnal șters</item>
-        <item quantity="other">%1$d jurnale șterse </item>
-    </plurals>
-
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Ultima șansă    </item>
-    </plurals>
-
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Următorul pachet a fost găsit ca fiind malițios:</item>
-        <item quantity="other">Următoarele pachete au fost găsite ca fiind malițioase:</item>
-    </plurals>
 </resources>

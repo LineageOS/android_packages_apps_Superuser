@@ -104,8 +104,8 @@
     <string name="info_working">Folyamatban…</string>
 
     <string name="use_global_settings">Alapértelmezett beállítások használata</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Értesítések engedélyezve</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Naplózás engedélyezve</string>
+    <string name="notifications_enabled">&#32;&#32;Értesítések engedélyezve</string>
+    <string name="logging_enabled">&#32;&#32;Naplózás engedélyezve</string>
 
     <string name="request_message">%1s root jogokat kér.\n\nFigyelem: Amennyiben nem Ön indította ezt a folyamatot, vagy nincs tisztában a funkcióval, jobban jár, ha letiltja!</string>
     <string name="request_more_info">Érintse meg több információért</string>
@@ -123,7 +123,7 @@
     <string name="pref_automatic_action_title">Automatikus válasz</string>
     <string name="pref_automatic_action_summary">Új kérelmek kezelésének beállítása</string>
     <string name="pref_ghost_mode_title">Szellem mód</string>
-    <string name="pref_ghost_mode_message">A Szellem mód elrejti a Superuser ikont a menüből. Az ikon eltűnik a menü következő indulásánál. Ha az ikon eltűnt, a Superuser alkalmazás csak a tárcsázóból érhető el. Ehhez a kód *#*#787378737#*#* (*#*#superuser#*#*), de a számok megváltoztathatóak.\n\nViszont ha a készüléken nincs tárcsázó, a Szellem mód bekapcsolása nem jó ötlet.\n\nBekapcsolja a Szellem módot?</string>
+    <string name="pref_ghost_mode_message">A Szellem mód elrejti a Superuser ikont a menüből. Az ikon eltűnik a menü következő indulásánál. Ha az ikon eltűnt, a Superuser alkalmazás csak a tárcsázóból érhető el. Ehhez a kód *#*#787378737#*#*, de a számok megváltoztathatóak.\n\nViszont ha a készüléken nincs tárcsázó, a Szellem mód bekapcsolása nem jó ötlet.\n\nBekapcsolja a Szellem módot?</string>
     <string name="pref_ghost_mode_enabled_message">Szellem mód engedélyezve. Kérem, indítsa újra a programindítót vagy a telefont a változtatásokhoz.</string>
     <string name="pref_secret_code_title">Titkos kód</string>
     <string name="pref_secret_code_summary">A titkos kód: *#*#%1$s#*#*</string>
@@ -161,17 +161,9 @@
     <string name="backup_complete">Mentve az sd kártyára</string>
     <string name="pref_restore_title">Alkalmazások/beállítások visszaállítása</string>
     <string name="pref_get_elite_summary">Vegye meg az Elite-et a funkciók feloldásához</string>
-  <plurals name="restore_complete">
-    <item quantity="one">Egy alkalmazás és beállítások visszaállítva</item>
-    <item quantity="other">%1$d alkalmazás és beállítások visszaállítva</item>
-  </plurals>
     <string name="restore_complete_prefs_only">Beállítások visszaállítva</string>
     <string name="pref_category_info_title">Általános</string>
     <string name="pref_elite_only">Csak az Elite verzióban érhető el</string>
-  <plurals name="pref_logs_deleted">
-    <item quantity="one">Egy log törölve</item>
-    <item quantity="other">%1$d log törölve</item>
-  </plurals>
 
     <string name="updater_title">Bináris Frissítő</string>
     <string name="updater_new_su_found">Elérhető frissebb su bináris. Frissíti?</string>
@@ -220,19 +212,11 @@
     <string name="pin_new_pin">Adja meg az új PIN-kódot</string>
     <string name="pin_confirm_pin">Erősítse meg a PIN-kódot</string>
     <string name="pin_mismatch">PIN nem egyezik, próbálja újra</string>
-  <plurals name="pin_incorrect_try">
-    <item quantity="one">Utolsó esély</item>
-    <item quantity="other">Nem - %1$d próba maradt</item>
-  </plurals>
     <string name="pin_enter_secret_code">Adja meg a titkos kódot</string>
 
     <string name="nfc_write_tag">NFC címke írása</string>
 
     <string name="malicious_apps_title">Figyelem</string>
-  <plurals name="malicious_apps_message1">
-    <item quantity="one">A következő csomag rosszindulatú lehet:</item>
-    <item quantity="other">A következő csomagok rosszindulatúak lehetnek:</item>
-  </plurals>
     <string name="malicious_apps_message2">Az alkalmazások rosszindulatúnak lettek jelölve, mivel olyan elemeket tartalmaznak, amelyek root jogot kérnek a beleegyezése nélkül. Ajánlott az azonnali eltávolításuk!</string>
     <string name="malicious_apps_uninstall">Eltávolítás</string>
     <string name="malicious_apps_ignore">Figyelmen kívül hagyás</string>

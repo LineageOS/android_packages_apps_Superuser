@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">바이너리 업데이트 권고</string>
     <string name="info_changelog_summary">변경 내역 표시</string>
     <string name="use_global_settings">전역 설정 사용</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020알림 활성화됨</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020로깅 활성화됨</string>
+    <string name="notifications_enabled">&#32;&#32;알림 활성화됨</string>
+    <string name="logging_enabled">&#32;&#32;로깅 활성화됨</string>
     <string name="request_message">%1$s(이)가 슈퍼유저 권한을 요청했습니다.\n\n경고 : 일반적으로 사용자가 실행하지 않았거나 명령을 모르면 거부하는 것이 좋습니다.</string>
     <string name="request_more_info">상세 정보</string>
     <string name="request_less_info">간략 정보</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">자동 응답</string>
     <string name="pref_automatic_action_summary">슈퍼유저가 새 요청을 처리하는 방식 지정</string>
     <string name="pref_ghost_mode_title">고스트 ​​모드</string>
-    <string name="pref_ghost_mode_message">고스트 모드는 홈 어플에서 슈퍼유저의 아이콘을 숨깁니다. 홈 어플의 재실행시 숨겨지며, 다이얼러에서 암호를 입력하여 슈퍼유저에 접근할 수 있습니다. 초기 암호는 *#*#787378737#*#* (*#*#superuser#*#*)이지만 사용자가 임의로 변경할 수 있습니다.\n\n기기에 다이얼러가 없을 경우엔 고스트 모드를 사용할 수 없습니다.\n\n고스트 모드를 사용하시겠습니까?</string>
+    <string name="pref_ghost_mode_message">고스트 모드는 홈 어플에서 슈퍼유저의 아이콘을 숨깁니다. 홈 어플의 재실행시 숨겨지며, 다이얼러에서 암호를 입력하여 슈퍼유저에 접근할 수 있습니다. 초기 암호는 *#*#787378737#*#* 이지만 사용자가 임의로 변경할 수 있습니다.\n\n기기에 다이얼러가 없을 경우엔 고스트 모드를 사용할 수 없습니다.\n\n고스트 모드를 사용하시겠습니까?</string>
     <string name="pref_ghost_mode_enabled_message">고스트 모드가 활성화되었습니다.\n홈 어플이나 장치를 재시작하여 변화를 확인하십시오.</string>
     <string name="pref_secret_code_title">암호</string>
     <string name="pref_secret_code_summary">현재 암호 : *#*#%1$s#*#*</string>
@@ -126,8 +126,8 @@
     <string name="pref_date_format_title">날짜 형식 선택</string>
     <string name="pref_date_format_summary">모든 로그에 표시될 날짜 형식</string>
     <string name="pref_clear_log_title">로그 삭제</string>
-    <string name="pref_clearing_log_title">로그를 지우는 중...</string>
-    <string name="pref_clearing_log_summary">기다려 주십시오...</string>
+    <string name="pref_clearing_log_title">로그를 지우는 중\u2026</string>
+    <string name="pref_clearing_log_summary">기다려 주십시오\u2026</string>
     <string name="pref_category_notification_title">알림</string>
     <string name="pref_notifications_title">알림</string>
     <string name="pref_notifications_type_title">알림 종류</string>
@@ -152,7 +152,7 @@
     <string name="updater_update">업데이트</string>
     <string name="updater_update_anyway">지금 업데이트</string>
     <string name="updater_cool">멋지군요. 또 해봐요!</string>
-    <string name="updater_working">작업 중...</string>
+    <string name="updater_working">작업 중\u2026</string>
     <string name="updater_ok">완료!</string>
     <string name="updater_fail">실패!</string>
     <string name="updater_not_found">찾을 수 없음</string>
@@ -160,22 +160,22 @@
     <string name="updater_no_conn">매니페스트를 다운로드할 수 없습니다.\n인터넷 연결상태를 확인하십시오.</string>
     <string name="updater_try_again">다시 시도</string>
     <string name="updater_su_updated">슈퍼유저 바이너리가 업데이트되었습니다.</string>
-    <string name="updater_step_download_manifest">Manifest 다운로드 중…\u0020</string>
-    <string name="updater_step_parse_manifest">Manifest 분석 중…\u0020</string>
+    <string name="updater_step_download_manifest">Manifest 다운로드 중\u2026</string>
+    <string name="updater_step_parse_manifest">Manifest 분석 중\u2026</string>
     <string name="updater_step_latest_version">최신 버전 =\u0020</string>
     <string name="updater_step_check_installed_version">설치된 버전 확인 중 =\u0020</string>
-    <string name="updater_step_fix_db">데이터베이스 교정 중…\u0020</string>
-    <string name="updater_step_unpack_sutools">SU 도구 압축을 푸는 중…\u0020</string>
-    <string name="updater_step_check_installed_path">현재 설치경로 확인 중…\u0020</string>
-    <string name="updater_step_download_su">새 바이너리 다운로드 중…\u0020</string>
-    <string name="updater_step_get_root">루트 액세스 조율 중…\u0020</string>
-    <string name="updater_step_remount_rw">쓰기 모드로 system 폴더를 재마운트하는 중…\u0020</string>
-    <string name="updater_step_cp">system 폴더로 SU 복사 중…\u0020</string>
-    <string name="updater_step_chmod">SU 파일 권한을 06755로 변경 중…\u0020</string>
-    <string name="updater_step_ops_check">새로운 SU 작업 중…\u0020</string>
-    <string name="updater_step_mv">SU 바이너리를 최종 위치로 이동 중…\u0020</string>
-    <string name="updater_step_remount_ro">system 폴더를 읽기 전용 모드로 재마운트하는 중…\u0020</string>
-    <string name="updater_step_clean_up">작업 정리 중…\u0020</string>
+    <string name="updater_step_fix_db">데이터베이스 교정 중\u2026</string>
+    <string name="updater_step_unpack_sutools">SU 도구 압축을 푸는 중\u2026</string>
+    <string name="updater_step_check_installed_path">현재 설치경로 확인 중\u2026</string>
+    <string name="updater_step_download_su">새 바이너리 다운로드 중\u2026</string>
+    <string name="updater_step_get_root">루트 액세스 조율 중\u2026</string>
+    <string name="updater_step_remount_rw">쓰기 모드로 system 폴더를 재마운트하는 중\u2026</string>
+    <string name="updater_step_cp">system 폴더로 SU 복사 중\u2026</string>
+    <string name="updater_step_chmod">SU 파일 권한을 06755로 변경 중\u2026</string>
+    <string name="updater_step_ops_check">새로운 SU 작업 중\u2026</string>
+    <string name="updater_step_mv">SU 바이너리를 최종 위치로 이동 중\u2026</string>
+    <string name="updater_step_remount_ro">system 폴더를 읽기 전용 모드로 재마운트하는 중\u2026</string>
+    <string name="updater_step_clean_up">작업 정리 중\u2026</string>
     <string name="updater_remount_ro_failed">system 폴더를 읽기 전용으로 재마운트하지 못했습니다. 업데이트를 완료하려면 기기를 다시 시작하십시오.</string>
     <string name="updater_find_su_failed">현재 설치된 슈퍼유저 바이너리가 검색되지 않아 업데이트를 진행할 수 없습니다.</string>
     <string name="updater_bad_install_location">현재 슈퍼유저 바이너리가 /sbin 경로에 설치되어 있으므로 이 업데이터로는 업데이트할 수 없습니다. 사용자의 기기에 맞는 새로운 롬을 찾으시기 바랍니다.</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">권한 공급자에 쓰기 권한 요청</string>
     <string name="changelog_full_title">변경 내역</string>
     <string name="changelog_title">새로운 기능</string>
-    <plurals name="restore_complete">
-        <item quantity="one">1개의 어플 및 설정을 복원했습니다.</item>
-        <item quantity="other">%1$d개의 어플 및 설정을 복원했습니다.</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">1개의 로그가 삭제되었습니다.</item>
-        <item quantity="other">%1$d개의 로그가 삭제되었습니다.</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">마지막 기회</item>
-        <item quantity="other">실패 - %1$d회 시도 가능</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">다음 패키지는 악성 어플로 판명되었습니다.</item>
-        <item quantity="other">다음 패키지는 악성 어플로 판명되었습니다.</item>
-    </plurals>
 </resources>

@@ -71,8 +71,8 @@
     <string name="detail_command">Команда</string>
     <string name="detail_status">Статус</string>
     <string name="use_global_settings">Использовать глобальные настройки</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Включить уведомления</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Включить логгирование</string>
+    <string name="notifications_enabled">&#32;&#32;Включить уведомления</string>
+    <string name="logging_enabled">&#32;&#32;Включить логгирование</string>
     <string name="request_message">%1$s запрашивает права Суперпользователя.\n\nВнимание: Если вы не запрашивали это действие или не понимаете, что это за запрос, то лучше всего отклонить его.</string>
     <string name="request_more_info">Нажмите для получения дополнительной информации</string>
     <string name="request_less_info">Нажмите для получения короткой информации</string>
@@ -88,7 +88,7 @@
     <string name="pref_automatic_action_title">Автоматический ответ</string>
     <string name="pref_automatic_action_summary">Установить способ обработки новых запросов</string>
     <string name="pref_ghost_mode_title">Режим призрака</string>
-    <string name="pref_ghost_mode_message">Режим призрака скрывает иконку Суперпользователя из ланчера. Иконка будет также скрыта и при следующем перезапуске ланчера. Когда иконка скрыта Вы можете получить доступ к Суперпользователю, набрав секретный код в номеронабирателе. Код по умолчанию - *#*#787378737#*#* (*#*#superuser#*#*), но он может быть изменен.\n\nЕсли ваше устройство не имеет телефонного модуля, то не рекомендуется включать режим призрака\n\nВключить режим Призрака?</string>
+    <string name="pref_ghost_mode_message">Режим призрака скрывает иконку Суперпользователя из ланчера. Иконка будет также скрыта и при следующем перезапуске ланчера. Когда иконка скрыта Вы можете получить доступ к Суперпользователю, набрав секретный код в номеронабирателе. Код по умолчанию - *#*#787378737#*#*, но он может быть изменен.\n\nЕсли ваше устройство не имеет телефонного модуля, то не рекомендуется включать режим призрака\n\nВключить режим Призрака?</string>
     <string name="pref_ghost_mode_enabled_message">Режим призрака включен. Перезапустите ваш ланчер или перезагрузите телефон, чтобы увидеть изменения.</string>
     <string name="pref_secret_code_title">Секретный код</string>
     <string name="pref_secret_code_summary">Секретный код: *#*#%1$s#*#*</string>
@@ -133,7 +133,7 @@
     <string name="updater_update">Обновление</string>
     <string name="updater_update_anyway">Обновить все равно</string>
     <string name="updater_cool">Это было круто, сделать снова</string>
-    <string name="updater_working">Работаем…</string>
+    <string name="updater_working">Работаем\u2026</string>
     <string name="updater_ok">выполнено!</string>
     <string name="updater_fail">ошибка!</string>
     <string name="updater_not_found">не нааэ</string>
@@ -141,20 +141,20 @@
     <string name="updater_no_conn">Не удалось загрузить манифест. Проверьте подключение к Интернету</string>
     <string name="updater_try_again">Повторить</string>
     <string name="updater_su_updated">ресурсы su обновлены успешно</string>
-    <string name="updater_step_download_manifest">Загружаем manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Анализ manifest…\u0020</string>
-    <string name="updater_step_latest_version">Последняя версия =\u0020</string>
-    <string name="updater_step_check_installed_version">Проверка установленной версии =\u0020</string>
-    <string name="updater_step_fix_db">Исправление базы данных…\u0020</string>
-    <string name="updater_step_check_installed_path">Проверка текущего пути установки...\u0020</string>
-    <string name="updater_step_download_su">Загрузка новой программы...\u0020</string>
-    <string name="updater_step_get_root">Получение доступа root…\u0020</string>
-    <string name="updater_step_remount_rw">Переподключение каталога /system в режиме записи...\u0020</string>
-    <string name="updater_step_cp">Копирование su в каталог /system...\u0020</string>
-    <string name="updater_step_chmod">Изменение разрешений файла su на 06755...\u0020</string>
-    <string name="updater_step_mv">Программа \"su\" перемещается на постоянное место...\u0020</string>
-    <string name="updater_step_remount_ro">Переподключение каталога /system в режим чтения...\u0020</string>
-    <string name="updater_step_clean_up">Очистка…\u0020</string>
+    <string name="updater_step_download_manifest">Загружаем manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Анализ manifest\u2026</string>
+    <string name="updater_step_latest_version">Последняя версия =&#32;</string>
+    <string name="updater_step_check_installed_version">Проверка установленной версии =&#32;</string>
+    <string name="updater_step_fix_db">Исправление базы данных\u2026</string>
+    <string name="updater_step_check_installed_path">Проверка текущего пути установки\u2026</string>
+    <string name="updater_step_download_su">Загрузка новой программы\u2026</string>
+    <string name="updater_step_get_root">Получение доступа root\u2026</string>
+    <string name="updater_step_remount_rw">Переподключение каталога /system в режиме записи\u2026</string>
+    <string name="updater_step_cp">Копирование su в каталог /system\u2026</string>
+    <string name="updater_step_chmod">Изменение разрешений файла su на 06755\u2026</string>
+    <string name="updater_step_mv">Программа \"su\" перемещается на постоянное место\u2026</string>
+    <string name="updater_step_remount_ro">Переподключение каталога /system в режим чтения\u2026</string>
+    <string name="updater_step_clean_up">Очистка\u2026</string>
     <string name="updater_remount_ro_failed">Не удалось подключить каталог /system в режиме чтения. Пожалуйста, перезагрузите для завершения обновления.</string>
     <string name="updater_find_su_failed">Не удалось найти ресурсы суперпользователя. Обновление не может быть продолжено</string>
     <string name="updater_bad_install_location">ресурсы суперпользователя сейчас установлены в /sbin. Программа не может их обновить. Пожалуйста, смените прошивку вашего устройства.</string>
@@ -182,20 +182,4 @@
     <string name="malicious_app_write">запрашивает разрешение на запись в разрешения поставщика</string>
     <string name="changelog_full_title">Список изменений</string>
     <string name="changelog_title">Новые Изменения</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Одно приложение и данные восстановлены</item>
-        <item quantity="other">%1$d приложений с данными восстановлено</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Один пункт удален из журнала</item>
-        <item quantity="other">%1$d пунктов удалено из журнала</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Последний шанс</item>
-        <item quantity="other">Нет - осталось %1$d попыток</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Следующий пакет был отмечен вредоносным:</item>
-        <item quantity="other">Следующие пакеты были отмечены вредоносными:</item>
-    </plurals>
 </resources>
