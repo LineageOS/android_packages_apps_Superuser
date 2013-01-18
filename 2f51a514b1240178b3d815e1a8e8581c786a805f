@@ -282,6 +282,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//8DA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T20:59:06Z",
+      "side": 1,
+      "message": "Prima, let alleen wel even op de vraagtekens, geen idee hoe die ertussen zijn gekomen.",
+      "parentUuid": "AAAAcn//8EQ\u003d",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8SM\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 6
