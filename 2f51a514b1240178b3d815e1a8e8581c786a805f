@@ -1,0 +1,429 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//8Ug\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Standaardinstellingen",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8UI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "De oude melding vind ik beter",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8T8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "Engels: outdated binary notification\n\n- Melding bij verouderde binary.\n\nWe kunnen \u0027binary\u0027 mischien vertalen als \u0027bestand\u0027?",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Ts\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "\\\u0027su\\\u0027-bestandsversie laden",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8To\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestand v%1$s (%2$d)",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Tg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Kan \\\u0027su\\\u0027-bestand niet vinden",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8SY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Melding bij verouderd bestand",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8SU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- %1$s vraagt ??om root-toegang.\\n\\nLet op: als u deze actie niet zelf initieerde, of deze melding niet begrijpt, is het raadzaam te weigeren\n\n\u0027initiate\u0027 is niet hetzelfde als \u0027instemmen\u0027",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8SM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Apps die niet onthouden worden, hebben gedurende %1$d seconden na het verzoek toegang",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8R8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "pictogam -\u003e pictogram\n\n\nLet wel dat als er geen -\u003e Let wel op dat als er geen\n\n\ngeen telefoonkiezer geïnstalleerd is, u dan Superuser niet meer kunt openen - \u003e geen telefoonkiezer geïnstalleerd is, u Superuser dan niet meer kunt openen\n\n\naangeraden -\u003e aan te raden\n\n\n\\\u0027Onzichtbare modus wilt -\u003e \\\u0027Onzichtbare modus\\\u0027 wilt",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Ro\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "apparaat om het toe te passen -\u003e apparaat om toe te passen",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Rc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Type statuspictogram",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8RY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "of \n\n- Stijl van het te tonen statuspictogram",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8RU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestandsupdater",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8RQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestand succesvol bijgewerkt",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8RE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Systeemmap opnieuw aankoppelen als schrijfbaar\\u2026",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Q8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Kan huidige \\\u0027su\\\u0027-bestand niet vinden; update kan niet doorgaan",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Q4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestand is momenteel geïnstalleerd in /sbin. De updater is niet in staat om deze bij te werken. Het is raadzaam een andere ROM te installeren",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8Qk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- De updater kan het \\\u0027su\\\u0027-bestand niet bijwerken, omdat deze zich bevindt in /sbin. Dit ligt niet aan de updater, maar aan de ROM-/kernelontwikkelaar. Root-toegang blijft functioneren met een verouderde versie van \\\u0027su\\\u0027",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8QU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "Hierdoor kan het \\\u0027su\\\u0027-bestand niet bijgewerkt",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8QQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestand is verouderd",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8QM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- \\\u0027su\\\u0027-bestand verouderd",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8QE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "- Tag scannen om te schtijven",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8P8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "schadelijk, omdat (komma)\n\n\"om\" mag weg toch?\n\ndeze app -\u003e deze apps",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8P0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-18T01:31:08Z",
+      "side": 1,
+      "message": "schrijtoegang -\u003e schrijftoegang",
+      "revId": "2f51a514b1240178b3d815e1a8e8581c786a805f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
