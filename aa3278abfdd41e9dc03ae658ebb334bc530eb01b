@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//7/I\u003d",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T22:46:46Z",
+      "side": 1,
+      "message": "?\n\n- https://github.com/android/platform_packages_apps_settings/blob/master/res/values/arrays.xml\n- https://github.com/android/platform_packages_apps_email/blob/master/res/values/arrays.xml\n\nIt\u0027s possible that AOSP hasn\u0027t updated all of their language values (as we are still replacing \u0027...\u0027)",
+      "parentUuid": "AAAAcn//7/s\u003d",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//7/g\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-18T22:27:51Z",
       "side": 1,
       "message": "Why java unicode? It\u0027s an XML file. AOSP uses HTML style (as ist was before).\n\u0026amp; is an example.",
+      "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7/M\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-18T22:46:46Z",
+      "side": 1,
+      "message": "AOSP uses HTML style, yes, but AOSP has never used \u0026#8230; and has always used \\u2026\n\n- https://github.com/CyanogenMod/android_packages_apps_Settings/blob/cm-10.1/res/values/strings.xml (you won\u0027t find \u0026#8230;, but you will find \\u2026)\n\nCould you otherwise show a case where AOSP uses \u0026#8230;?",
+      "parentUuid": "AAAAcn//7/g\u003d",
       "revId": "aa3278abfdd41e9dc03ae658ebb334bc530eb01b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
