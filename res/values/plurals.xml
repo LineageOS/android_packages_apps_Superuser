@@ -13,36 +13,25 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string-array name="pref_automatic_action_entries">
-    <item>Monituj</item>
-    <item>Odmów</item>
-    <item>Pozwól</item>
-  </string-array>
+    <plurals name="restore_complete">
+        <item quantity="one">1 app and all settings restored</item>
+        <item quantity="other">%1$d apps and all settings restored</item>
+    </plurals>
 
-  <string-array name="pref_status_icon_type_entries">
-    <item>Kropka</item>
-    <item>Emotikon</item>
-  </string-array>
+    <plurals name="pref_logs_deleted">
+        <item quantity="one">1 log deleted</item>
+        <item quantity="other">%1$d logs deleted</item>
+    </plurals>
 
-  <string-array name="pref_date_format_entries">
-    <item>Domyślne systemowe</item>
-    <item>12/31/2011</item>
-    <item>31/12/2011</item>
-    <item>2011/12/31</item>
-  </string-array>
+    <plurals name="pin_incorrect_try">
+        <item quantity="one">1 try left</item>
+        <item quantity="other">%1$d tries left</item>
+    </plurals>
 
-  <string-array name="pref_notifications_type_entries">
-    <item>Okienko pop-up</item>
-    <item>Pasek statusu</item>
-  </string-array>
-
-  <string-array name="pref_toast_location_entries">
-    <item>Domyślne</item>
-    <item>Góra</item>
-    <item>Środek</item>
-    <item>Dół</item>
-  </string-array>
+    <plurals name="malicious_apps_message1">
+        <item quantity="one">The following package was found to be malicious:</item>
+        <item quantity="other">The following packages were found to be malicious:</item>
+    </plurals>
 </resources>
