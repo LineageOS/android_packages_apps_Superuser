@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">уведомление остарели ресурси</string>
     <string name="info_changelog_summary">Показване на промените</string>
     <string name="use_global_settings">Използвай глобални настройки</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Известия включени</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Дневник включен</string>
+    <string name="notifications_enabled">&#32;&#32;Известия включени</string>
+    <string name="logging_enabled">&#32;&#32;Дневник включен</string>
     <string name="request_message">%1$s изисква Суперпотребителски достъп.\n\nПредупреждение: ако не сте започнали това действие или не разбирате тази заявка, е добра идея да я откажете.</string>
     <string name="request_more_info">Натиснете за повече информация</string>
     <string name="request_less_info">Натиснете за по-малко информация</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">Автоматичен отговор</string>
     <string name="pref_automatic_action_summary">Задаване на начина, по който Суперпотребител обработва нови заявки</string>
     <string name="pref_ghost_mode_title">Режим призрак</string>
-    <string name="pref_ghost_mode_message">Режим призрак скрива иконата на Суперпотребител от launcher-ра. Иконата ще бъде скрита при следващото рестартиране на launcher-ра. След като иконата е скрита може да стартирате Суперпотребител чрез набиране на секретен код в клавиатурата за набиране. Стандартния код е *#*#787378737#*#* (*#*#superuser#*#*), но цифрите могат да бъдат сменени.\n\nАко устройството ви няма клавиатура за набиране не е добра идея да активирате Режим призрак.\n\nАктивиране Режим призрак?</string>
+    <string name="pref_ghost_mode_message">Режим призрак скрива иконата на Суперпотребител от launcher-ра. Иконата ще бъде скрита при следващото рестартиране на launcher-ра. След като иконата е скрита може да стартирате Суперпотребител чрез набиране на секретен код в клавиатурата за набиране. Стандартния код е *#*#787378737#*#*, но цифрите могат да бъдат сменени.\n\nАко устройството ви няма клавиатура за набиране не е добра идея да активирате Режим призрак.\n\nАктивиране Режим призрак?</string>
     <string name="pref_ghost_mode_enabled_message">Режим призрак включен. Моля рестартирайте launcher-ра или устройството за да видите промените.</string>
     <string name="pref_secret_code_title">Секретен код</string>
     <string name="pref_secret_code_summary">Секретния код е *#*#%1$s#*#*</string>
@@ -152,7 +152,7 @@
     <string name="updater_update">Обновяване</string>
     <string name="updater_update_anyway">Обнови все пак</string>
     <string name="updater_cool">Това беше готино, направи го отново</string>
-    <string name="updater_working">Работя...</string>
+    <string name="updater_working">Работя\u2026</string>
     <string name="updater_ok">Добре!</string>
     <string name="updater_fail">неуспешно!</string>
     <string name="updater_not_found">не е намерен</string>
@@ -160,22 +160,22 @@
     <string name="updater_no_conn">Неуспешно изтегляне на манифест. Проверете интернет връзката</string>
     <string name="updater_try_again">Опитайте отново</string>
     <string name="updater_su_updated">сп ресурси обновени успешно</string>
-    <string name="updater_step_download_manifest">Изтегляне на манифест...\u0020</string>
-    <string name="updater_step_parse_manifest">Анализиране на манифест...\u0020</string>
-    <string name="updater_step_latest_version">Последна версия =\u0020</string>
-    <string name="updater_step_check_installed_version">Проверка на инсталирана версия =\u0020</string>
-    <string name="updater_step_fix_db">Фиксиране на база данни...\u0020</string>
-    <string name="updater_step_unpack_sutools">Разопаковане sutools…\u0020</string>
-    <string name="updater_step_check_installed_path">Проверка на текущ инсталационен път...\u0020</string>
-    <string name="updater_step_download_su">Изтегляне на нови ресурси...\u0020</string>
-    <string name="updater_step_get_root">Получаване на root достъп...\u0020</string>
-    <string name="updater_step_remount_rw">Монтиране отново /system като rw...\u0020</string>
-    <string name="updater_step_cp">Копиране su в /system...\u0020</string>
-    <string name="updater_step_chmod">Промяна на su файлов режим на 06755...\u0020</string>
-    <string name="updater_step_ops_check">Уверявам се, че новото su работи…\u0020</string>
-    <string name="updater_step_mv">Преместване на su към крайното място...\u0020</string>
-    <string name="updater_step_remount_ro">Монтиране отново /system като ro...\u0020</string>
-    <string name="updater_step_clean_up">Почистване...\u0020</string>
+    <string name="updater_step_download_manifest">Изтегляне на манифест\u2026</string>
+    <string name="updater_step_parse_manifest">Анализиране на манифест\u2026</string>
+    <string name="updater_step_latest_version">Последна версия =&#32;</string>
+    <string name="updater_step_check_installed_version">Проверка на инсталирана версия =&#32;</string>
+    <string name="updater_step_fix_db">Фиксиране на база данни\u2026</string>
+    <string name="updater_step_unpack_sutools">Разопаковане sutools\u2026</string>
+    <string name="updater_step_check_installed_path">Проверка на текущ инсталационен път\u2026</string>
+    <string name="updater_step_download_su">Изтегляне на нови ресурси\u2026</string>
+    <string name="updater_step_get_root">Получаване на root достъп\u2026</string>
+    <string name="updater_step_remount_rw">Монтиране отново /system като rw\u2026</string>
+    <string name="updater_step_cp">Копиране su в /system\u2026</string>
+    <string name="updater_step_chmod">Промяна на su файлов режим на 06755\u2026</string>
+    <string name="updater_step_ops_check">Уверявам се, че новото su работи\u2026</string>
+    <string name="updater_step_mv">Преместване на su към крайното място\u2026</string>
+    <string name="updater_step_remount_ro">Монтиране отново /system като ro\u2026</string>
+    <string name="updater_step_clean_up">Почистване\u2026</string>
     <string name="updater_remount_ro_failed">Неуспешно монтиране на системата като само за четене, моля рестартирайте за завършване на обновяването</string>
     <string name="updater_find_su_failed">Неуспешно намиране на текущо инсталираните su ресурси. Обновяването не може да продължи</string>
     <string name="updater_bad_install_location">su ресурси в момента са инсталирани в /sbin. Обновяващата програма не е способна да ги обнови. Моля намерете нов ROM за устройството.</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">изисква разрешение за запис в разрешения на доставчик</string>
     <string name="changelog_full_title">Промени</string>
     <string name="changelog_title">Какво ново</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Възстановено едно прил и настройки</item>
-        <item quantity="other">Възстановени %1$d прил и настройки</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Един дневник изтрит</item>
-        <item quantity="other">%1$d дневника изтрити</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Последен шанс</item>
-        <item quantity="other">Не - остават %1$d опита</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Следния пакет се оказа злонамерен:</item>
-        <item quantity="other">Следните пакети се оказаха злонамерени:</item>
-    </plurals>
 </resources>

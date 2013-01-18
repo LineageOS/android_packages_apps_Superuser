@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="restore_complete">
+        <item quantity="one">已還原一個應用程式和偏好好設定</item>
+        <item quantity="other">已還原 %1$d 個應用程式和偏好設定</item>
+    </plurals>
+    <plurals name="pref_logs_deleted">
+        <item quantity="one">刪除一筆紀錄</item>
+        <item quantity="other">%1$d 刪除日誌</item>
+    </plurals>
+    <plurals name="pin_incorrect_try">
+        <item quantity="one">最後一次機會</item>
+        <item quantity="other">錯誤 - 還可嘗試%1$d次</item>
+    </plurals>
+    <plurals name="malicious_apps_message1">
+        <item quantity="one">發現下列應用程式套件為惡意程式：</item>
+        <item quantity="other">發現下列應用程式套件為惡意程式：</item>
+    </plurals>
+</resources>

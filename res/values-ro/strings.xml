@@ -188,23 +188,4 @@
 
     <string name="changelog_full_title">Schimbari recente</string>
     <string name="changelog_title">Ce e nou</string>
-
-    <plurals name="restore_complete">
-        <item quantity="one">O aplicaţie si preferinţe restaurate</item>
-        <item quantity="other">%1$d aplicaţii şi preferinţe restaurate</item>
-    </plurals>
-
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Un fișier de jurnal șters</item>
-        <item quantity="other">%1$d jurnale șterse </item>
-    </plurals>
-
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Ultima șansă    </item>
-    </plurals>
-
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Următorul pachet a fost găsit ca fiind malițios:</item>
-        <item quantity="other">Următoarele pachete au fost găsite ca fiind malițioase:</item>
-    </plurals>
 </resources>

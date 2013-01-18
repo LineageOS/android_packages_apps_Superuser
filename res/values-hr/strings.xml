@@ -120,8 +120,4 @@
     <string name="malicious_app_notification_text">%1$s je vjerojatno zaražena. Dodirnite za deinstalaciju.</string>
     <string name="malicious_app_uid">dijeli UID sa Superuserom</string>
     <string name="changelog_title">Što je novo</string>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Zadnji pokušaj</item>
-        <item quantity="other">Netočno - %1$d pokušaja preostalo</item>
-    </plurals>
 </resources>
