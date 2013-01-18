@@ -70,8 +70,8 @@
     <string name="detail_command">Εντολή</string>
     <string name="detail_status">Κατάσταση</string>
     <string name="use_global_settings">Χρήση καθολικών ρυθμίσεων</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Επιτρέπονται οι ειδοποιήσεις</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Είναι δυνατή η καταγραφή</string>
+    <string name="notifications_enabled">&#32;&#32;Επιτρέπονται οι ειδοποιήσεις</string>
+    <string name="logging_enabled">&#32;&#32;Είναι δυνατή η καταγραφή</string>
     <string name="request_message">%1$s ζητά πρόσβαση Superuser.\n\nΠροειδοποίηση: Εάν δεν έχετε ξεκινήσει αυτήν την ενέργεια, ή αν δεν καταλαβαίνετε αυτό το αίτημα, είναι μιά καλή ιδέα να το αρνηθείτε.</string>
     <string name="request_more_info">Πατήστε για περισσότερες πληροφορίες</string>
     <string name="request_less_info">Πατήστε για λιγότερες πληροφορίες</string>
@@ -86,7 +86,7 @@
     <string name="pref_automatic_action_title">Αυτόματη απάντηση</string>
     <string name="pref_automatic_action_summary">Ορίστε τον τρόπο που το Superuser χειρίζεται τα νέα αιτήματα</string>
     <string name="pref_ghost_mode_title">Λειτουργία φάντασμα(Ghost)</string>
-    <string name="pref_ghost_mode_message">Η λειτουργία Φάντασμα(Ghost) κρύβει το εικονίδιο Superuser από τον launcher. Η εικόνα θα είναι κρυμένη την επόμενη φορά που θα γίνει επανεκκίνηση του launcher. Μόλις το εικονίδιο είναι κρυμμένο μπορείτε να έχετε πρόσβαση στο Superuser καλώντας ένα μυστικό κωδικό στο παράθυρο κλήσης. Ο προεπιλεγμένος μυστικός κωδικός είναι *#*#787378737#*#* (*#*#superuser#*#*), αλλά τα ψηφία μπορούν να αλλάξουν. \n\nΣημειώστε ότι εάν η συσκευή σας δεν έχει παράθυρο κλήσης, τότε μάλλον δεν 8α πρέπει να ενεργοποιήσετε την λειτουργία Φάντασμα. \n\nΕνεργοποίηση λειτουργίας Φάντασμα;</string>
+    <string name="pref_ghost_mode_message">Η λειτουργία Φάντασμα(Ghost) κρύβει το εικονίδιο Superuser από τον launcher. Η εικόνα θα είναι κρυμένη την επόμενη φορά που θα γίνει επανεκκίνηση του launcher. Μόλις το εικονίδιο είναι κρυμμένο μπορείτε να έχετε πρόσβαση στο Superuser καλώντας ένα μυστικό κωδικό στο παράθυρο κλήσης. Ο προεπιλεγμένος μυστικός κωδικός είναι *#*#787378737#*#*, αλλά τα ψηφία μπορούν να αλλάξουν. \n\nΣημειώστε ότι εάν η συσκευή σας δεν έχει παράθυρο κλήσης, τότε μάλλον δεν 8α πρέπει να ενεργοποιήσετε την λειτουργία Φάντασμα. \n\nΕνεργοποίηση λειτουργίας Φάντασμα;</string>
     <string name="pref_ghost_mode_enabled_message">Λειτουργία Ghost ενεργοποιημένη. Παρακαλώ επανεκκινήστε τον launcher ή επανεκκινήστε το τηλέφωνό σας για να δείτε την αλλαγή.</string>
     <string name="pref_secret_code_title">Μυστικός κωδικός</string>
     <string name="pref_secret_code_summary">Ο μυστικός κωδικός είναι *#*#%1$s#*#*</string>
@@ -131,7 +131,7 @@
     <string name="updater_update">Ενημέρωση</string>
     <string name="updater_update_anyway">Ενημέρωση έτσι κι αλλιώς</string>
     <string name="updater_cool">Αυτό ήταν καλό, κάντο ξανά</string>
-    <string name="updater_working">Σε λειτουργία…</string>
+    <string name="updater_working">Σε λειτουργία\u2026</string>
     <string name="updater_ok">εντάξει!</string>
     <string name="updater_fail">Αποτυχία!</string>
     <string name="updater_not_found">δεν βρέθηκε</string>
@@ -139,20 +139,20 @@
     <string name="updater_no_conn">Απέτυχε η λήψη του δηλωτικού. Ελέγξτε τη σύνδεση με το διαδίκτυο</string>
     <string name="updater_try_again">Δοκιμάστε ξανά</string>
     <string name="updater_su_updated">Το su binary ενημερώθηκε με επιτυχία</string>
-    <string name="updater_step_download_manifest">Λήψη δηλωτικού…\u0020</string>
-    <string name="updater_step_parse_manifest">Ανάλυση δηλωτικού…\u0020</string>
+    <string name="updater_step_download_manifest">Λήψη δηλωτικού\u2026</string>
+    <string name="updater_step_parse_manifest">Ανάλυση δηλωτικού\u2026</string>
     <string name="updater_step_latest_version">Τελευταία έκδοση = \u0020</string>
     <string name="updater_step_check_installed_version">Έλεγχος εγκατεστημένης έκδοσης = \ u0020</string>
-    <string name="updater_step_fix_db">Επιδιόρθωση βάσης δεδομένων…\u0020</string>
-    <string name="updater_step_check_installed_path">Έλεγχος τρέχουσας διαδρομής εγκατάστασης…\u0020</string>
-    <string name="updater_step_download_su">Λήψη νέου δυαδικού αρχείου…\u0020</string>
-    <string name="updater_step_get_root">Απόκτηση πλήρους (root) πρόσβασης…\u0020</string>
-    <string name="updater_step_remount_rw">Remounting /system ως rw...\u0020</string>
-    <string name="updater_step_cp">Αντιγραφή su στο /system...\u0020</string>
-    <string name="updater_step_chmod">Aλλαγή κατάστασης λειτουργίας αρχείου su σε 06755...\u0020</string>
-    <string name="updater_step_mv">Μετακίνηση του su στην οριστική του θέση...\u0020</string>
-    <string name="updater_step_remount_ro">Remounting /system ως rο...\u0020</string>
-    <string name="updater_step_clean_up">Καθαρισμός…\u0020</string>
+    <string name="updater_step_fix_db">Επιδιόρθωση βάσης δεδομένων\u2026</string>
+    <string name="updater_step_check_installed_path">Έλεγχος τρέχουσας διαδρομής εγκατάστασης\u2026</string>
+    <string name="updater_step_download_su">Λήψη νέου δυαδικού αρχείου\u2026</string>
+    <string name="updater_step_get_root">Απόκτηση πλήρους (root) πρόσβασης\u2026</string>
+    <string name="updater_step_remount_rw">Remounting /system ως rw\u2026</string>
+    <string name="updater_step_cp">Αντιγραφή su στο /system\u2026</string>
+    <string name="updater_step_chmod">Aλλαγή κατάστασης λειτουργίας αρχείου su σε 06755\u2026</string>
+    <string name="updater_step_mv">Μετακίνηση του su στην οριστική του θέση\u2026</string>
+    <string name="updater_step_remount_ro">Remounting /system ως rο\u2026</string>
+    <string name="updater_step_clean_up">Καθαρισμός\u2026</string>
     <string name="updater_remount_ro_failed">Απέτυχε η επαναπροσάρτιση του συστήματος μόνο για ανάγνωση, παρακαλώ κάντε επανεκκίνηση για να ολοκληρώσετε την ενημέρωση</string>
     <string name="updater_find_su_failed">Απέτυχε η εύρεση εγκατεστημένου su binary. Η ενημέρωση δεν μπορεί να συνεχιστεί</string>
     <string name="updater_bad_install_location">το su binary είναι εγκατεστημένο στο /sbin. Αυτό το πρόγραμμα ενημέρωσης δεν είναι σε θέση να το ενημερώσει. Παρακαλούμε βρείτε μία νέα ROM για τη συσκευή σας.</string>
@@ -180,20 +180,4 @@
     <string name="malicious_app_write">ζητά άδεια για να γράψει στον πάροχο αδειών</string>
     <string name="changelog_full_title">Αλλαγές</string>
     <string name="changelog_title">Τι νέο υπάρχει</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Μία εφαρμογή και οι προτιμήσεις επαναφέρθηκαν</item>
-        <item quantity="other">%1$d εφαρμογές και προτιμήσεις επαναφέρθηκαν</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Μία καταχώρηση του αρχείου καταγραφής διαγράφηκε</item>
-        <item quantity="other">%1$d καταχωρήσεις του αρχείου καταγραφής διαγράφηκαν</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Τελευταία ευκαιρία</item>
-        <item quantity="other">Όχι - απομένουν %1$d προσπάθειες</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Το παρακάτω πακέτο διαπιστώθηκε ότι είναι κακόβουλο:</item>
-        <item quantity="other">Τα παρακάτω πακέτα διαπιστώθηκε ότι είναι κακόβουλα:</item>
-    </plurals>
 </resources>

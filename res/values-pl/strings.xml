@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">nieaktualne powiadomienia binarne</string>
     <string name="info_changelog_summary">Wyświetl listę zmian</string>
     <string name="use_global_settings">Użyj ustawień globalnych</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Powiadomienia włączone</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Logowanie włączone</string>
+    <string name="notifications_enabled">&#32;&#32;Powiadomienia włączone</string>
+    <string name="logging_enabled">&#32;&#32;Logowanie włączone</string>
     <string name="request_message">%1$s wymaga uprawnień Superuser.\n\nUwaga: Jeśli nie zainicjowałeś tej akcji lub nie wiesz o co chodzi, wybierz Odmów.</string>
     <string name="request_more_info">Dotknij, aby wyświetlić więcej informacji</string>
     <string name="request_less_info">Mniej informacji</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">Automatyczna odpowiedź</string>
     <string name="pref_automatic_action_summary">Ustaw sposób, w jaki Superuser obsługuje nowe żądania</string>
     <string name="pref_ghost_mode_title">Tryb ducha</string>
-    <string name="pref_ghost_mode_message">Tryb ducha ukrywa ikonę Superusera z menu. Ikona będzie ukryta, gdy aplikacja menu zostanie uruchomiona ponownie. Od kiedy ikona jest ukryta możesz uruchomić Superusera przez przez wpisanie sekretnego kodu na klawiaturze telefonu. Domyślny kod to *#*#787378737#*#* (*#*#superuser#*#*), ale cyfry mogą być zmienione.\n\nZauważ, że jeśli twoje urządzenie nie posiada klawiatury telefonicznej, to nie powinieneś włączać trybu ducha.\n\nWłaczyć tryb ducha?</string>
+    <string name="pref_ghost_mode_message">Tryb ducha ukrywa ikonę Superusera z menu. Ikona będzie ukryta, gdy aplikacja menu zostanie uruchomiona ponownie. Od kiedy ikona jest ukryta możesz uruchomić Superusera przez przez wpisanie sekretnego kodu na klawiaturze telefonu. Domyślny kod to *#*#787378737#*#*, ale cyfry mogą być zmienione.\n\nZauważ, że jeśli twoje urządzenie nie posiada klawiatury telefonicznej, to nie powinieneś włączać trybu ducha.\n\nWłaczyć tryb ducha?</string>
     <string name="pref_ghost_mode_enabled_message">Tryb ducha został włączony. Proszę restartować aplikację menu lub uruchomić ponownie telefon aby zauważyć zmianę.</string>
     <string name="pref_secret_code_title">Tajny kod</string>
     <string name="pref_secret_code_summary">Twój tajny kod to *#*#%1$s#*#*</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">żąda pozwolenia zapisu uprawnień dostawcy</string>
     <string name="changelog_full_title">Lista zmian</string>
     <string name="changelog_title">Co nowego</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Jedna aplikacja i preferencje przywrócone</item>
-        <item quantity="other">%1$d aplikacje i preferencje przywrócone</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Jeden dziennik został usunięty</item>
-        <item quantity="other">%1$d dzienniki usunięte</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Ostatnia szansa</item>
-        <item quantity="other">Nie - pozostało %1$d prób</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Poniższy pakiet został uznany za złośliwy:</item>
-        <item quantity="other">Poniższe pakiety zostały uznane za złośliwe:</item>
-    </plurals>
 </resources>

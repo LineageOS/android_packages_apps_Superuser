@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">neaktuálne binárne oznámenie</string>
     <string name="info_changelog_summary">Zobraziť zoznam zmien</string>
     <string name="use_global_settings">Použiť globálne nastavenia</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Oznámenia povolené</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Zaznamenávanie povolené</string>
+    <string name="notifications_enabled">&#32;&#32;Oznámenia povolené</string>
+    <string name="logging_enabled">&#32;&#32;Zaznamenávanie povolené</string>
     <string name="request_message">%1$s požaduje prístup od Superusera.\n\nUpozornenie: Ak ste neiniciovali túto akciu, alebo ak nerozumiete tejto požiadavke, bude najlepšie ju zamietnuť.</string>
     <string name="request_more_info">Kliknite pre viac info</string>
     <string name="request_less_info">Kliknite pre menej info</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">Automatická odpoveď</string>
     <string name="pref_automatic_action_summary">Nastavte spôsob akým Superuser spracováva nové žiadosti</string>
     <string name="pref_ghost_mode_title">Neviditelný režim</string>
-    <string name="pref_ghost_mode_message">Neviditelný režim skryje ikonu Superusera pred launcherom. Po reštarte launchera bude ikona skrytá. Ak je ikona skrytá, pre prístup do Superusera musíte zadať tajný kód. Predvolený tajný kód je *#*#787378737#*#* (*#*#superuser#*#*), ale číslice je možné zmeniť. \n\nAk vaše zariadenie nemá klávesnicu, pravdepodobne by ste nemali aktivovať režim Ghost.\n\nAktivovať Neviditelný režim?</string>
+    <string name="pref_ghost_mode_message">Neviditelný režim skryje ikonu Superusera pred launcherom. Po reštarte launchera bude ikona skrytá. Ak je ikona skrytá, pre prístup do Superusera musíte zadať tajný kód. Predvolený tajný kód je *#*#787378737#*#*, ale číslice je možné zmeniť. \n\nAk vaše zariadenie nemá klávesnicu, pravdepodobne by ste nemali aktivovať režim Ghost.\n\nAktivovať Neviditelný režim?</string>
     <string name="pref_ghost_mode_enabled_message">Bol aktivovaný Neviditelný režim. Prosím reštartujte Váš launcher alebo telefón, aby sa zmena prejavila.</string>
     <string name="pref_secret_code_title">Tajný kód</string>
     <string name="pref_secret_code_summary">Tajný kód je *#*#%1$s#*#*</string>
@@ -160,22 +160,22 @@
     <string name="updater_no_conn">Sťahovanie manifestu zlyhalo. Skontrolujte pripojenie k internetu</string>
     <string name="updater_try_again">Skúste znova</string>
     <string name="updater_su_updated">Binár SU úspešne aktualizovaný</string>
-    <string name="updater_step_download_manifest">Sťahujem manifest...\u0020</string>
-    <string name="updater_step_parse_manifest">Analýza manifestu...\u0020</string>
-    <string name="updater_step_latest_version">Najnovšia verzia =\u0020</string>
-    <string name="updater_step_check_installed_version">Kontroluje sa nainštalovaná verzia =\u0020</string>
-    <string name="updater_step_fix_db">Opravovanie databázy...\u0020</string>
-    <string name="updater_step_unpack_sutools">Rozbaľovanie nástr. SU...\u0020</string>
-    <string name="updater_step_check_installed_path">Kontrolujem aktuálnu inštalačnú cestu...\u0020</string>
-    <string name="updater_step_download_su">Sťahujem nový binár...\u0020</string>
-    <string name="updater_step_get_root">Získavam Root prístup...\u0020</string>
-    <string name="updater_step_remount_rw">Preinštalovanie /systému ako rw...\u0020</string>
-    <string name="updater_step_cp">Kopírovanie SU do /systému...\u0020</string>
-    <string name="updater_step_chmod">Mení sa režim súborov SU na 06755...\u0020</string>
-    <string name="updater_step_ops_check">Uisťujem sa že nový SU funguje...\u0020</string>
-    <string name="updater_step_mv">Presúvam SU do cieľového umiestnenia...\u0020</string>
-    <string name="updater_step_remount_ro">Preinštalovanie /systému ako ro...\u0020</string>
-    <string name="updater_step_clean_up">Čistenie...\u0020</string>
+    <string name="updater_step_download_manifest">Sťahujem manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Analýza manifestu\u2026</string>
+    <string name="updater_step_latest_version">Najnovšia verzia =&#32;</string>
+    <string name="updater_step_check_installed_version">Kontroluje sa nainštalovaná verzia =&#32;</string>
+    <string name="updater_step_fix_db">Opravovanie databázy\u2026</string>
+    <string name="updater_step_unpack_sutools">Rozbaľovanie nástr. SU\u2026</string>
+    <string name="updater_step_check_installed_path">Kontrolujem aktuálnu inštalačnú cestu\u2026</string>
+    <string name="updater_step_download_su">Sťahujem nový binár\u2026</string>
+    <string name="updater_step_get_root">Získavam Root prístup\u2026</string>
+    <string name="updater_step_remount_rw">Preinštalovanie /systému ako rw\u2026</string>
+    <string name="updater_step_cp">Kopírovanie SU do /systému\u2026</string>
+    <string name="updater_step_chmod">Mení sa režim súborov SU na 06755\u2026</string>
+    <string name="updater_step_ops_check">Uisťujem sa že nový SU funguje\u2026</string>
+    <string name="updater_step_mv">Presúvam SU do cieľového umiestnenia\u2026</string>
+    <string name="updater_step_remount_ro">Preinštalovanie /systému ako ro\u2026</string>
+    <string name="updater_step_clean_up">Čistenie\u2026</string>
     <string name="updater_remount_ro_failed">Pripájanie systému v RO (iba na čítanie) zlyhalo, pre dokončenie aktualizácie prosím reštartujte</string>
     <string name="updater_find_su_failed">Nepodarilo sa nájsť nainštalovaný binár SU. Aktualizácia nemôže pokračovať</string>
     <string name="updater_bad_install_location">Binár SU je nainštalovaný v /sbin. Tento aktualizátor ho nedokáže aktualizovať. Nájdite novú ROM pre vaše zariadenie.</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">vyžaduje povolenie k zápisu poskytovateľovi oprávnení</string>
     <string name="changelog_full_title">Zoznam zmien</string>
     <string name="changelog_title">Čo je nové</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Jedna apl. a nastavenia boli obnovené</item>
-        <item quantity="other">%1$d apl. a nastavenia boli obnovené</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Jeden záznam vymazaný</item>
-        <item quantity="other">%1$d záznamov vymazaných</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Posledná možnosť</item>
-        <item quantity="other">Nie, zostáva %1$d pokusov</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Nasledujúci balíček bol identifikovaný ako nebezpečný:</item>
-        <item quantity="other">Nasledujúce balíčky boli identifikované ako nebezpečné:</item>
-    </plurals>
 </resources>

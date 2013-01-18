@@ -67,8 +67,8 @@
     <string name="detail_command">Příkaz</string>
     <string name="detail_status">Stav</string>
     <string name="use_global_settings">Použít globální nastavení</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Upozornění povoleno</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Záznam povolen</string>
+    <string name="notifications_enabled">&#32;&#32;Upozornění povoleno</string>
+    <string name="logging_enabled">&#32;&#32;Záznam povolen</string>
     <string name="request_message">Aplikace %1$s vyžaduje přístup Superuser.\n\nVarování: Pokud si nejste jisti, kdo a proč tuto akci vyvolal nebo pokud tomuto požadavku nerozumíte, je opravdu doporučeno tento požadavek nepovolit.</string>
     <string name="request_more_info">Více informací</string>
     <string name="request_less_info">Méně informací</string>
@@ -83,7 +83,7 @@
     <string name="pref_automatic_action_title">Automatická odpověď</string>
     <string name="pref_automatic_action_summary">Nastavte způsob jak Superuser zpracovává nové požadavky na oprávnění</string>
     <string name="pref_ghost_mode_title">Neviditelný režim</string>
-    <string name="pref_ghost_mode_message">Režim Ghost skryje ikonu aplikace Superuser ze spouštěče. Ikona zůstane skrytá i po další restartu spouštěče. Při skryté ikoně můžete stále spouštět aplikaci Superuse pomocí vytočení tajného kódu v telefonu. Výchozí tajný kód je *#*#787378737#*#* (*#*#superuser#*#*), ale čísla mohou být změněna.\n\nPoznámka: pokud vaše zařízení nemá telefonní vytáčení, režim Ghost by neměl být aktivován.\n\n\Povolit režim Ghost?</string>
+    <string name="pref_ghost_mode_message">Režim Ghost skryje ikonu aplikace Superuser ze spouštěče. Ikona zůstane skrytá i po další restartu spouštěče. Při skryté ikoně můžete stále spouštět aplikaci Superuse pomocí vytočení tajného kódu v telefonu. Výchozí tajný kód je *#*#787378737#*#*, ale čísla mohou být změněna.\n\nPoznámka: pokud vaše zařízení nemá telefonní vytáčení, režim Ghost by neměl být aktivován.\n\n\Povolit režim Ghost?</string>
     <string name="pref_ghost_mode_enabled_message">Neviditelný režim zapnut. Restartujte Launcher nebo telefon pro změnu.</string>
     <string name="pref_secret_code_title">Tajný kód</string>
     <string name="pref_secret_code_summary">Tajný kod je *#*#%1$s#*#*</string>
@@ -136,20 +136,20 @@
     <string name="updater_no_conn">Nepodařilo se stáhnout manifest. Zkontrolujte připojení k Internetu</string>
     <string name="updater_try_again">Zkusit znovu</string>
     <string name="updater_su_updated">Su binární úspěšně aktualizován</string>
-    <string name="updater_step_download_manifest">Stahování manifestu\u2026\u0020</string>
-    <string name="updater_step_parse_manifest">Analýza manifestu\u2026\u0020</string>
-    <string name="updater_step_latest_version">Nejnovější verze =\u0020</string>
-    <string name="updater_step_check_installed_version">Kontrola nainstalované verze =\u0020</string>
-    <string name="updater_step_fix_db">Oprava databáze\u2026\u0020</string>
-    <string name="updater_step_check_installed_path">Kontrola cesty k instalaci\u2026\u0020</string>
-    <string name="updater_step_download_su">Stahování nové aplikace\u2026\u0020</string>
-    <string name="updater_step_get_root">Získání root přístupu\u2026\u0020</string>
-    <string name="updater_step_remount_rw">Umožnit zápis do /system\u2026\u0020</string>
-    <string name="updater_step_cp">Kopírování příkazu su do /system\u2026\u0020</string>
-    <string name="updater_step_chmod">Změna práv příkazu su na 06755\u2026\u0020</string>
-    <string name="updater_step_mv">Přesun příkazu su na konečné umístění\u2026\u0020</string>
-    <string name="updater_step_remount_ro">Zamezení zápisu do /system\u2026\u0020</string>
-    <string name="updater_step_clean_up">Čištění\u2026\u0020</string>
+    <string name="updater_step_download_manifest">Stahování manifestu\u2026</string>
+    <string name="updater_step_parse_manifest">Analýza manifestu\u2026</string>
+    <string name="updater_step_latest_version">Nejnovější verze =&#32;</string>
+    <string name="updater_step_check_installed_version">Kontrola nainstalované verze =&#32;</string>
+    <string name="updater_step_fix_db">Oprava databáze\u2026</string>
+    <string name="updater_step_check_installed_path">Kontrola cesty k instalaci\u2026</string>
+    <string name="updater_step_download_su">Stahování nové aplikace\u2026</string>
+    <string name="updater_step_get_root">Získání root přístupu\u2026</string>
+    <string name="updater_step_remount_rw">Umožnit zápis do /system\u2026</string>
+    <string name="updater_step_cp">Kopírování příkazu su do /system\u2026</string>
+    <string name="updater_step_chmod">Změna práv příkazu su na 06755\u2026</string>
+    <string name="updater_step_mv">Přesun příkazu su na konečné umístění\u2026</string>
+    <string name="updater_step_remount_ro">Zamezení zápisu do /system\u2026</string>
+    <string name="updater_step_clean_up">Čištění\u2026</string>
     <string name="updater_remount_ro_failed">Nepodařilo se připojit /system pouze pro čtení, restartujte k dokončení aktualizace.</string>
     <string name="updater_find_su_failed">Nepodařilo se najít aktuálně nainstalovaný příkaz su. Aktualizace nemůže pokračovat.</string>
     <string name="updater_bad_install_location">Příkaz su je nainstalován v /sbin a tento aktualizátor není schopen provést jeho aktualizaci. Najděte prosím novou ROM pro vaše zařízení.</string>
@@ -177,22 +177,6 @@
     <string name="malicious_app_write">žádá o oprávnění k zápisu k poskytovateli oprávnění</string>
     <string name="changelog_full_title">Seznam změn</string>
     <string name="changelog_title">Co je nového</string>
-    <plurals name="restore_complete">
-      <item quantity="one">Jedna aplikace a předvolby byly obnoveny</item>
-      <item quantity="other">%1$d aplikace a předvolby obnoveny</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-      <item quantity="one">Jeden protokol odstraněn</item>
-      <item quantity="other">%1$d protokolů odstraněno</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-      <item quantity="one">Poslední šance</item>
-      <item quantity="other">Ne - zbývá %1$d pokusů</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-      <item quantity="one">Následující balíček byl shledán škodlivým:</item>
-      <item quantity="other">Následující balíčky byly shledány jako škodlivé:</item>
-    </plurals>
 
     <!-- Update for JB -->
     <string name="page_label_apps">Aplikace</string>
@@ -217,11 +201,11 @@
     <string name="info_check_for_updates">Klikni ke zjištění aktualizací</string>
     <string name="info_outdated_notification">Oznamovat novou verzi</string>
     <string name="info_changelog_summary">Zobrazit seznam změn</string>
-    <string name="info_working">Pracuji…</string>
+    <string name="info_working">Pracuji\u2026</string>
     <string name="pref_advanced_prompt_summary">Skrýt varování na žádost výzvy</string>
     <string name="pref_get_elite_summary">Kupte si Elite verzi k získání všech nastavení</string>
-    <string name="updater_step_unpack_sutools">Rozbaluji nástroje pro su…\u0020</string>
-    <string name="updater_step_ops_check">Zkontrolujte, zda nové su pracuje správně…\u0020</string>
+    <string name="updater_step_unpack_sutools">Rozbaluji nástroje pro su\u2026&#32;</string>
+    <string name="updater_step_ops_check">Zkontrolujte, zda nové su pracuje správně\u2026&#32;</string>
     <string name="root_disabled_title">Povolit práva root?</string>
     <string name="root_disabled_summary">Root přístup je momentálně zakázán pro všchny aplikace v systémovém nastavení. Přejete si ho povolit?</string>
     <string name="loading">Načítání</string>
