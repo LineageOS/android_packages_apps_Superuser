@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//7sc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-19T19:38:22Z",
+      "side": 1,
+      "message": "Zoals ik in m\u0027n vorige inline comment ook had gezegd, de vraagtekens, geen idee hoe die ertussen zijn gekomen, maar dat klopt niet.\n\n\n\\\u0027%1$s\\\u0027 vraagt om root-toegang.\\n\\nLet op: als u dit niet zelf\n gestart heeft of deze melding niet begrijpt, is het raadzaam te weigeren",
+      "revId": "a53a5525d891f35e77ae52d8aeafd74a9d2f8844",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7sI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-19T19:38:22Z",
+      "side": 1,
+      "message": "- Datumnotatie\n\nDit is wat AOSP gebruikt bij Datum\u0026Tijd",
+      "revId": "a53a5525d891f35e77ae52d8aeafd74a9d2f8844",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7sE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-19T19:38:22Z",
+      "side": 1,
+      "message": "- Datumnotatie gebruikt in logboek\n\nje kiest maar 1 indeling",
+      "revId": "a53a5525d891f35e77ae52d8aeafd74a9d2f8844",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7r8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-19T19:38:22Z",
+      "side": 1,
+      "message": "- Het \\\u0027su\\\u0027-bestand is momenteel geïnstalleerd in /sbin. De updater is niet in staat om dit bij te werken. Het is raadzaam een andere ROM te installeren\n\n+momenteel, om duidelijk maken waar het bestand NU geinstalleerd is. Anders lijkt de melding erop of de installatie gelukt is.",
+      "revId": "a53a5525d891f35e77ae52d8aeafd74a9d2f8844",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//7r4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-19T19:38:22Z",
+      "side": 1,
+      "message": "sbin -\u003e /sbin",
+      "revId": "a53a5525d891f35e77ae52d8aeafd74a9d2f8844",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
