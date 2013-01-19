@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//700\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T05:31:39Z",
+      "side": 1,
+      "message": "Seperate commit for Dutch translations:\n\nhttp://review.cyanogenmod.org/#/c/30413/",
+      "parentUuid": "AAAAcn//71g\u003d",
+      "revId": "070f032db1a80f07f0390b44ac3b8cf2416544fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//71Q\u003d",
         "filename": "res/values-nl/arrays.xml",
         "patchSetId": 2
@@ -64,6 +82,24 @@
       "writtenOn": "2013-01-19T05:24:25Z",
       "side": 1,
       "message": "Shouldn\u0027t this be 2012?",
+      "revId": "070f032db1a80f07f0390b44ac3b8cf2416544fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//70w\u003d",
+        "filename": "res/xml/prefs_backup.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-19T05:31:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//71A\u003d",
       "revId": "070f032db1a80f07f0390b44ac3b8cf2416544fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
