@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//70g\u003d",
+        "filename": "res/values-nl/abs__strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2054
+      },
+      "writtenOn": "2013-01-19T05:47:11Z",
+      "side": 1,
+      "message": "Huis? Is \u0027Begin\u0027 niet beter?",
+      "revId": "4a2531b4660e68c0e584fed8e425051c2b316bd9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
