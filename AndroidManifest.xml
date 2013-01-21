@@ -61,7 +61,7 @@
             android:excludeFromRecents="true" />
         <activity-alias android:name="Su"
             android:targetActivity="HomeActivity"
-            android:label="Superuser"
+            android:label="@string/app_name"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
