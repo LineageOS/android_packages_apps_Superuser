@@ -104,8 +104,8 @@
     <string name="info_working">En cours…</string>
 
     <string name="use_global_settings">Utiliser les réglages globaux</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Notifications activées</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Journalisation activée</string>
+    <string name="notifications_enabled">&#32;&#32;Notifications activées</string>
+    <string name="logging_enabled">&#32;&#32;Journalisation activée</string>
 
     <string name="request_message">%1$s demande un accès Super-utilisateur.\n\nAttention : Si vous n\'avez pas initié cette action, ou si vous ne comprenez pas cette demande, c\'est en général une bonne idée de refuser.</string>
     <string name="request_more_info">Appuyer pour plus d\'infos</string>
@@ -123,7 +123,7 @@
     <string name="pref_automatic_action_title">Réponse automatique</string>
     <string name="pref_automatic_action_summary">Définit la façon dont Super-utilisateur traite les nouvelles requêtes</string>
     <string name="pref_ghost_mode_title">Mode fantôme</string>
-    <string name="pref_ghost_mode_message">Le mode Fantôme cache l\'icône de Super-utilisateur du lanceur. L\'icône sera cachée lors du prochain redémarrage du lanceur. Lorsque l\'icône est cachée, vous pouvez accéder à Super-utilisateur en composant un code secret sur le clavier téléphonique. Le code secret par défaut est *#*#787378737#*#* (*#*#superuser#*#*), mais les chiffres peuvent être changés.\n\nNotez que si votre appareil n\'a pas de clavier téléphonique, vous ne devriez pas activer le mode Fantôme.\n\nActiver le mode Fantôme\u00A0?</string>
+    <string name="pref_ghost_mode_message">Le mode Fantôme cache l\'icône de Super-utilisateur du lanceur. L\'icône sera cachée lors du prochain redémarrage du lanceur. Lorsque l\'icône est cachée, vous pouvez accéder à Super-utilisateur en composant un code secret sur le clavier téléphonique. Le code secret par défaut est *#*#787378737#*#*, mais les chiffres peuvent être changés.\n\nNotez que si votre appareil n\'a pas de clavier téléphonique, vous ne devriez pas activer le mode Fantôme.\n\nActiver le mode Fantôme\u00A0?</string>
     <string name="pref_ghost_mode_enabled_message">Le mode Fantôme est activé. Veuillez redémarrer le lanceur ou redémarrer votre téléphone afin que le changement prenne effet.</string>
     <string name="pref_secret_code_title">Code secret</string>
     <string name="pref_secret_code_summary">Le code secret est *#*#%1$s#*#*</string>
@@ -161,17 +161,9 @@
     <string name="backup_complete">Sauvegarde enregistrée sur la carte sd</string>
     <string name="pref_restore_title">Restaurer applis/préférences</string>
     <string name="pref_get_elite_summary">Acheter la version Elite pour débloquer toutes les options</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Une application et paramètres restaurés</item>
-        <item quantity="other">%1$d applications et paramètres restaurés</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Paramètres restaurées</string>
     <string name="pref_category_info_title">Général</string>
     <string name="pref_elite_only">Uniquement disponible avec la version Elite</string>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Une entrée de journal supprimée</item>
-        <item quantity="other">%1$d entrées de journal supprimées</item>
-    </plurals>
 
     <string name="updater_title">Mise à jour de l\'exécutable</string>
     <string name="updater_new_su_found">Une nouvelle version de l\'exécutable SU a été trouvée. Mettre à jour maintenant\u00A0?</string>
@@ -220,19 +212,11 @@
     <string name="pin_new_pin">Entrez le nouveau code PIN</string>
     <string name="pin_confirm_pin">Confirmez le code PIN</string>
     <string name="pin_mismatch">Les codes PIN ne correspondent pas, veuillez réessayer</string>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Dernière chance</item>
-        <item quantity="other">Non - %1$d essais restants</item>
-    </plurals>
     <string name="pin_enter_secret_code">Entrez le code secret</string>
 
     <string name="nfc_write_tag">Scannez le tag pour enregistrer</string>
 
     <string name="malicious_apps_title">Attention</string>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Le paquetage suivant s\'est avéré malveillant:</item>
-        <item quantity="other">Les paquetages suivants se sont avérés malveillants:</item>
-    </plurals>
     <string name="malicious_apps_message2">Des applications sont marquées comme malveillantes car elles contiennent des éléments qui indiquent qu\'elles essaient d\'accorder un accès root, potentiellement sans votre accord. Il est fortement recommandé de les désinstaller immédiatement.</string>
     <string name="malicious_apps_uninstall">Désinstaller</string>
     <string name="malicious_apps_ignore">Ignorer</string>

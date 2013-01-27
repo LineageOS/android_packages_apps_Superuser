@@ -89,8 +89,8 @@
     <string name="info_outdated_notification">Melding ved utdatert binærfil</string>
     <string name="info_changelog_summary">Vis versjonsendringer</string>
     <string name="use_global_settings">Bruk globale innstillinger</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Varsler aktivert</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Logging aktivert</string>
+    <string name="notifications_enabled">&#32;&#32;Varsler aktivert</string>
+    <string name="logging_enabled">&#32;&#32;Logging aktivert</string>
     <string name="request_message">%1$s ber om superbruker-tilgang.\n\nAdvarsel: Hvis du ikke startet denne handlingen, eller dersom du ikke forstår denne forespørselen, bør du avslå den.</string>
     <string name="request_more_info">Trykk for mer informasjon</string>
     <string name="request_less_info">Trykk for mindre informasjon</string>
@@ -105,7 +105,7 @@
     <string name="pref_automatic_action_title">Automatisk svar</string>
     <string name="pref_automatic_action_summary">Angi hvordan Superbruker håndterer nye forespørsler</string>
     <string name="pref_ghost_mode_title">Spøkelsesmodus</string>
-    <string name="pref_ghost_mode_message">Spøkelsesmodus skjuler Superbruker-ikonet fra applikasjonslisten. Ikonet vil bli gjemt neste gang hjemmeapplikasjonen blir startet på nytt. Når ikonet er gjemt kan du starte Superbruker ved å taste en hemmelig kode i telefonapplikasjonen. Standardkoden for dette er *#*#787378737#*#* (*#*#superuser#*#*), men du kan endre denne.\n\nNB! Dersom enheten din ikke har en telefonapplikasjon bør du ikke aktivere spøkelsesmodus.\n\nAktivere spøkelsesmodus?</string>
+    <string name="pref_ghost_mode_message">Spøkelsesmodus skjuler Superbruker-ikonet fra applikasjonslisten. Ikonet vil bli gjemt neste gang hjemmeapplikasjonen blir startet på nytt. Når ikonet er gjemt kan du starte Superbruker ved å taste en hemmelig kode i telefonapplikasjonen. Standardkoden for dette er *#*#787378737#*#*, men du kan endre denne.\n\nNB! Dersom enheten din ikke har en telefonapplikasjon bør du ikke aktivere spøkelsesmodus.\n\nAktivere spøkelsesmodus?</string>
     <string name="pref_ghost_mode_enabled_message">Spøkelsesmodus aktivert. Vennligst start hjemmeapplikasjonen eller telefonen din på nytt for å se endringen.</string>
     <string name="pref_secret_code_title">Hemmelig kode</string>
     <string name="pref_secret_code_summary">Den hemmelige koden er *#*#%1$s#*#*</string>
@@ -153,29 +153,29 @@
     <string name="updater_update_anyway">Oppdater uansett</string>
     <string name="updater_cool">Det var kult, gjør det igjen</string>
     <string name="updater_working">Jobber…</string>
-    <string name="updater_ok">OK!</string>
+    <string name="updater_ok">OK</string>
     <string name="updater_fail">mislyktes!</string>
     <string name="updater_not_found">finnes ikke</string>
     <string name="updater_update_failed">Oppdatering mislyktes. Prøv igjen?</string>
     <string name="updater_no_conn">Kunne ikke laste ned manifest. Kontroller internett-tilkoblingen</string>
     <string name="updater_try_again">Prøv igjen</string>
     <string name="updater_su_updated">Binærfilen su ble oppdatert</string>
-    <string name="updater_step_download_manifest">Laster ned manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Analyserer manifest…\u0020</string>
+    <string name="updater_step_download_manifest">Laster ned manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Analyserer manifest\u2026</string>
     <string name="updater_step_latest_version">Siste versjon =\u0020</string>
     <string name="updater_step_check_installed_version">Kontrollerer installert versjon =\u0020</string>
-    <string name="updater_step_fix_db">Reparerer database…\u0020</string>
-    <string name="updater_step_unpack_sutools">Pakker ut sutools…\u0020</string>
-    <string name="updater_step_check_installed_path">Kontrollerer gjeldende installasjonsbane…\u0020</string>
-    <string name="updater_step_download_su">Laster ned ny binærfil...\u0020</string>
-    <string name="updater_step_get_root">Får root-tilgang…\u0020</string>
-    <string name="updater_step_remount_rw">Monterer /system igjen med skriverettigheter…\u0020</string>
-    <string name="updater_step_cp">Kopierer su til /system...\u0020</string>
-    <string name="updater_step_chmod">Endrer filmodus for su til 06755...\u0020</string>
-    <string name="updater_step_ops_check">Sjekker at ny su fungerer…\u0020</string>
-    <string name="updater_step_mv">Flytter su til endelig plassering...\u0020</string>
-    <string name="updater_step_remount_ro">Monterer /system igjen som skrivebeskyttet...\u0020</string>
-    <string name="updater_step_clean_up">Rydder opp…\u0020</string>
+    <string name="updater_step_fix_db">Reparerer database\u2026</string>
+    <string name="updater_step_unpack_sutools">Pakker ut sutools\u2026</string>
+    <string name="updater_step_check_installed_path">Kontrollerer gjeldende installasjonsbane\u2026</string>
+    <string name="updater_step_download_su">Laster ned ny binærfil\u2026</string>
+    <string name="updater_step_get_root">Får root-tilgang\u2026</string>
+    <string name="updater_step_remount_rw">Monterer /system igjen med skriverettigheter\u2026</string>
+    <string name="updater_step_cp">Kopierer su til /system\u2026</string>
+    <string name="updater_step_chmod">Endrer filmodus for su til 06755\u2026</string>
+    <string name="updater_step_ops_check">Sjekker at ny su fungerer\u2026</string>
+    <string name="updater_step_mv">Flytter su til endelig plassering\u2026</string>
+    <string name="updater_step_remount_ro">Monterer /system igjen som skrivebeskyttet\u2026</string>
+    <string name="updater_step_clean_up">Rydder opp\u2026</string>
     <string name="updater_remount_ro_failed">Kunne ikke montere systemvolumet igjen som skrivebeskyttet. Vennligst start enheten på nytt for å fullføre oppdateringen.</string>
     <string name="updater_find_su_failed">Klarte ikke å finne en allerede installert binærfil su. Oppdateringen kan ikke fortsette.</string>
     <string name="updater_bad_install_location">Binærfilen su er allerede installert i /sbin. Dette oppdateringsprogrammet kan ikke oppdatere denne. Vennligst finn en ny ROM for din enhet.</string>
@@ -203,20 +203,4 @@
     <string name="malicious_app_write">ber om lov til å skrive til tillatelsesleverandør</string>
     <string name="changelog_full_title">Versjonsendringer</string>
     <string name="changelog_title">Dette er nytt</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Én applikasjon og innstillinger er gjenopprettet</item>
-        <item quantity="other">%1$d applikasjoner og innstillinger gjenopprettet</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Én logg slettet</item>
-        <item quantity="other">%1$d logger slettet</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Siste mulighet</item>
-        <item quantity="other">Feil - %1$s forsøk igjen</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Følgende pakke er funnet å være ondsinnet:</item>
-        <item quantity="other">Følgende pakker er funnet å være ondsinnet:</item>
-    </plurals>
 </resources>

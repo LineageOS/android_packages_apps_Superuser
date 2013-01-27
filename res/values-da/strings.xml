@@ -91,8 +91,8 @@
     <string name="info_changelog_summary">Vis ændringsloggen</string>
     <string name="info_working">arbejder…</string>
     <string name="use_global_settings">Brug globale indstillinger</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Underretninger aktiveret</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Logning aktiveret</string>
+    <string name="notifications_enabled">&#32;&#32;Underretninger aktiveret</string>
+    <string name="logging_enabled">&#32;&#32;Logning aktiveret</string>
     <string name="request_message">%1$s anmoder om superbrugeradgang.\n\nAdvarsel: Hvis du ikke bad om denne handling, eller ikke forstår den, er det en god idé at afvise.</string>
     <string name="request_more_info">Tryk for mere info</string>
     <string name="request_less_info">Tryk for mindre info</string>
@@ -107,7 +107,7 @@
     <string name="pref_automatic_action_title">Automatisk svar</string>
     <string name="pref_automatic_action_summary">Angiv hvordan Superbruger håndterer nye anmodninger</string>
     <string name="pref_ghost_mode_title">Spøgelsestilstand</string>
-    <string name="pref_ghost_mode_message">Spøgelsestilstand skjuler Superbrugerikonet i launcher\'en (dvs. skrivebord og app-oversigt), og træder i kraft næste gang enheden eller launcher\'en genstartes. Når ikonet er skjult kan Superbruger tilgås ved at indtaste en hemmelig kode i dialer\'en (enhedens standard telefon app). Standardkoden er *#*#787378737#*#* (*#*#superuser#*#*), men koden kan ændres.\n\nBemærk, at hvis enheden ikke har nogen dialer, bør Spøgelsestilstand ikke anvendes! Det kan f.eks. gælde navigationsenheder og tablets designet uden forbindelse til mobilnettet.\n\nAktivér Spøgelsestilstand?</string>
+    <string name="pref_ghost_mode_message">Spøgelsestilstand skjuler Superbrugerikonet i launcher\'en (dvs. skrivebord og app-oversigt), og træder i kraft næste gang enheden eller launcher\'en genstartes. Når ikonet er skjult kan Superbruger tilgås ved at indtaste en hemmelig kode i dialer\'en (enhedens standard telefon app). Standardkoden er *#*#787378737#*#*, men koden kan ændres.\n\nBemærk, at hvis enheden ikke har nogen dialer, bør Spøgelsestilstand ikke anvendes! Det kan f.eks. gælde navigationsenheder og tablets designet uden forbindelse til mobilnettet.\n\nAktivér Spøgelsestilstand?</string>
     <string name="pref_ghost_mode_enabled_message">Spøgelsestilstand aktiveret. Genstart launcher\'en eller telefonen for at ændringen kan træde i kraft.</string>
     <string name="pref_secret_code_title">Hemmelig kode</string>
     <string name="pref_secret_code_summary">Den hemmelige kode er *#*#%1$s#*#*</string>
@@ -145,17 +145,9 @@
     <string name="backup_complete">Sikkerhedskopi gemt på SD-kort</string>
     <string name="pref_restore_title">Gendan apps/indstillinger</string>
     <string name="pref_get_elite_summary">Køb elite for at åbne for alle indstillingerne</string>
-    <plurals name="restore_complete">
-            <item quantity="one">En app og indstillinger gendannet</item>
-            <item quantity="other">%1$d apps og indstillinger gendannet</item>
-    </plurals>
     <string name="restore_complete_prefs_only">Indstillinger gendannet</string>
     <string name="pref_category_info_title">Generelt</string>
     <string name="pref_elite_only">Kun tilgængelig for Elite-brugere</string>
-    <plurals name="pref_logs_deleted">
-            <item quantity="one">En logpost er slettet</item>
-            <item quantity="other">%1$d logposter er slettet</item>
-    </plurals>
     <string name="updater_title">Binær opdatering</string>
     <string name="updater_new_su_found">Ny version af su-binær fundet. Opdatér nu?</string>
     <string name="updater_current_installed">Nyeste version er allerede installeret. Ingen handling påkrævet.</string>
@@ -200,17 +192,9 @@
     <string name="pin_new_pin">Indtast ny PIN</string>
     <string name="pin_confirm_pin">Bekræft PIN</string>
     <string name="pin_mismatch">PIN-koderne er ikke ens, prøv igen</string>
-    <plurals name="pin_incorrect_try">
-            <item quantity="one">Sidste chance</item>
-            <item quantity="other">Niks - %1$d forsøg tilbage</item>
-    </plurals>
     <string name="pin_enter_secret_code">Indtast den hemmelige kode</string>
     <string name="nfc_write_tag">Skan NFC-tag for at skrive</string>
     <string name="malicious_apps_title">Advarsel</string>
-    <plurals name="malicious_apps_message1">
-            <item quantity="one">Den følgende pakke ser ud til at være skadelig:</item>
-            <item quantity="other">De følgende pakker ser ud til at være skadelige:</item>
-    </plurals>
     <string name="malicious_apps_message2">Apps bliver markeret som ondsindede, fordi de indeholder elementer der tyder på, at de forsøger at tildele root-adgang, muligvis uden dit samtykke. Du anbefales på det kraftigste at afinstallere dem straks.</string>
     <string name="malicious_apps_uninstall">Afinstaller</string>
     <string name="malicious_apps_ignore">Ignorér</string>

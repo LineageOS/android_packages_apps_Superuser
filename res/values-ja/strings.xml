@@ -82,7 +82,7 @@
     <string name="pref_automatic_action_title">自動応答</string>
     <string name="pref_automatic_action_summary">スーパーユーザーが新しい要求を処理する方法を設定します</string>
     <string name="pref_ghost_mode_title">ゴーストモード</string>
-    <string name="pref_ghost_mode_message">ゴーストモードではランチャーのスーパーユーザーのアイコンは非表示になります。アイコンはランチャーを再起動したときに非表示になります。非表示になるとダイヤラでシークレットコードをダイヤルしてスーパーユーザーにアクセスできます。デフォルトのシークレットコードは、*#*#787378737#*#* (*#*#superuser#*#*),ただし、数字は変更することができます。\n\n もしデバイスにダイヤラが無い場合、ゴーストモードを有効にしてはいけません。\n\nゴーストモードを有効にしますか？</string>
+    <string name="pref_ghost_mode_message">ゴーストモードではランチャーのスーパーユーザーのアイコンは非表示になります。アイコンはランチャーを再起動したときに非表示になります。非表示になるとダイヤラでシークレットコードをダイヤルしてスーパーユーザーにアクセスできます。デフォルトのシークレットコードは、*#*#787378737#*#*,ただし、数字は変更することができます。\n\n もしデバイスにダイヤラが無い場合、ゴーストモードを有効にしてはいけません。\n\nゴーストモードを有効にしますか？</string>
     <string name="pref_ghost_mode_enabled_message">ゴーストモードが有効になりました。変更を確認するためにはランチャーか携帯電話を再起動してください</string>
     <string name="pref_secret_code_title">シークレットコード</string>
     <string name="pref_secret_code_summary">シークレットコードは*#*#%1$s#*#*です</string>
@@ -126,16 +126,7 @@
     <string name="updater_update">アップデート</string>
     <string name="updater_update_anyway">とにかく更新</string>
     <string name="updater_cool">気に入った、もう一回</string>
-    <string name="updater_ok">Fixed layout on non-Honeycomb tablets
-Better handling of fragments on tablets
-Compatibility for Donut restored
-Fixed bug that caused unpredictable results when an app is remembered that was previously allowed
-Backup/restore of apps and preferences
-Fix for Superuser thinking the binary is outdated when it’s not
-Major speed increase for notifications and logging
-Show seconds in log defaults to off now
-Fix FC when trying to swipe left/right in HomeActivity
-Fix changelog version tracking, only show what’s changed since the last time the changelog was displayed on launch</string>
+    <string name="updater_ok">OK</string>
     <string name="updater_fail">失敗しました！</string>
     <string name="updater_not_found">見つかりません</string>
     <string name="updater_update_failed">アップデートに失敗しました。再試行しますか？</string>
@@ -168,19 +159,4 @@ Fix changelog version tracking, only show what’s changed since the last time t
     <string name="malicious_app_write">プロバイダへの書き込みする権限を要求する</string>
     <string name="changelog_full_title">更新履歴</string>
     <string name="changelog_title">最新情報</string>
-    <plurals name="restore_complete">
-        <item quantity="one">1つのアプリと設定を復元しました。</item>
-        <item quantity="other">%1$dつのアプリと設定を復元しました。</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">ログを1件削除しました</item>
-        <item quantity="other">%1$d件のログを削除しました</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">最後のチャンス</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">次のパッケージは悪意があります</item>
-        <item quantity="other">次のパッケージ群は悪意があります</item>
-    </plurals>
 </resources>

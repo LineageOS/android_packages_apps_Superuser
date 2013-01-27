@@ -88,8 +88,8 @@
     <string name="info_outdated_notification">vanhentuneen binaaripaketin ilmoitus</string>
     <string name="info_changelog_summary">Näytä muutosloki</string>
     <string name="use_global_settings">Käytä yleisiä asetuksia</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Ilmoitukset käytössä</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Lokin kirjaaminen käytössä</string>
+    <string name="notifications_enabled">&#32;&#32;Ilmoitukset käytössä</string>
+    <string name="logging_enabled">&#32;&#32;Lokin kirjaaminen käytössä</string>
     <string name="request_message">%1$s haluaa pääkäyttäjäoikeudet.\n\nVaroitus: Jos et pyytänyt tätä toimintoa tai et tiedä mistä on kysymys, niin älä anna oikeuksia.</string>
     <string name="request_more_info">Saat lisätietoja napauttamalla</string>
     <string name="request_less_info">Vähemmän tietoa napauttamalla</string>
@@ -150,7 +150,7 @@
     <string name="updater_update">Päivitä</string>
     <string name="updater_update_anyway">Päivitä kuitenkin</string>
     <string name="updater_cool">Se oli siistiä, tee se uudelleen</string>
-    <string name="updater_working">Toimintoa suoritetaan…</string>
+    <string name="updater_working">Toimintoa suoritetaan\u2026</string>
     <string name="updater_ok">okei!</string>
     <string name="updater_fail">epäonnistui!</string>
     <string name="updater_not_found">ei löytynyt</string>
@@ -158,21 +158,21 @@
     <string name="updater_no_conn">Luettelon lataaminen epäonnistui. Tarkista verkkoyhteys</string>
     <string name="updater_try_again">Yritä uudelleen</string>
     <string name="updater_su_updated">Binaaripaketti on päivitetty onnistuneesti</string>
-    <string name="updater_step_download_manifest">Ladataan luetteloa…\u0020</string>
-    <string name="updater_step_parse_manifest">Luettelon jäsentäminen…\u0020</string>
+    <string name="updater_step_download_manifest">Ladataan luetteloa\u2026</string>
+    <string name="updater_step_parse_manifest">Luettelon jäsentäminen\u2026</string>
     <string name="updater_step_latest_version">Viimeisin versio =\u0020</string>
     <string name="updater_step_check_installed_version">Tarkistetaan asennettu versio =\u0020</string>
-    <string name="updater_step_fix_db">Tietokannan korjaaminen…\u0020</string>
-    <string name="updater_step_check_installed_path">Tarkistetaan nykyinen asennuspolku...\u0020</string>
-    <string name="updater_step_download_su">Ladataan uutta binaaripakettia...\u0020</string>
-    <string name="updater_step_get_root">Pääkäyttäjäoikeuksien hankkiminen…\u0020</string>
-    <string name="updater_step_remount_rw">/system uudelleenkokoamisen uudellenkirjoittaminen...\u0020</string>
-    <string name="updater_step_cp">Superuser kopioidaan sijaintiin /system...\u0020</string>
-    <string name="updater_step_chmod">Superuserin tiedoston tila muutetaan 06755...\u0020</string>
-    <string name="updater_step_ops_check">Varmistetaan, että uusi binaaripaketti toimii…\u0020</string>
-    <string name="updater_step_mv">Siirretään Superuser binaaripaketti lopulliseen sijoituspaikkaansa...\u0020</string>
-    <string name="updater_step_remount_ro">/system uudelleenkokoaminen vain lukutilaan...\u0020</string>
-    <string name="updater_step_clean_up">Puhdistetaan…\u0020</string>
+    <string name="updater_step_fix_db">Tietokannan korjaaminen\u2026</string>
+    <string name="updater_step_check_installed_path">Tarkistetaan nykyinen asennuspolku\u2026</string>
+    <string name="updater_step_download_su">Ladataan uutta binaaripakettia\u2026</string>
+    <string name="updater_step_get_root">Pääkäyttäjäoikeuksien hankkiminen\u2026</string>
+    <string name="updater_step_remount_rw">/system uudelleenkokoamisen uudellenkirjoittaminen\u2026</string>
+    <string name="updater_step_cp">Superuser kopioidaan sijaintiin /system\u2026</string>
+    <string name="updater_step_chmod">Superuserin tiedoston tila muutetaan 06755\u2026</string>
+    <string name="updater_step_ops_check">Varmistetaan, että uusi binaaripaketti toimii\u2026</string>
+    <string name="updater_step_mv">Siirretään Superuser binaaripaketti lopulliseen sijoituspaikkaansa\u2026</string>
+    <string name="updater_step_remount_ro">/system uudelleenkokoaminen vain lukutilaan\u2026</string>
+    <string name="updater_step_clean_up">Puhdistetaan\u2026</string>
     <string name="updater_remount_ro_failed">Järjestelmän muuttaminen kirjoitussuojatuksi epäonnistui, käynnistä uudelleen päivityksen viimeistelemiseksi</string>
     <string name="updater_find_su_failed">Ei löytynyt asennettua binaaripakettia. Päivitystä ei voi jatkaa</string>
     <string name="updater_bad_install_location">Binaaripaketti on tällä hetkellä asennettu kansioon /sbin. Päivitysohjelma ei kykene päivittämään sitä. Etsi uusin ROM laitteellesi.</string>
@@ -200,20 +200,4 @@
     <string name="malicious_app_write">pyytää kirjoitusoikeutta oikeuksien tarjoajalle</string>
     <string name="changelog_full_title">Muutosloki</string>
     <string name="changelog_title">Mitä uutta</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Yksi sovellus ja asetukset on palautettu</item>
-        <item quantity="other">%1$d sovellusta ja asetusta on palautettu</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Yksi loki poistettu</item>
-        <item quantity="other">%1$d lokia poistettu</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Viimeinen mahdollisuus</item>
-        <item quantity="other">Ehei - %1$d yritystä jäljellä</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Seuraavat paketit oli todettu haitalliseksi:</item>
-        <item quantity="other">Seuraavat paketit todettiin haitalliseksi:</item>
-    </plurals>
 </resources>

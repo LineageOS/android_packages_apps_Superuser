@@ -70,8 +70,8 @@
     <string name="detail_command">Команда:</string>
     <string name="detail_status">Статус:</string>
     <string name="use_global_settings">Використовувати глобальні налаштування</string>
-    <string name="notifications_enabled">\u0020\u0020\u0020\u0020Сповіщення увімкнені</string>
-    <string name="logging_enabled">\u0020\u0020\u0020\u0020Журнал увімкнений</string>
+    <string name="notifications_enabled">&#32;&#32;Сповіщення увімкнені</string>
+    <string name="logging_enabled">&#32;&#32;Журнал увімкнений</string>
     <string name="request_message">%1$s запитує доступ СуперКористувача.\n\nУВАГА: Якщо Ви не запускали цю дію, або якщо Ви не розумієте цей запит, краще натисніть заборонити.</string>
     <string name="request_more_info">Натисніть для отримання додаткової інформації</string>
     <string name="request_less_info">Натисніть для зменшення інформації</string>
@@ -86,7 +86,7 @@
     <string name="pref_automatic_action_title">Автоматична відповідь</string>
     <string name="pref_automatic_action_summary">Встановити спосіб обробки нових запитів</string>
     <string name="pref_ghost_mode_title">Режим привида</string>
-    <string name="pref_ghost_mode_message">Режим привида приховує іконку Суперкористувача із десктопу. Іконка буде прихована при наступному перезапуску десктопу. Коли іконка прихована Ви можете отримати доступ до Суперкористувача, набравши таємний код на клавіатурі телефону. Стандартний код - *#*#787378737#*#* (*#*#superuser#*#*), але код може бути змінений.\n\nЯкщо Ваш пристрій не має програми телефон, то не потрібно вмикати режим привида\n\nУвімкнути режим привида?</string>
+    <string name="pref_ghost_mode_message">Режим привида приховує іконку Суперкористувача із десктопу. Іконка буде прихована при наступному перезапуску десктопу. Коли іконка прихована Ви можете отримати доступ до Суперкористувача, набравши таємний код на клавіатурі телефону. Стандартний код - *#*#787378737#*#*, але код може бути змінений.\n\nЯкщо Ваш пристрій не має програми телефон, то не потрібно вмикати режим привида\n\nУвімкнути режим привида?</string>
     <string name="pref_ghost_mode_enabled_message">Режим привида увімкнено. Перезапустіть програму десктопу або перезавантажте телефон, щоб побачити зміни.</string>
     <string name="pref_secret_code_title">Секретний код</string>
     <string name="pref_secret_code_summary">Секретний код *#*#%1$s#*#*</string>
@@ -131,7 +131,7 @@
     <string name="updater_update">Оновлення</string>
     <string name="updater_update_anyway">Оновити</string>
     <string name="updater_cool">Це було круто, оновити знову</string>
-    <string name="updater_working">Працюємо…</string>
+    <string name="updater_working">Працюємо\u2026</string>
     <string name="updater_ok">Виконано!</string>
     <string name="updater_fail">помилка</string>
     <string name="updater_not_found">не знайдено</string>
@@ -139,20 +139,20 @@
     <string name="updater_no_conn">Не вдалося завантажити файл маніфесту. Перевірте підключення до Інтернету</string>
     <string name="updater_try_again">Повторити</string>
     <string name="updater_su_updated">su успішно оновлено</string>
-    <string name="updater_step_download_manifest">Звантаження manifest…\u0020</string>
-    <string name="updater_step_parse_manifest">Парсинг manifest…\u0020</string>
-    <string name="updater_step_latest_version">Остання версія =\u0020</string>
-    <string name="updater_step_check_installed_version">Перевірка встановленої версії =\u0020</string>
-    <string name="updater_step_fix_db">Виправлення бази даних…\u0020</string>
-    <string name="updater_step_check_installed_path">Перевірка поточного місця установки ... \ u0020</string>
-    <string name="updater_step_download_su">Звантаження нової програми...\u0020</string>
-    <string name="updater_step_get_root">Отримуємо доступ рівня root…\u0020</string>
-    <string name="updater_step_remount_rw">Монтування /system для запису...\u0020</string>
-    <string name="updater_step_cp">Копіювання su до /system...\u0020</string>
-    <string name="updater_step_chmod">Зміна прав для файлу su на 06755...\u0020</string>
-    <string name="updater_step_mv">Переміщення su на постійне місце...\u0020</string>
-    <string name="updater_step_remount_ro">Монтування /system для читання...\u0020</string>
-    <string name="updater_step_clean_up">Очищення…\u0020</string>
+    <string name="updater_step_download_manifest">Звантаження manifest\u2026</string>
+    <string name="updater_step_parse_manifest">Парсинг manifest\u2026</string>
+    <string name="updater_step_latest_version">Остання версія =&#32;</string>
+    <string name="updater_step_check_installed_version">Перевірка встановленої версії =&#32;</string>
+    <string name="updater_step_fix_db">Виправлення бази даних\u2026</string>
+    <string name="updater_step_check_installed_path">Перевірка поточного місця установки\u2026</string>
+    <string name="updater_step_download_su">Звантаження нової програми\u2026</string>
+    <string name="updater_step_get_root">Отримуємо доступ рівня root\u2026</string>
+    <string name="updater_step_remount_rw">Монтування /system для запису\u2026</string>
+    <string name="updater_step_cp">Копіювання su до /system\u2026</string>
+    <string name="updater_step_chmod">Зміна прав для файлу su на 06755\u2026</string>
+    <string name="updater_step_mv">Переміщення su на постійне місце\u2026</string>
+    <string name="updater_step_remount_ro">Монтування /system для читання\u2026</string>
+    <string name="updater_step_clean_up">Очищення\u2026</string>
     <string name="updater_remount_ro_failed">Не вдалося перемонтувати систему тільки для читання, будь ласка, перезавантажте пристрій для завершення оновлення.</string>
     <string name="updater_find_su_failed">Не вдалося знайти двійковий файл su. Оновлення неможливе.</string>
     <string name="updater_bad_install_location">Двійковий файл su знаходиться в каталозі /sbin. Програма оновлення не може його оновити. Будь ласка, знайдіть нову прошивку для свого пристрою.</string>
@@ -180,20 +180,4 @@
     <string name="malicious_app_write">запит дозволу на запис до постачальника послуг</string>
     <string name="changelog_full_title">Список змін</string>
     <string name="changelog_title">Що нового</string>
-    <plurals name="restore_complete">
-        <item quantity="one">Одну програму з даними відновлено</item>
-        <item quantity="other">%1$d програм з даними відновлено</item>
-    </plurals>
-    <plurals name="pref_logs_deleted">
-        <item quantity="one">Один запис журналу видалено</item>
-        <item quantity="other">%1$d записів журналу видалено</item>
-    </plurals>
-    <plurals name="pin_incorrect_try">
-        <item quantity="one">Останній шанс</item>
-        <item quantity="other">Ні - залишилось    спроб: %1$d</item>
-    </plurals>
-    <plurals name="malicious_apps_message1">
-        <item quantity="one">Наступний пакет виявився шкідливим:</item>
-        <item quantity="other">Наступні пакети були визнані шкідливими:</item>
-    </plurals>
 </resources>
