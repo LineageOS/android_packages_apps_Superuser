@@ -84,8 +84,8 @@
     <string name="detail_status">Statut</string>
 
     <string name="info_display_changelog">Appuyer pour afficher les notes de version</string>
-    <string name="info_elite_installed">La version Elite est installé</string>
-    <string name="info_elite_not_installed">La version Elite n\'est pas installé</string>
+    <string name="info_elite_installed">La version Elite est installée</string>
+    <string name="info_elite_not_installed">La version Elite n\'est pas installée</string>
     <string name="info_get_elite">Obtenir la version Elite</string>
     <string name="info_check_updates">Appuyer pour vérifier les mises à jour</string>
     <string name="info_outdated_binary_notification">Notification pour les versions dépassées des binaires</string>
@@ -161,7 +161,7 @@
     <string name="backup_complete">Sauvegarde enregistrée sur la carte sd</string>
     <string name="pref_restore_title">Restaurer applis/préférences</string>
     <string name="pref_get_elite_summary">Acheter la version Elite pour débloquer toutes les options</string>
-    <string name="restore_complete_prefs_only">Paramètres restaurées</string>
+    <string name="restore_complete_prefs_only">Paramètres restaurés</string>
     <string name="pref_category_info_title">Général</string>
     <string name="pref_elite_only">Uniquement disponible avec la version Elite</string>
 
