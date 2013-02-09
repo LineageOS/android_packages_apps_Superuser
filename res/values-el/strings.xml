@@ -13,49 +13,60 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Superuser</string>
     <string name="app_name_request">Αίτηση superuser</string>
+
     <string name="description_home">Αρχική σελίδα</string>
     <string name="description_log">Αρχείο καταγραφής</string>
     <string name="description_preferences">Προτιμήσεις</string>
     <string name="description_extras">Έξτρα</string>
+
+    <string name="page_label_info">πληροφορίες</string>
     <string name="page_label_apps">εφαρμογές</string>
     <string name="page_label_log">αρχείο καταγραφής</string>
+
     <string name="menu_extras">Έξτρα</string>
+    <string name="menu_get_elite">Γίνετε Elite</string>
     <string name="menu_preferences">Προτιμήσεις</string>
     <string name="menu_clear">Εκκαθάριση</string>
-    <string name="menu_clear_log">Καθαρισμός μητρώου</string>
+    <string name="menu_clear_log">Εκκαθάριση αρχείου καταγραφής</string>
     <string name="menu_toggle">Εναλλαγή</string>
     <string name="menu_forget">Ξέχασε</string>
     <string name="menu_options">Επιλογές</string>
+
     <string name="permgrouplab_superuser">Δικαιώματα superuser</string>
     <string name="permgroupdesc_superuser">Δικαιώματα που σχετίζονται με το Superuser</string>
     <string name="permlab_respond">ανταπόκριση σε αιτήματα του superuser</string>
-    <string name="permdesc_respond">Επιτρέπει στην εφαρμογή να ανταποκριθεί σε αιτήματα για πρόσβαση στο superuser.</string>
+    <string name="permdesc_respond">Επιτρέπει στην εφαρμογή να ανταποκριθεί σε αιτήματα για πρόσβαση στο superuser</string>
     <string name="permlab_provider_read">Ανάγνωση δεδομένων superuser</string>
     <string name="permdesc_provider_read">Επιτρέπει στην εφαρμογή να διαβάσει δεδομένα από το ContentProvider του superuser</string>
     <string name="permlab_provider_write">Εγγραφή δεδομένων superuser</string>
     <string name="permdesc_provider_write">Επιτρέπει στην εφαρμογή την εγγραφή δεδομένων στο ContentProvider του Superuser</string>
+
     <string name="recent_activity">Πρόσφατη δραστηριότητα</string>
+
     <string name="yes">Ναι</string>
     <string name="no">Όχι</string>
     <string name="ok">Εντάξει</string>
     <string name="loading">φόρτωση</string>
+
     <string name="allow">Επίτρεψε</string>
     <string name="cancel">Άκυρο</string>
     <string name="deny">Άρνηση</string>
-    <string name="set">Βάλε</string>
+    <string name="set">Θέσε</string>
     <string name="remember">Θυμήσου</string>
     <string name="remember_disabled">Θυμήσου την απενεργοποίηση μέχρι να ενημερωθεί το su</string>
+    <string name="any">Εφαρμογή σε όλες τις εντολές από αυτή την εφαρμογή</string>
     <string name="request">%1$s ως %2$s (uid: %3$d)</string>
     <string name="unknown">Άγνωστο όνομα</string>
+
     <string name="allowed">Επιτρέπεται</string>
     <string name="denied">Δεν επιτρέπεται</string>
     <string name="created">Δημιουργήθηκε</string>
     <string name="toggled">Εναλλάχθηκε</string>
+
     <string name="empty_apps">Δεν υπάρχουν εφαρμογές στη λίστα</string>
     <string name="empty_logs">Δεν υπάρχουν πληροφορίες καταγραφής</string>
     <string name="log_count">Προβολή %1$d καταχωρήσεων</string>
@@ -64,20 +75,46 @@
     <string name="log_last_denied">Η πιό πρόσφατη απορρίφθηκε σε %1$s στις %2$s</string>
     <string name="log_last_toggled">Τελευταία εναλλαγή στις %1$s σε %2$s</string>
     <string name="log_created_on">Δημιουργήθηκε την/το %1$s στις %2$s</string>
+
     <string name="detail_package">Πακέτο</string>
     <string name="detail_app_uid">UID της εφαρμογής</string>
-    <string name="detail_request">Ζητούμενη UID</string>
+    <string name="detail_request">Ζητούμενο UID</string>
     <string name="detail_command">Εντολή</string>
     <string name="detail_status">Κατάσταση</string>
+
+    <string name="info_display_changelog">Πατήστε για εμφάνιση αρχείου αλλαγών</string>
+    <string name="info_elite_installed">Το Elite είναι εγκατεστημένο</string>
+    <string name="info_elite_not_installed">Το Elite δεν είναι εγκατεστημένο</string>
+    <string name="info_get_elite">Γίνετε Elite</string>
+    <string name="info_check_updates">Πατήστε για έλεγχο ενημερώσεων</string>
+    <string name="info_outdated_binary_notification">Ειδοποίηση μη ενημερωμένου binary</string>
+    <string name="info_temp_unroot">Προσωρινό unroot</string>
+    <string name="info_temp_unroot_unsuccessful">Το προσωρινό unroot δεν ήταν επιτυχές</string>
+    <string name="info_ota_survival">Διατήρηση root μετά από OTA</string>
+    <string name="info_ota_survival_warning" product="tablet">Σημείωση: αυτές οι επιλογές δεν είναι εγγυημένες και μπορεί να μην λειτουργούν στο tablet σας</string>
+    <string name="info_ota_survival_warning" product="default">Σημείωση: αυτές οι επιλογές δεν είναι εγγυημένες και μπορεί να μην λειτουργούν στο τηλέφωνό σας</string>
+    <string name="info_version_loading">Φόρτωση έκδοσης Superuser\u2026</string>
+    <string name="info_version">Superuser v%1$s (%2$d)</string>
+    <string name="info_bin_version_loading">Φόρτωση έκδοσης su binary\u2026</string>
+    <string name="info_bin_version">su binary v%1$s (%2$d)</string>
+    <string name="info_bin_version_not_found">Δεν βρέθηκε su binary</string>
+    <string name="info_check_for_updates">Πατήστε για έλεγχο ενημερώσεων</string>
+    <string name="info_outdated_notification">Ειδοποίηση μη ενημερωμένου binary</string>
+    <string name="info_changelog_summary">Εμφάνιση αρχείου αλλαγών</string>
+    <string name="info_working">Γίνεται επεξεργασία\u2026</string>
+
     <string name="use_global_settings">Χρήση καθολικών ρυθμίσεων</string>
     <string name="notifications_enabled">&#32;&#32;Επιτρέπονται οι ειδοποιήσεις</string>
     <string name="logging_enabled">&#32;&#32;Είναι δυνατή η καταγραφή</string>
+
     <string name="request_message">%1$s ζητά πρόσβαση Superuser.\n\nΠροειδοποίηση: Εάν δεν έχετε ξεκινήσει αυτήν την ενέργεια, ή αν δεν καταλαβαίνετε αυτό το αίτημα, είναι μιά καλή ιδέα να το αρνηθείτε.</string>
     <string name="request_more_info">Πατήστε για περισσότερες πληροφορίες</string>
     <string name="request_less_info">Πατήστε για λιγότερες πληροφορίες</string>
     <string name="request_app_name">Εφαρμογή</string>
+
     <string name="pref_title">Προτιμήσεις</string>
     <string name="pref_category_security">Ασφάλεια</string>
+    <string name="pref_user_mode_title">Λειτουργία πολλαπλών χρηστών</string>
     <string name="pref_pin_title">Χρήση PIN</string>
     <string name="pref_change_pin_title">Αλλαγή PIN</string>
     <string name="pref_timeout_title">Χρονικό όριο πρόσβασης</string>
@@ -86,11 +123,14 @@
     <string name="pref_automatic_action_title">Αυτόματη απάντηση</string>
     <string name="pref_automatic_action_summary">Ορίστε τον τρόπο που το Superuser χειρίζεται τα νέα αιτήματα</string>
     <string name="pref_ghost_mode_title">Λειτουργία φάντασμα(Ghost)</string>
-    <string name="pref_ghost_mode_message">Η λειτουργία Φάντασμα(Ghost) κρύβει το εικονίδιο Superuser από τον launcher. Η εικόνα θα είναι κρυμένη την επόμενη φορά που θα γίνει επανεκκίνηση του launcher. Μόλις το εικονίδιο είναι κρυμμένο μπορείτε να έχετε πρόσβαση στο Superuser καλώντας ένα μυστικό κωδικό στο παράθυρο κλήσης. Ο προεπιλεγμένος μυστικός κωδικός είναι *#*#787378737#*#*, αλλά τα ψηφία μπορούν να αλλάξουν. \n\nΣημειώστε ότι εάν η συσκευή σας δεν έχει παράθυρο κλήσης, τότε μάλλον δεν 8α πρέπει να ενεργοποιήσετε την λειτουργία Φάντασμα. \n\nΕνεργοποίηση λειτουργίας Φάντασμα;</string>
-    <string name="pref_ghost_mode_enabled_message">Λειτουργία Ghost ενεργοποιημένη. Παρακαλώ επανεκκινήστε τον launcher ή επανεκκινήστε το τηλέφωνό σας για να δείτε την αλλαγή.</string>
+    <string name="pref_ghost_mode_message" product="tablet">Η λειτουργία Φάντασμα (Ghost) κρύβει το εικονίδιο Superuser από τον launcher. Το εικονίδιο θα είναι κρυμμένο την επόμενη φορά που θα γίνει επανεκκίνηση του launcher. Μόλις το εικονίδιο είναι κρυμμένο μπορείτε να έχετε πρόσβαση στο Superuser καλώντας ένα μυστικό κωδικό στο παράθυρο κλήσης. Ο προεπιλεγμένος μυστικός κωδικός είναι *#*#787378737#*#*, αλλά τα ψηφία μπορούν να αλλάξουν. \n\nΣημειώστε ότι εάν το tablet σας δεν έχει παράθυρο κλήσης, τότε μάλλον δεν θα πρέπει να ενεργοποιήσετε την λειτουργία Φάντασμα. \n\nΕνεργοποίηση λειτουργίας Φάντασμα;</string>
+    <string name="pref_ghost_mode_message" product="default">Η λειτουργία Φάντασμα (Ghost) κρύβει το εικονίδιο Superuser από τον launcher. Το εικονίδιο θα είναι κρυμμένο την επόμενη φορά που θα γίνει επανεκκίνηση του launcher. Μόλις το εικονίδιο είναι κρυμμένο μπορείτε να έχετε πρόσβαση στο Superuser καλώντας ένα μυστικό κωδικό στο παράθυρο κλήσης. Ο προεπιλεγμένος μυστικός κωδικός είναι *#*#787378737#*#*, αλλά τα ψηφία μπορούν να αλλάξουν. \n\nΣημειώστε ότι εάν το τηλέφωνό σας δεν έχει παράθυρο κλήσης, τότε μάλλον δεν θα πρέπει να ενεργοποιήσετε την λειτουργία Φάντασμα. \n\nΕνεργοποίηση λειτουργίας Φάντασμα;</string>
+    <string name="pref_ghost_mode_enabled_message" product="tablet">Λειτουργία Ghost ενεργοποιημένη. Παρακαλώ επανεκκινήστε τον launcher ή επανεκκινήστε το tablet σας για να δείτε την αλλαγή</string>
+    <string name="pref_ghost_mode_enabled_message" product="default">Λειτουργία Ghost ενεργοποιημένη. Παρακαλώ επανεκκινήστε τον launcher ή επανεκκινήστε το τηλέφωνό σας για να δείτε την αλλαγή</string>
     <string name="pref_secret_code_title">Μυστικός κωδικός</string>
     <string name="pref_secret_code_summary">Ο μυστικός κωδικός είναι *#*#%1$s#*#*</string>
     <string name="pref_advanced_prompt_title">Χρήση προηγμένης προτροπής</string>
+    <string name="pref_advanced_prompt_summary">Απόκρυψη προειδοποίησης στα αιτήματα</string>
     <string name="pref_category_applist_title">Λίστα εφαρμογών</string>
     <string name="pref_show_status_icons_title">Εμφάνιση εικονιδίων κατάστασης</string>
     <string name="pref_status_icon_type_title">Τύπος εικονιδίου κατάστασης</string>
@@ -106,78 +146,93 @@
     <string name="pref_date_format_title">Επιλογή μορφής ημερομηνίας</string>
     <string name="pref_date_format_summary">Μορφή της εμφάνιση της ημερομηνίας σε όλα τα αρχεία καταγραφής</string>
     <string name="pref_clear_log_title">Εκκαθάριση αρχείου καταγραφής</string>
-    <string name="pref_clearing_log_title">Γίνεται εκκαθάριση αρχείου καταγραφής</string>
-    <string name="pref_clearing_log_summary">Παρακαλώ περιμένετε</string>
+    <string name="pref_clearing_log_title">Γίνεται εκκαθάριση αρχείου καταγραφής\u2026</string>
+    <string name="pref_clearing_log_summary">Παρακαλώ περιμένετε\u2026</string>
     <string name="pref_category_notification_title">Ειδοποιήσεις</string>
     <string name="pref_notifications_title">Ειδοποιήσεις</string>
     <string name="pref_notifications_type_title">Τύπος ειδοποίησης</string>
     <string name="pref_notifications_type_summary">Τύπος ειδοποίησης που εμφανίζεται όταν σε μια εφαρμογή παραχωρούνται δικαιώματα SU</string>
     <string name="pref_toast_location_title">Θέση μικρού μηνύματος</string>
-    <string name="pref_toast_location_summary">Πού θα εμφανίζεται η κοινοποίηση στην οθόνη</string>
+    <string name="pref_toast_location_summary">Πού θα εμφανίζεται η ειδοποίηση στην οθόνη</string>
     <string name="pref_category_nfc_title">NFC</string>
     <string name="pref_use_allow_tag_title">Χρησιμοποιήστε NFC ετικέτα για να επιτραπεί</string>
     <string name="pref_write_allow_tag_title">Εγγραφή νέας επιτρέπουσας ετικέτας</string>
     <string name="pref_write_allow_tag_summary">Γράψτε μία νέα ετικέτα που θα χρησιμοποιηθεί για να επιτρέψει</string>
-    <string name="pref_category_backup_restore_title">Αντίγραφα ασφαλείας/Επαναφορά</string>
-    <string name="pref_backup_title">Αντίγραφα ασφαλείας εφαρμογών/προτιμήσεις</string>
-    <string name="backup_complete">Αντίγραφα ασφαλείας στην sdcard</string>
-    <string name="pref_restore_title">Επαναφορά εφαρμογών/προτιμήσεις</string>
+    <string name="pref_category_backup_restore_title">Αντίγραφα ασφαλείας &amp; επαναφορά</string>
+    <string name="pref_backup_title">Αντίγραφο ασφαλείας εφαρμογών/προτιμήσεων</string>
+    <string name="backup_complete" product="nosdcard">Έγινε αντίγραφο ασφαλείας στον αποθ. χώρο USB</string>
+    <string name="backup_complete" product="default">Έγινε αντίγραφο ασφαλείας στην κάρτα SD</string>
+    <string name="pref_restore_title">Επαναφορά εφαρμογών/προτιμήσεων</string>
+    <string name="pref_get_elite_summary">Αγοράστε την έκδοση Elite για ξεκλείδωμα όλων των επιλογών</string>
     <string name="restore_complete_prefs_only">Επαναφορά προτιμήσεων</string>
     <string name="pref_category_info_title">Γενικά</string>
     <string name="pref_elite_only">Διαθέσιμο μόνο σε Elite χρήστες</string>
-    <string name="updater_title">Ενημέρωση Binary</string>
+
+    <string name="updater_title">Ενημέρωση binary</string>
     <string name="updater_new_su_found">Βρέθηκε νέα έκδοση του su binary. Ενημέρωση τώρα;</string>
-    <string name="updater_current_installed">Η τρέχουσα έκδοση είναι ήδη εγκατεστημένη. Δεν απαιτείται καμία ενέργεια.</string>
-    <string name="updater_update">Ενημέρωση</string>
-    <string name="updater_update_anyway">Ενημέρωση έτσι κι αλλιώς</string>
-    <string name="updater_cool">Αυτό ήταν καλό, κάντο ξανά</string>
+    <string name="updater_current_installed">Δεν υπάρχει διαθέσιμη ενημέρωση</string>
+    <string name="updater_update">Εγκατάσταση</string>
+    <string name="updater_update_anyway">Επανεγκατάσταση</string>
+    <string name="updater_cool">Επανεγκατάσταση</string>
     <string name="updater_working">Σε λειτουργία\u2026</string>
-    <string name="updater_ok">εντάξει!</string>
-    <string name="updater_fail">Αποτυχία!</string>
+    <string name="updater_ok">εντάξει</string>
+    <string name="updater_fail">αποτυχία</string>
     <string name="updater_not_found">δεν βρέθηκε</string>
     <string name="updater_update_failed">Η ενημέρωση απέτυχε. Επανάληψη;</string>
-    <string name="updater_no_conn">Απέτυχε η λήψη του δηλωτικού. Ελέγξτε τη σύνδεση με το διαδίκτυο</string>
+    <string name="updater_no_conn">Δεν είναι δυνατή η λήψη του δηλωτικού</string>
     <string name="updater_try_again">Δοκιμάστε ξανά</string>
     <string name="updater_su_updated">Το su binary ενημερώθηκε με επιτυχία</string>
     <string name="updater_step_download_manifest">Λήψη δηλωτικού\u2026</string>
     <string name="updater_step_parse_manifest">Ανάλυση δηλωτικού\u2026</string>
-    <string name="updater_step_latest_version">Τελευταία έκδοση = \u0020</string>
-    <string name="updater_step_check_installed_version">Έλεγχος εγκατεστημένης έκδοσης = \ u0020</string>
+    <string name="updater_step_latest_version">Τελευταία έκδοση =&#32;</string>
+    <string name="updater_step_check_installed_version">Τρέχουσα έκδοση =&#32;</string>
     <string name="updater_step_fix_db">Επιδιόρθωση βάσης δεδομένων\u2026</string>
+    <string name="updater_step_unpack_sutools">Αποσυμπίεση εργαλείων su\u2026</string>
     <string name="updater_step_check_installed_path">Έλεγχος τρέχουσας διαδρομής εγκατάστασης\u2026</string>
-    <string name="updater_step_download_su">Λήψη νέου δυαδικού αρχείου\u2026</string>
-    <string name="updater_step_get_root">Απόκτηση πλήρους (root) πρόσβασης\u2026</string>
-    <string name="updater_step_remount_rw">Remounting /system ως rw\u2026</string>
+    <string name="updater_step_download_su">Λήψη νέου binary\u2026</string>
+    <string name="updater_step_get_root">Απόκτηση πρόσβασης root\u2026</string>
+    <string name="updater_step_remount_rw">Επαναπροσάρτηση /system ως rw\u2026</string>
     <string name="updater_step_cp">Αντιγραφή su στο /system\u2026</string>
-    <string name="updater_step_chmod">Aλλαγή κατάστασης λειτουργίας αρχείου su σε 06755\u2026</string>
+    <string name="updater_step_chmod">Aλλαγή δικαιωμάτων αρχείου su σε 06755\u2026</string>
+    <string name="updater_step_ops_check">Επιβεβαίωση λειτουργίας του καινούριου su\u2026</string>
     <string name="updater_step_mv">Μετακίνηση του su στην οριστική του θέση\u2026</string>
-    <string name="updater_step_remount_ro">Remounting /system ως rο\u2026</string>
+    <string name="updater_step_remount_ro">Επαναπροσάρτηση /system ως rο\u2026</string>
     <string name="updater_step_clean_up">Καθαρισμός\u2026</string>
-    <string name="updater_remount_ro_failed">Απέτυχε η επαναπροσάρτιση του συστήματος μόνο για ανάγνωση, παρακαλώ κάντε επανεκκίνηση για να ολοκληρώσετε την ενημέρωση</string>
+    <string name="updater_remount_ro_failed">Απέτυχε η επαναπροσάρτηση του συστήματος μόνο για ανάγνωση, παρακαλώ κάντε επανεκκίνηση για να ολοκληρώσετε την ενημέρωση</string>
     <string name="updater_find_su_failed">Απέτυχε η εύρεση εγκατεστημένου su binary. Η ενημέρωση δεν μπορεί να συνεχιστεί</string>
-    <string name="updater_bad_install_location">το su binary είναι εγκατεστημένο στο /sbin. Αυτό το πρόγραμμα ενημέρωσης δεν είναι σε θέση να το ενημερώσει. Παρακαλούμε βρείτε μία νέα ROM για τη συσκευή σας.</string>
-    <string name="updater_bad_install_location_explained">Αυτό το πρόγραμμα ενημέρωσης δεν μπορεί να ενημερώσει το δυαδικό σας su, από τότε που εγκαταστάθηκε στο /sbin. Δεν πρόκειται για σφάλμα του προγράμματος ενημέρωσης, είναι σφάλμα της ROM σας ή του προγραμματιστή του πυρήνα. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Superuser με το μη ενημερωμένο δυαδικό σας.</string>
-    <string name="updater_failed_remount">Αυτό το πρόγραμμα ενημέρωσης δεν μπορεί να ενημερώσει το δυαδικό σας su σε τηλέφωνα που έχουν κάποιο είδος προστασίας εγγραφής στο partition του συστήματος, όπως το S-ON. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Superuser με το μη ενημερωμένο δυαδικό σας, ή να ενημερώσετε το su με τον ROM Manager.</string>
+    <string name="updater_bad_install_location" product="tablet">Το su binary είναι εγκατεστημένο στο /sbin. Αυτό το πρόγραμμα ενημέρωσης δεν είναι σε θέση να το ενημερώσει. Παρακαλούμε εγκαταστήστε μια νέα ROM στο tablet σας.</string>
+    <string name="updater_bad_install_location" product="default">Το su binary είναι εγκατεστημένο στο /sbin. Αυτό το πρόγραμμα ενημέρωσης δεν είναι σε θέση να το ενημερώσει. Παρακαλούμε εγκαταστήστε μια νέα ROM στο τηλέφωνό σας.</string>
+    <string name="updater_bad_install_location_explained">Αυτό το πρόγραμμα ενημέρωσης δεν μπορεί να ενημερώσει το su binary σας επειδή είναι εγκατεστημένο στο /sbin. Δεν πρόκειται για σφάλμα του προγράμματος ενημέρωσης, είναι σφάλμα του προγραμματιστή της ROM η του kernel σας. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Superuser με το μη ενημερωμένο binary σας.</string>
+    <string name="updater_failed_remount" product="tablet">Αυτό το πρόγραμμα ενημέρωσης δεν μπορεί να ενημερώσει το su binary στο tablet σας, επειδή έχει κάποιο είδος προστασίας εγγραφής στο partition του συστήματος, όπως το S-ON. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Superuser με το μη ενημερωμένο su binary σας, ή να το ενημερώσετε με τον ROM Manager</string>
+    <string name="updater_failed_remount" product="default">Αυτό το πρόγραμμα ενημέρωσης δεν μπορεί να ενημερώσει το su binary στο τηλέφωνό σας, επειδή έχει κάποιο είδος προστασίας εγγραφής στο partition του συστήματος, όπως το S-ON. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Superuser με το μη ενημερωμένο su binary σας, ή να το ενημερώσετε με τον ROM Manager</string>
     <string name="notification_text_allow">%1$s έλαβε δικαιώματα Superuser</string>
     <string name="notification_text_deny">%1$s δεν έλαβε δικαιώματα Superuser</string>
+
     <string name="notif_outdated_ticker">Το su binary δεν είναι ενημερωμένο</string>
     <string name="notif_outdated_title">Το su binary δεν είναι ενημερωμένο</string>
     <string name="notif_outdated_text">Πατήστε για να κάνετε ενημέρωση του su</string>
+
     <string name="pin_enter_pin">Εισάγετε PIN</string>
     <string name="pin_new_pin">Εισάγετε νέο PIN</string>
     <string name="pin_confirm_pin">Επιβεβαίωση PIN</string>
     <string name="pin_mismatch">Τα PIN δεν ταιριάζουν, προσπαθήστε ξανά</string>
     <string name="pin_enter_secret_code">Εισάγετε τον μυστικό κωδικό</string>
+
     <string name="nfc_write_tag">Σάρωση ετικέτας για εγγραφή</string>
+
     <string name="malicious_apps_title">Προειδοποίηση</string>
-    <string name="malicious_apps_message2">Οι εφαρμογές χαρακτηρίζονται ως κακόβουλες, διότι περιέχουν στοιχεία που δείχνουν ότι προσπαθούν να τους επιτραπεί η πρόσβαση διαχειριστή, ενδεχομένως χωρίς τη συγκατάθεσή σας. Συνιστάται να τις απεγκαταστήσετε αμέσως.</string>
+    <string name="malicious_apps_message2">Οι εφαρμογές χαρακτηρίζονται ως κακόβουλες, διότι περιέχουν στοιχεία που δείχνουν ότι προσπαθούν να τους επιτραπεί η πρόσβαση διαχειριστή, ενδεχομένως χωρίς τη συγκατάθεσή σας. Συνιστάται να τις απεγκαταστήσετε αμέσως</string>
     <string name="malicious_apps_uninstall">Απεγκατάσταση</string>
     <string name="malicious_apps_ignore">Παράβλεψη</string>
     <string name="malicious_app_notification_ticker">Εντοπίστηκε πιθανώς κακόβουλο λογισμικό</string>
-    <string name="malicious_app_notification_text">Το %1$s είναι πιθανά κακόβουλο λογισμικό. Πατήστε για απεγκατάσταση.</string>
+    <string name="malicious_app_notification_text">Το %1$s είναι πιθανά κακόβουλο λογισμικό. Πατήστε για απεγκατάσταση</string>
     <string name="malicious_app_uid">διαμοιρασμός UID με Superuser</string>
     <string name="malicious_app_respond">ζητά άδεια ανταπόκρισης</string>
     <string name="malicious_app_write">ζητά άδεια για να γράψει στον πάροχο αδειών</string>
+
     <string name="changelog_full_title">Αλλαγές</string>
     <string name="changelog_title">Τι νέο υπάρχει</string>
+
+    <string name="root_disabled_title">Ενεργοποίηση προσβασης root;</string>
+    <string name="root_disabled_summary">Μια ρύθμιση συστήματος απενεργοποιεί τα δικαιώματα root για όλες τις εφαρμογές. Ενεργοποίηση δικαιωμάτων Superuser;</string>
 </resources>

@@ -13,21 +13,23 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="restore_complete">
         <item quantity="one">Μία εφαρμογή και οι προτιμήσεις επαναφέρθηκαν</item>
         <item quantity="other">%1$d εφαρμογές και προτιμήσεις επαναφέρθηκαν</item>
     </plurals>
+
     <plurals name="pref_logs_deleted">
         <item quantity="one">Μία καταχώρηση του αρχείου καταγραφής διαγράφηκε</item>
         <item quantity="other">%1$d καταχωρήσεις του αρχείου καταγραφής διαγράφηκαν</item>
     </plurals>
+
     <plurals name="pin_incorrect_try">
         <item quantity="one">Τελευταία ευκαιρία</item>
-        <item quantity="other">Όχι - απομένουν %1$d προσπάθειες</item>
+        <item quantity="other">Απομένουν %1$d προσπάθειες</item>
     </plurals>
+
     <plurals name="malicious_apps_message1">
         <item quantity="one">Το παρακάτω πακέτο διαπιστώθηκε ότι είναι κακόβουλο:</item>
         <item quantity="other">Τα παρακάτω πακέτα διαπιστώθηκε ότι είναι κακόβουλα:</item>
