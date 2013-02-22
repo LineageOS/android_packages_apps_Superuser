@@ -51,6 +51,7 @@
     <string name="set">设置</string>
     <string name="remember">记住</string>
     <string name="remember_disabled">在 su 二进制可执行文件得到更新前，记住功能被禁用</string>
+    <string name="any">应用于此程序的任何命令</string>
     <string name="request">%1$s 作为 %2$s (uid: %3$d)</string>
     <string name="unknown">未知名称</string>
     <string name="allowed">被允许</string>
