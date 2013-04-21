@@ -13,21 +13,26 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="restore_complete">
         <item quantity="one">Jedna aplikace a předvolby byly obnoveny</item>
-        <item quantity="other">%1$d aplikace a předvolby obnoveny</item>
+        <item quantity="few">%1$d aplikace a předvolby byly obnoveny</item>
+        <item quantity="other">%1$d aplikací a předvolby byly obnoveny</item>
     </plurals>
+
     <plurals name="pref_logs_deleted">
         <item quantity="one">Jeden protokol odstraněn</item>
+        <item quantity="few">%1$d protokoly odstraněny</item>
         <item quantity="other">%1$d protokolů odstraněno</item>
     </plurals>
+
     <plurals name="pin_incorrect_try">
         <item quantity="one">Poslední šance</item>
+        <item quantity="few">Ne - zbývají %1$d pokusy</item>
         <item quantity="other">Ne - zbývá %1$d pokusů</item>
     </plurals>
+
     <plurals name="malicious_apps_message1">
         <item quantity="one">Následující balíček byl shledán škodlivým:</item>
         <item quantity="other">Následující balíčky byly shledány jako škodlivé:</item>

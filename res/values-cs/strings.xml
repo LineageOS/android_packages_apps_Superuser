@@ -13,200 +13,227 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Superuser</string>
     <string name="app_name_request">Požadavek Superuser</string>
+
     <string name="description_home">Domů</string>
     <string name="description_log">Záznam</string>
     <string name="description_preferences">Nastavení</string>
     <string name="description_extras">Extra</string>
+
+    <string name="page_label_info">Informace</string>
+    <string name="page_label_apps">Aplikace</string>
+    <string name="page_label_log">Záznam</string>
+
     <string name="menu_extras">Extra</string>
-    <string name="menu_preferences">Předvolby</string>
+    <string name="menu_get_elite">Získat Elite verzi</string>
+    <string name="menu_preferences">Nastavení</string>
     <string name="menu_clear">Vymazat</string>
-    <string name="menu_clear_log">Vymazat protokoly</string>
+    <string name="menu_clear_log">Vymazat záznam</string>
     <string name="menu_toggle">Přepnout</string>
     <string name="menu_forget">Zapomenout</string>
     <string name="menu_options">Možnosti</string>
+
     <string name="permgrouplab_superuser">Oprávnění Superuser</string>
     <string name="permgroupdesc_superuser">Superuser oprávnění</string>
     <string name="permlab_respond">ragovat na požadavky superuser</string>
     <string name="permdesc_respond">Umožní aplikaci reagovat na požadavek pro získání oprávnění superuser.</string>
-    <string name="permlab_provider_read">Načíst superuser data</string>
-    <string name="permdesc_provider_read">Umožní aplikaci číst data ze superuser poskytovatele obsahu</string>
-    <string name="permlab_provider_write">Zapisovat superuser data</string>
-    <string name="permdesc_provider_write">Umožní aplikaci zapisovat data do superuser poskytovatele obsahu</string>
+    <string name="permlab_provider_read">načíst superuser data</string>
+    <string name="permdesc_provider_read">Umožní aplikaci číst data ze superuser úložiště</string>
+    <string name="permlab_provider_write">zapisovat superuser data</string>
+    <string name="permdesc_provider_write">Umožní aplikaci zapisovat data do superuser úložiště</string>
+
     <string name="recent_activity">Poslední aktivita</string>
+
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
-    <string name="ok">Dobře</string>
+    <string name="ok">OK</string>
+    <string name="loading">Načítání\u2026</string>
+
     <string name="allow">Povolit</string>
     <string name="cancel">Zrušit</string>
     <string name="deny">Odepřít</string>
     <string name="set">Nastavit</string>
     <string name="remember">Zapamatovat</string>
     <string name="remember_disabled">Zapamatování je zakázáno dokud nebude su aktualizováno</string>
+    <string name="any">Aplikovat na všechny příkaze, které tato aplikace spustí</string>
     <string name="request">%1$s jako %2$s (uid: %3$d)</string>
     <string name="unknown">Neznámé jméno</string>
+
     <string name="allowed">Povoleno</string>
     <string name="denied">Odepřeno</string>
     <string name="created">Vytvořeno</string>
     <string name="toggled">Přepnuto</string>
+
     <string name="empty_apps">V seznamu není žádná aplikace</string>
-    <string name="empty_logs">Protokol je prázdný</string>
-    <string name="log_count">Zobrazení %1$d položek</string>
+    <string name="empty_logs">Záznam je prázdný</string>
+    <string name="log_count">Položek v záznamu: %1$d</string>
     <string name="log_last_accessed">Poslední přístup - %1$s v %2$s</string>
     <string name="log_last_allowed">Naposled povoleno %1$s v %2$s</string>
     <string name="log_last_denied">Naposled odepřeno %1$s v %2$s</string>
     <string name="log_last_toggled">Naposled přepnuto %1$s v %2$s</string>
     <string name="log_created_on">Vytovřeno %1$s v %2$s</string>
+
     <string name="detail_package">Balíček</string>
     <string name="detail_app_uid">UID aplikace</string>
-    <string name="detail_request">Požadované UID</string>
+    <string name="detail_request">Požad. UID</string>
     <string name="detail_command">Příkaz</string>
     <string name="detail_status">Stav</string>
+
+    <string name="info_display_changelog">Dotykem zobrazit změny</string>
+    <string name="info_elite_installed">Elite verze nainstalována</string>
+    <string name="info_elite_not_installed">Elite verze není nainstalována</string>
+    <string name="info_get_elite">Získat Elite verzi</string>
+    <string name="info_check_updates">Dotykem zjistit aktualizace</string>
+    <string name="info_outdated_binary_notification">Oznamovat novou verzi příkazu \"su\"</string>
+    <string name="info_temp_unroot">Dočasný unroot</string>
+    <string name="info_temp_unroot_unsuccessful">Dočasný unroot se nezdařil</string>
+    <string name="info_ota_survival">OTA root-keeper</string>
+    <string name="info_ota_survival_warning" product="tablet">Poznámka: tato nastavení nejsou bezpečná a na tomto tabletu nemusí fungovat</string>
+    <string name="info_ota_survival_warning" product="default">Poznámka: tato nastavení nejsou bezpečná a na tomto telefonu nemusí fungovat</string>
+    <string name="info_version_loading">Načítání verze Superuser\u2026</string>
+    <string name="info_version">Superuser v%1$s (%2$d)</string>
+    <string name="info_bin_version_loading">Načítání verze příkazu \"su\"\u2026</string>
+    <string name="info_bin_version">Příkaz \"su\" v%1$s (%2$d)</string>
+    <string name="info_bin_version_not_found">Příkaz \"su\" nenalezen</string>
+    <string name="info_check_for_updates">Dotykem zjistit aktualizace</string>
+    <string name="info_outdated_notification">Oznamovat novou verzi</string>
+    <string name="info_changelog_summary">Zobrazit seznam změn</string>
+    <string name="info_working">Počkejte prosím\u2026</string>
+
     <string name="use_global_settings">Použít globální nastavení</string>
-    <string name="notifications_enabled">&#32;&#32;Upozornění povoleno</string>
-    <string name="logging_enabled">&#32;&#32;Záznam povolen</string>
+    <string name="notifications_enabled">  Upozornění povoleno</string>
+    <string name="logging_enabled">  Záznam povolen</string>
+
     <string name="request_message">Aplikace %1$s vyžaduje přístup Superuser.\n\nVarování: Pokud si nejste jisti, kdo a proč tuto akci vyvolal nebo pokud tomuto požadavku nerozumíte, je opravdu doporučeno tento požadavek nepovolit.</string>
     <string name="request_more_info">Více informací</string>
     <string name="request_less_info">Méně informací</string>
     <string name="request_app_name">Aplikace</string>
+
     <string name="pref_title">Nastavení</string>
     <string name="pref_category_security">Zabezpečení</string>
+    <string name="pref_user_mode_title">Multiuživatelský režim</string>
     <string name="pref_pin_title">Použít PIN</string>
     <string name="pref_change_pin_title">Změnit PIN</string>
     <string name="pref_timeout_title">Vypršení časového limitu</string>
     <string name="pref_timeout_summary">Aplikace, které nejsou zapamatovány budou mít přístup %1$d sekund po výzvě</string>
-    <string name="pref_timeout_unit">vteřin</string>
+    <string name="pref_timeout_unit">sekund</string>
     <string name="pref_automatic_action_title">Automatická odpověď</string>
     <string name="pref_automatic_action_summary">Nastavte způsob jak Superuser zpracovává nové požadavky na oprávnění</string>
     <string name="pref_ghost_mode_title">Neviditelný režim</string>
-    <string name="pref_ghost_mode_message">Režim Ghost skryje ikonu aplikace Superuser ze spouštěče. Ikona zůstane skrytá i po další restartu spouštěče. Při skryté ikoně můžete stále spouštět aplikaci Superuse pomocí vytočení tajného kódu v telefonu. Výchozí tajný kód je *#*#787378737#*#*, ale čísla mohou být změněna.\n\nPoznámka: pokud vaše zařízení nemá telefonní vytáčení, režim Ghost by neměl být aktivován.\n\n\Povolit režim Ghost?</string>
-    <string name="pref_ghost_mode_enabled_message">Neviditelný režim zapnut. Restartujte Launcher nebo telefon pro změnu.</string>
+    <string name="pref_ghost_mode_message" product="tablet">Neviditelný režim skryje ikonu aplikace Superuser ze spouštěče. Ikona zůstane skrytá i po další restartu spouštěče. Při skryté ikoně můžete stále spouštět aplikaci Superuse pomocí vytočení tajného kódu ve vytáčení. Výchozí tajný kód je *#*#787378737#*#*, ale čísla mohou být změněna.\n\nPoznámka: pokud tento tablet nemá telefonní vytáčení, neviditelný režim by neměl být aktivován.\n\n\Povolit neviditelný režim?</string>
+    <string name="pref_ghost_mode_message" product="default">Neviditelný režim skryje ikonu aplikace Superuser ze spouštěče. Ikona zůstane skrytá i po další restartu spouštěče. Při skryté ikoně můžete stále spouštět aplikaci Superuse pomocí vytočení tajného kódu ve vytáčení. Výchozí tajný kód je *#*#787378737#*#*, ale čísla mohou být změněna.\n\nPoznámka: pokud tento telefon nemá telefonní vytáčení, neviditelný režim by neměl být aktivován.\n\n\Povolit neviditelný režim?</string>
+    <string name="pref_ghost_mode_enabled_message" product="tablet">Neviditelný režim zapnut. Pro aktivaci změny restartujte prosím spouštěč nebo tablet.</string>
+    <string name="pref_ghost_mode_enabled_message" product="default">Neviditelný režim zapnut. Pro aktivaci změny restartujte prosím spouštěč nebo telefon.</string>
     <string name="pref_secret_code_title">Tajný kód</string>
     <string name="pref_secret_code_summary">Tajný kod je *#*#%1$s#*#*</string>
     <string name="pref_advanced_prompt_title">Použít rozšířenou nabídku</string>
+    <string name="pref_advanced_prompt_summary">Skrýt varování na žádost výzvy</string>
     <string name="pref_category_applist_title">Seznam aplikací</string>
     <string name="pref_show_status_icons_title">Zobrazit stavové ikony</string>
     <string name="pref_status_icon_type_title">Typ ikony stavu</string>
     <string name="pref_status_icon_type_summary">Styl ikony stavu</string>
-    <string name="pref_applist_show_log_data_title">Zobrazit log</string>
-    <string name="pref_category_log_title">Log</string>
-    <string name="pref_enable_logging_title">Povolit logování</string>
-    <string name="pref_delete_old_logs_title">Vymazat starší logy</string>
-    <string name="pref_log_entry_limit_title">Počet omezení záznamů v logu</string>
-    <string name="pref_log_entry_limit_summary">%1$d záznamů</string>
-    <string name="pref_24_hour_title">Zvolit 24 hodinový formát</string>
+    <string name="pref_applist_show_log_data_title">Zobrazit záznam</string>
+    <string name="pref_category_log_title">Záznam</string>
+    <string name="pref_enable_logging_title">Povolit zaznamenávání</string>
+    <string name="pref_delete_old_logs_title">Vymazat starší záznamy</string>
+    <string name="pref_log_entry_limit_title">Maximální počet položek v záznamu</string>
+    <string name="pref_log_entry_limit_summary">%1$d položek</string>
+    <string name="pref_24_hour_title">Použít 24 hodinový formát</string>
     <string name="pref_show_seconds_title">Zobrazovat sekundy</string>
     <string name="pref_date_format_title">Zvolte formát data</string>
-    <string name="pref_date_format_summary">Formát použitý pro zobrazení data v protokolech</string>
-    <string name="pref_clear_log_title">Vymazat protokol</string>
-    <string name="pref_clearing_log_title">Vymazání protokolu</string>
-    <string name="pref_clearing_log_summary">Počkejte prosím</string>
+    <string name="pref_date_format_summary">Formát použitý pro zobrazení data v záznamech</string>
+    <string name="pref_clear_log_title">Vymazat záznam</string>
+    <string name="pref_clearing_log_title">Mazání záznamu\u2026</string>
+    <string name="pref_clearing_log_summary">Počkejte prosím\u2026</string>
     <string name="pref_category_notification_title">Oznámení</string>
     <string name="pref_notifications_title">Oznámení</string>
     <string name="pref_notifications_type_title">Typ oznámení</string>
-    <string name="pref_notifications_type_summary">Typ oznámení, když je aplikaci uděleno oprávnění SU</string>
+    <string name="pref_notifications_type_summary">Typ oznámení, když je aplikaci uděleno oprávnění Superuser</string>
     <string name="pref_toast_location_title">Umístění oznámení</string>
     <string name="pref_toast_location_summary">Kde bude zobrazovat oznámení na obrazovce</string>
     <string name="pref_category_nfc_title">NFC</string>
     <string name="pref_use_allow_tag_title">Povolení pomocí NFC štítku</string>
     <string name="pref_write_allow_tag_title">Vytvořit nový štítek povolení</string>
     <string name="pref_write_allow_tag_summary">Vytvořit nový štítek určený k povolení</string>
-    <string name="pref_category_backup_restore_title">Zálohování / obnovení</string>
+    <string name="pref_category_backup_restore_title">Zálohování/obnovení</string>
     <string name="pref_backup_title">Zálohovat aplikace/předvolby</string>
-    <string name="backup_complete">Záloha uložena na SD kartu</string>
+    <string name="backup_complete" product="nosdcard">Záloha uložena na USB úložiště</string>
+    <string name="backup_complete" product="default">Záloha uložena na SD kartu</string>
     <string name="pref_restore_title">Obnovit aplikace/předvolby</string>
+    <string name="pref_get_elite_summary">Koupí Elite verze bude umožněn přístup ke všem možnostem nastavení</string>
     <string name="restore_complete_prefs_only">Nastavení obnoveno</string>
     <string name="pref_category_info_title">Obecné</string>
     <string name="pref_elite_only">Dostupné pouze pro verzi Elite</string>
-    <string name="updater_title">Aktualizátor</string>
-    <string name="updater_new_su_found">Nová verze su binární nalezena. Aktualizovat nyní?</string>
+
+    <string name="updater_title">Aktualizace příkazu</string>
+    <string name="updater_new_su_found">Nalezena nová verze příkazu \"su\". Aktualizovat?</string>
     <string name="updater_current_installed">Aktuální verze je již nainstalována. Nemusíte provádět žádnou akci.</string>
     <string name="updater_update">Aktualizovat</string>
     <string name="updater_update_anyway">Přesto aktualizovat</string>
-    <string name="updater_cool">To bylo skvělé, udělej to znovu</string>
+    <string name="updater_cool">Prévst instalaci znovu</string>
     <string name="updater_working">Zpracovává se\u2026</string>
-    <string name="updater_ok">v pořádku!</string>
-    <string name="updater_fail">Chyba!</string>
+    <string name="updater_ok">OK</string>
+    <string name="updater_fail">chyba</string>
     <string name="updater_not_found">nenalezeno</string>
     <string name="updater_update_failed">Aktualizace se nezdařila. Zkusit znovu?</string>
     <string name="updater_no_conn">Nepodařilo se stáhnout manifest. Zkontrolujte připojení k Internetu</string>
     <string name="updater_try_again">Zkusit znovu</string>
-    <string name="updater_su_updated">Su binární úspěšně aktualizován</string>
+    <string name="updater_su_updated">Příkaz \"su\" úspěšně aktualizován</string>
     <string name="updater_step_download_manifest">Stahování manifestu\u2026</string>
     <string name="updater_step_parse_manifest">Analýza manifestu\u2026</string>
-    <string name="updater_step_latest_version">Nejnovější verze =&#32;</string>
-    <string name="updater_step_check_installed_version">Kontrola nainstalované verze =&#32;</string>
+    <string name="updater_step_latest_version">Nejnovější verze = </string>
+    <string name="updater_step_check_installed_version">Nainstalovaná verze = </string>
     <string name="updater_step_fix_db">Oprava databáze\u2026</string>
+    <string name="updater_step_unpack_sutools">Provásdí se rozbalení nástrojů \"su\"\u2026</string>
     <string name="updater_step_check_installed_path">Kontrola cesty k instalaci\u2026</string>
     <string name="updater_step_download_su">Stahování nové aplikace\u2026</string>
     <string name="updater_step_get_root">Získání root přístupu\u2026</string>
     <string name="updater_step_remount_rw">Umožnit zápis do /system\u2026</string>
-    <string name="updater_step_cp">Kopírování příkazu su do /system\u2026</string>
-    <string name="updater_step_chmod">Změna práv příkazu su na 06755\u2026</string>
-    <string name="updater_step_mv">Přesun příkazu su na konečné umístění\u2026</string>
+    <string name="updater_step_cp">Kopírování příkazu \"su\" do /system\u2026</string>
+    <string name="updater_step_chmod">Změna práv příkazu \"su\" na 06755\u2026</string>
+    <string name="updater_step_ops_check">Kontrola správného chování nového příkazu \"su\"\u2026</string>
+    <string name="updater_step_mv">Přesun příkazu \"su\" na konečné umístění\u2026</string>
     <string name="updater_step_remount_ro">Zamezení zápisu do /system\u2026</string>
     <string name="updater_step_clean_up">Čištění\u2026</string>
     <string name="updater_remount_ro_failed">Nepodařilo se připojit /system pouze pro čtení, restartujte k dokončení aktualizace.</string>
     <string name="updater_find_su_failed">Nepodařilo se najít aktuálně nainstalovaný příkaz su. Aktualizace nemůže pokračovat.</string>
-    <string name="updater_bad_install_location">Příkaz su je nainstalován v /sbin a tento aktualizátor není schopen provést jeho aktualizaci. Najděte prosím novou ROM pro vaše zařízení.</string>
-    <string name="updater_bad_install_location_explained">Není možné provést aktualizaci příkazu \"su\" pokud je uložen v /sbin. Toto není chyba aktualizace, ale chyba ROM nebo tvůrce kernelu. Aplikaci Superuser lze i nadále používat se zastaralým příkazem \"su\".</string>
+    <string name="updater_bad_install_location" product="tablet">Příkaz su je nainstalován v /sbin a tento aktualizátor není schopen provést jeho aktualizaci. Najděte prosím novou ROM pro tento tablet.</string>
+    <string name="updater_bad_install_location" product="default">Příkaz su je nainstalován v /sbin a tento aktualizátor není schopen provést jeho aktualizaci. Najděte prosím novou ROM pro tento telefon.</string>
+    <string name="updater_bad_install_location_explained">Není možné provést aktualizaci příkazu \"su\" pokud je uložen v /sbin. Toto není chyba aktualizace, ale chyba ROM nebo tvůrce kernelu. Aplikaci Superuser lze i nadále používat s neaktualizovaným příkazem \"su\".</string>
     <string name="updater_failed_remount">Není možné provést aktualizaci příkazu \"su\" pokud je systémový oddíl chráněn podobnou ochranou jako je S-ON. Aplikaci Superuser lze i nadále používat se zastaralým příkazem \"su\" nebo provést aktualizaci pomocí aplikace ROM Manager.</string>
+    <string name="updater_failed_remount" product="tablet">Na tomto tabletu není možné provést aktualizaci příkazu \"su\" pokud je systémový oddíl chráněn podobnou ochranou jako je S-ON. Aplikaci Superuser lze i nadále používat s neaktualizovaným příkazem \"su\" nebo provést aktualizaci pomocí aplikace ROM Manager.</string>
+    <string name="updater_failed_remount" product="default">Na tomto telefonu není možné provést aktualizaci příkazu \"su\" pokud je systémový oddíl chráněn podobnou ochranou jako je S-ON. Aplikaci Superuser lze i nadále používat s neaktualizovaným příkazem \"su\" nebo provést aktualizaci pomocí aplikace ROM Manager.</string>
     <string name="notification_text_allow">%1$s získal práva Superuser</string>
     <string name="notification_text_deny">%1$s nezískal práva Superuser</string>
-    <string name="notif_outdated_ticker">Váš su binární je zastaralý</string>
-    <string name="notif_outdated_title">su binární zastaralé</string>
-    <string name="notif_outdated_text">Klepněte pro update su binární</string>
+
+    <string name="notif_outdated_ticker">Příkaz \"su\" je neaktuální</string>
+    <string name="notif_outdated_title">Neaktuální příkaz \"su\"</string>
+    <string name="notif_outdated_text">Dotykem provedete aktualizaci</string>
+
     <string name="pin_enter_pin">Zadejte PIN</string>
     <string name="pin_new_pin">Zadejte nový PIN</string>
     <string name="pin_confirm_pin">Potvrdit PIN</string>
     <string name="pin_mismatch">PINy se neshodují, zkuste to znovu</string>
     <string name="pin_enter_secret_code">Zadejte tajný kód</string>
+
     <string name="nfc_write_tag">Skenovat štítek pro zápis</string>
-    <string name="malicious_apps_title">Varování</string>
-    <string name="malicious_apps_message2">Aplikace jsou označené jako škodlivé, protože obsahují prvky, které naznačují, že se snaží získat root přístup, pravděpodobně bez vašeho souhlasu. Je velmi doporučeno je ihned odinstalovat.</string>
+
+    <string name="malicious_apps_title">Upozornění</string>
+    <string name="malicious_apps_message2">Pokud aplikace obsahuji prvky, které naznačují, že se snaží získat root přístup, pravděpodobně bez vašeho souhlasu, jsou tyto aplikace označeny jako škodlivé. Je velmi doporučeno je ihned odinstalovat.</string>
     <string name="malicious_apps_uninstall">Odinstalovat</string>
     <string name="malicious_apps_ignore">Ignorovat</string>
-    <string name="malicious_app_notification_ticker">Potenciálně škodlivá aplikace zjištěna</string>
-    <string name="malicious_app_notification_text">%1$s je pravděpodobně škodlivý. Klepnutím odinstalovat.</string>
+    <string name="malicious_app_notification_ticker">Zjištěna potenciálně škodlivá aplikace</string>
+    <string name="malicious_app_notification_text">Aplikace %1$s je pravděpodobně škodlivá. Dotykem odinstalovat.</string>
     <string name="malicious_app_uid">sdílí UID se Superuser</string>
     <string name="malicious_app_respond">žádá o povolení reagovat</string>
     <string name="malicious_app_write">žádá o oprávnění k zápisu k poskytovateli oprávnění</string>
+
     <string name="changelog_full_title">Seznam změn</string>
     <string name="changelog_title">Co je nového</string>
 
-    <!-- Update for JB -->
-    <string name="page_label_apps">Aplikace</string>
-    <string name="page_label_log">Protokol</string>
-    <string name="page_label_info">Informace</string>
-    <string name="menu_get_elite">Získat Elite verzi</string>
-    <string name="info_display_changelog">Klikni k zobrazení změn</string>
-    <string name="info_elite_installed">Elite verze nainstalována</string>
-    <string name="info_elite_not_installed">Elite verze není nainstalována</string>
-    <string name="info_get_elite">Získejte Elite verzi</string>
-    <string name="info_check_updates">Klikni k zjištění nové verze</string>
-    <string name="info_outdated_binary_notification">Oznamovat novou verzi su binary</string>
-    <string name="info_temp_unroot">Dočasný unroot</string>
-    <string name="info_temp_unroot_unsuccessful">Dočasný unroot se nezdařil</string>
-    <string name="info_ota_survival">Ota rootkeeper</string>
-    <string name="info_ota_survival_warning">Poznámka: tato nastavení nejsou bezpečná a nemusí fungovat na všech zařízeních</string>
-    <string name="info_version_loading">Načítání verze Superuser</string>
-    <string name="info_version">Superuser v%1$s (%2$d)</string>
-    <string name="info_bin_version_loading">Načítání verze su binary</string>
-    <string name="info_bin_version">Su binary v%1$s (%2$d)</string>
-    <string name="info_bin_version_not_found">Su binary nenalezeno</string>
-    <string name="info_check_for_updates">Klikni ke zjištění aktualizací</string>
-    <string name="info_outdated_notification">Oznamovat novou verzi</string>
-    <string name="info_changelog_summary">Zobrazit seznam změn</string>
-    <string name="info_working">Pracuji\u2026</string>
-    <string name="pref_advanced_prompt_summary">Skrýt varování na žádost výzvy</string>
-    <string name="pref_get_elite_summary">Kupte si Elite verzi k získání všech nastavení</string>
-    <string name="updater_step_unpack_sutools">Rozbaluji nástroje pro su\u2026&#32;</string>
-    <string name="updater_step_ops_check">Zkontrolujte, zda nové su pracuje správně\u2026&#32;</string>
     <string name="root_disabled_title">Povolit práva root?</string>
     <string name="root_disabled_summary">Root přístup je momentálně zakázán pro všchny aplikace v systémovém nastavení. Přejete si ho povolit?</string>
-    <string name="loading">Načítání</string>
 </resources>
